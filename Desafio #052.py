@@ -5,12 +5,15 @@ Faça um programa que leia um número inteiro e diga se ele é ou não é um nú
 
 desafio = ' Desafio #052 '
 print(f'{desafio:=^30}', '\n')
-
+numero_de_divisores = 0
 numero = int(input('Me forneça um número: '))
-for c in range(1, int(numero**0.5) + 1):
-    if numero % c == 0:
-        print('Esse número é primo')
-        
-    else:
-        print('Esse número não é primo')
+for divisores in range(2, numero + 1):
+    if numero % divisores == 0:
+        numero_de_divisores += divisores
+        if numero_de_divisores == numero:
+            print(f'O número {numero} é primo.')
+        elif numero_de_divisores > numero:
+            print(f'O número {numero} é composto.')
+if numero == 1:
+    print(f'O número {numero} não é primo e nem composto.')
     
