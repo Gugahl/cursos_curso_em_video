@@ -10,7 +10,7 @@ print('-=' * 15)
 print(f'{exercicio:^30}')
 print('-=' * 15, '\n')
 
-for contagem in range(10, 0, -1):
+for contagem in range(10, -1, -1):
     print(f'{contagem}')
     sleep(0.5)
 print('BUM, BUM POW!')
