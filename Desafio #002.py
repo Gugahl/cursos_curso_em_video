@@ -5,7 +5,7 @@ formatada.
 """
 
 desafio = ' DESAFIO 02 '
-print(f'{desafio:=^40}')
+print(f'{desafio:=^30}')
 dia = input('Dia = ')
 mes = input('Mês = ').lower()
 ano = input('Ano = ')
