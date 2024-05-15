@@ -1,0 +1,28 @@
+O sistema Octal trabalha com dígitos de 0 a 7
+O sistema HexaDecimal trabalha com dígitos de 0 a 9 e letras de A a F
+
+(2004) Base Decimal = 2x10³ + 0x10² + 0x10¹ + 4x1 = 2000 + 0 + 0 + 4 = (2004) Base Decimal
+(1101) Base Binária = 1x2³ + 1x2² + 0x2¹ + 1x1 = 8 + 4 + 0 + 1 = (13) Base Decimal
+(371) Base Octal = 3x8² + 7x8¹ + 1x1 = 192 + 56 + 1 = (249) Base Decimal
+(1FA) Base Hexadecimal = 1x16² + 15x16¹ + 10x1 = 256 + 240 + 10 = (506) Base Decimal
+
+(1257) Base Octal = 1x8³ + 2x8² + 5x8¹ + 7x1 = 512 + 128 + 40 + 7 = (687) Base Decimal
+(13C2) Base Hexadecimal = 1x16³ + 3x16² + 12x16¹ + 2x1 = 4096 + 768 + 192 + 2 = (5058) Base Decimal
+
+Conversão Decimal - Octal:
+Você divide o número por oito até onde for possível, ignorando os restos, e no fim pega seus restos de trás para frente.
+(177) Base Decimal = 177 / 8 = 22 (1)
+                      22 / 8 =  2 (6)
+                       2 / 8 =  0 (2)
+                       -----
+                       (261) Base Octal = 2x8² + 6x8¹ + 1x1 = (177) Base Decimal
+
+Conversão Decimal - Hexadecimal:
+Você divide o número por dezesseis até onde for possível, ignorando os restos,
+e no fim pega seus restos de trás para frente.
+
+(685) Base Decimal = 685 / 16 = 42 (13)
+                      42 / 16 =  2 (10)
+                       2 / 16 =  0 (2)
+                       ------
+                       (2AD) Base Hexadecimal = 2x16² + 10x16 + 13x1 = (685) Base Decimal

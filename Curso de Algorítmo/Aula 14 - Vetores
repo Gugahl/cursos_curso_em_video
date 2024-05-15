@@ -1,0 +1,371 @@
+Variáveis Compostas parte 1
+
+var
+    N1: Inteiro
+    N2, N3, N4: Inteiro
+Cada uma em um espaço separado
+inicio
+    N1 <- 3
+    N2 <- 5
+    N3 <- 1
+    N4 <- 0
+
+Variáveis Compostas Homogêneas:
+var
+    N: vetor(1..4) de inteiro
+inicio
+    N[1] <- 3
+    N[2] <- 5
+    N[3] <- 1
+    N[4] <- 0
+
+Variáveis Compostas Homogêneas Unidimensionais (vetor):
+var
+    N: vetor(1..4) de inteiro
+    I: Inteiro
+inicio
+    Para I <- 1 ate 4 faca
+        leia(N[i])
+    FimPara
+
+algoritmo "TesteVetor"
+var
+    V: vetor[1..6] de inteiro
+    C: Inteiro
+inicio
+    Para C <- 1 ate 6 faca
+        Escreva("Digite o ", C, "º valor: ")
+        Leia(V[C])
+    FimPara
+
+    Para C <- 1 ate 6 faca
+        Escreva("{", V[C], "}")
+    FimPara
+fimalgoritmo
+
+algoritmo "TesteVetor"
+var
+    V: vetor[1..10] de inteiro
+    C: Inteiro
+inicio
+    Para C <- 1 ate 10 faca
+        Escreva("Digite o ", C, "º valor: ")
+        Leia(V[C])
+    FimPara
+
+    Para C <- 1 ate 10 faca
+        Escreva("{", V[C], "}")
+    FimPara
+fimalgoritmo
+
+Prática 01: Ler 7 valores e mostrar quanto são pares
+
+algoritmo "TotalPar"
+var
+    V: vetor[1..7] de inteiro
+    C, Par: Inteiro
+inicio
+    Par <- 0
+    Para C <- 1 ate 7 faca
+        Escreva("Digite o ", C, "º valor: ")
+        Leia(V[C])
+        Se (V[C] % 2 = 0) entao
+           Par <- Par + 1
+        FimSe
+    FimPara
+    Escreval("Tem:", Par, " números pares.")
+fimalgoritmo
+
+algoritmo "PosicoesPares"
+var
+    V: vetor[1..7] de inteiro
+    C, Par: Inteiro
+inicio
+    Par <- 0
+    Para C <- 1 ate 7 faca
+        Escreva("Digite o ", C, "º valor: ")
+        Leia(V[C])
+        Se (V[C] % 2 = 0) entao
+           Par <- Par + 1
+        FimSe
+    FimPara
+    Escreval("Tem:", Par, " números pares.")
+    Para C <- 1 ate 7 faca
+        Se (V[C] % 2 = 0) entao
+           Escreval("Valor Par encontrado na posição:", C)
+        FimSe
+    FimPara
+fimalgoritmo
+
+Prática 02: Listagem da turma
+
+algoritmo "Turma"
+var
+    nome: vetor[1..4] de Caractere
+    N1: vetor[1..4] de Real
+    N2: vetor[1..4] de Real
+    M: vetor[1..4] de Real
+    C: Inteiro
+inicio
+    Para C <- 1 ate 4 faca
+        Escreval("Aluno", C)
+        Escreva("Nome: ")
+        Leia(nome[C])
+        Escreva("Primeira nota: ")
+        Leia(N1[C])
+        Escreva("Segunda nota: ")
+        Leia(N2[C])
+        M[C] <- (N1[C] + N2[C])/2
+    FimPara
+    LimpaTela
+    Escreval("Listagem de Alunos")
+    Para C <- 1 ate 4 faca
+        Escreval(nome[C]:15, M[C]:4:1)
+    FimPara
+fimalgoritmo
+
+algoritmo "Média"
+var
+    nome: vetor[1..4] de Caractere
+    N1: vetor[1..4] de Real
+    N2: vetor[1..4] de Real
+    M: vetor[1..4] de Real
+    C, Total: Inteiro
+    SM, MT: Real
+inicio
+    Para C <- 1 ate 4 faca
+        Escreval("Aluno", C)
+        Escreva("Nome: ")
+        Leia(nome[C])
+        Escreva("Primeira nota: ")
+        Leia(N1[C])
+        Escreva("Segunda nota: ")
+        Leia(N2[C])
+        M[C] <- (N1[C] + N2[C])/2
+        SM <- SM + M[C]
+    FimPara
+    MT <- SM/4
+    LimpaTela
+    Escreval("Listagem de Alunos")
+    Para C <- 1 ate 4 faca
+        Escreval(nome[C]:15, M[C]:4:1)
+        Se (M[C] > MT) entao
+            Total <- Total + 1
+        FimSe
+    FimPara
+    Escreval("Ao todo temos", Total, " alunos acima da média da turma que é", MT:4:1)
+fimalgoritmo
+
+Prática 03: Só importa quem começa com "C"
+algoritmo "socomC"
+var
+    nome: Caractere
+    soC: vetor[1..10] de Caractere
+    C, Total: Inteiro
+inicio
+    Total <- 0
+    Para C <- 1 ate 10 faca
+        Escreva("Nome: ")
+        Leia(nome)
+        Se (copia(maiusc(nome), 1, 1) = "C") entao
+            Total <- Total + 1
+            soC[Total] <- nome
+        FimSe
+    FimPara
+
+    LimpaTela
+    Escreval("Listagem Final")
+    Para C <- 1 ate Total faca
+        Escreval(soC[C])
+    FimPara
+fimalgoritmo
+
+Prática 04: Ordenação do vetor
+algoritmo "OrdenaVetor4"
+var
+    vet: vetor[1..4] de Inteiro
+    i, j, aux: Inteiro
+inicio
+    Para i <- 1 ate 4 faca
+        Escreva("Digite um valor: ")
+        Leia(vet[i])
+    FimPara
+
+    Para i <- 1 ate 3 faca
+        Para j <- i+1 ate 4 faca
+            Se (vet[i] > vet[j]) entao
+                aux <- vet[i]
+                vet[i] <- vet[j]
+                vet[j] <- aux
+            FimSe
+        FimPara
+    FimPara
+
+    Para i <- 1 ate 4 faca
+        Se (i < 4) entao
+            Escreva("{", vet[i], " }, ")
+        FimSe
+        Se (i = 4) entao
+            Escreva("{", vet[i], " }.")
+        FimSe
+    FimPara
+fimalgoritmo
+
+algoritmo "OrdenaVetor10"
+var
+    vet: vetor[1..10] de Inteiro
+    i, j, aux: Inteiro
+inicio
+    Para i <- 1 ate 10 faca
+        Escreva("Digite um valor: ")
+        Leia(vet[i])
+    FimPara
+
+    Para i <- 1 ate 9 faca
+        Para j <- i+1 ate 10 faca
+            Se (vet[i] > vet[j]) entao
+                aux <- vet[i]
+                vet[i] <- vet[j]
+                vet[j] <- aux
+            FimSe
+        FimPara
+    FimPara
+
+    Para i <- 1 ate 10 faca
+        Se (i < 10) entao
+            Escreva("{", vet[i], " }, ")
+        FimSe
+        Se (i = 10) entao
+            Escreva("{", vet[i], " }.")
+        FimSe
+    FimPara
+fimalgoritmo
+
+Exercício 01: Torneio de Futebolas
+algoritmo "Torneio"
+var
+    time: vetor[1..3] de Inteiro
+    l, c, aux: Inteiro
+inicio
+    Escreval("--------------------")
+    Escreval(" Campeonato Futebol ")
+    Escreval("--------------------")
+    Para i <- 1 ate 3 faca
+        Escreva("Nome do", i, "º time: ")
+        Leia(time[i])
+    FimPara
+
+    LimpaTela
+    EscrevaL("-------------------")
+    EscrevaL(" TABELA DE PARTIDAS")
+    EscrevaL("-------------------")
+    Para l <- 1 ate 3 faca
+        Para c <- 1 ate 3 faca
+            Se (l <> c) entao
+                Escreval(time[l]:12, " [ ] x [ ] ", time[c]:12)
+            FimSe
+        FimPara
+    FimPara
+fimalgoritmo
+
+Exercício 02: Corrigindo provas
+algoritmo "Provas"
+var
+    gab: vetor[1..5] de Caractere
+    prova: vetor[1..5] de Caractere
+    nome: vetor[1..3] de Caractere
+    nota: vetor[1..3] de Real
+    a: Inteiro
+    s, m: Real
+
+Procedimento CadastroGabarito()
+var
+    C: Inteiro
+inicio
+    Escreval("Passo 1 - Cadastro de Gabarito ")
+    Escreval("-------------------------------")
+    Para C <- 1 ate 5 faca
+        Escreva("Questão", C, ": ")
+        Leia(gab[C])
+    FimPara
+FimProcedimento
+
+Funcao CadastraProva(): Real
+var
+    C: Inteiro
+    notaFinal: Real
+inicio
+    notaFinal <- 0
+    Escreval("Respostas Dadas")
+    Para C <- 1 ate 5 faca
+        Escreva("Questão", C, ": ")
+        Leia(prova[C])
+        Se (Maiusc(prova[C]) = Maiusc(gab[C])) entao
+            notaFinal <- notaFinal + 2
+        FimSe
+    FimPara
+    Retorne notaFinal
+FimFuncao
+
+inicio
+    CadastroGabarito()
+
+    Para a <- 1 ate 3 faca
+        LimpaTela
+        Escreval("------------------------")
+        Escreval("Aluno", a)
+        Escreval("------------------------")
+        Escreva("Nome: ")
+        Leia(nome[a])
+        nota[a] <- CadastraProva()
+        s <- s + nota[a]
+    FimPara
+
+    LimpaTela
+    Escreval("Notas Finais ")
+    Escreval("-----------------------------")
+    Para a <- 1 ate 3 faca
+        Escreval(nome[a]:10, nota[a]:4:1)
+    FimPara
+    m <- s / 3
+    EscrevaL("-----------------------------")
+    EscrevaL("Media da Turma: ", M:4:1)
+fimalgoritmo
+
+Exercício 03: Reservar espaço no cinema
+algoritmo "Cinema"
+var
+   B: vetor[1..19] de Caractere
+   l, cad: Inteiro
+   r: Caractere
+
+Procedimento MostraFileira()
+var i: Inteiro
+inicio
+   Para i <- 1 ate 10 faca
+      Se (B[i] = "") entao
+         Escreva ("[ B", i:2, " ]")
+      senao
+         Escreva ("[ --- ]")
+      FimSe
+   FimPara
+   EscrevaL()
+   EscrevaL("------------------------------------------------------------------------")
+FimProcedimento
+
+inicio
+   Repita
+      LimpaTela
+      MostraFileira()
+      Escreva("Reservar a cadeira: B")
+      Leia(cad)
+      Se (B[cad]="") entao
+         B[cad] <- "X"
+         EscrevaL("Cadeira B", cad, " RESERVADA!")
+      Senao
+         EscrevaL("ERRO: Lugar Ocupado!")
+      FimSe
+      Escreva("Quer reservar outro? [S/N] ")
+      Leia(r)
+   Ate (r = "N")
+fimalgoritmo

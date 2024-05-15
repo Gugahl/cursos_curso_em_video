@@ -1,0 +1,35 @@
+Conversão Binário - Decimal
+1101 = 1 x 2³ + 1 x 2² + 0 x 2¹ + 1 x 1 = 8 + 4 + 0 + 1 = 13
+
+Macete (Corte os 0)
+10011/1xx11 = 1 x 2x2x2x2 + 1 x 2 + 1 x 1 = 19
+10010/1xx1x = 1 x 2x2x2x2 + 1 x 2 = 18
+
+Conversão Decimal - Binário
+Você divide o número por dois e pega seus restos, até não conseguir dividir mais o número
+13 / 2 = 6 (1)
+6 / 2 = 3 (0)
+3 / 2 = 1 (1)
+1 / 2 = não funciona (1)
+Com os restos você pega de trás para frente do último ao primeiro (1101)
+
+Macete das Casas Binárias
+A soma do resultado das potências de 2 tem que dar o número em Decimal
+     16  8  4  2  1
+13 -  0  1  1  0  1
+     16 já não pode pois passa de 13
+         8 pode
+            4 pode
+               2 não pode pois já passa de 13
+                  1 pode e chega a 13
+
+      32  16  8  4  2  1
+40 -   1   0  1  0  0  0
+       32 pode
+          16 não pode pois vai para 48
+              8 pode e chega a 40
+                 4 não pode pois já chegou a 40
+                    2 não pode
+                       1 não pode
+
+101000 = 1 x (2x2x2x2x2) + 0 x (2x2x2x2) + 1 x (2x2x2) + 0 x (2x2) + 0 x 2 + 0 x 1 = 32 + 8 = 40

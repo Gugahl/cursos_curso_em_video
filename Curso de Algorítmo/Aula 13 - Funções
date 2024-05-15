@@ -1,0 +1,162 @@
+Aula 13 - Funções
+Rotinas Parte 02
+
+algoritmo "FazSomaProcedimento"
+Procedimento Soma(A, B: Inteiro)
+var
+    S: Inteiro
+inicio
+    S <- A + B
+    Escreval("A soma entre os dois é", S)
+FimProcedimento
+inicio
+    N1 <- 5
+    N2 <- 4
+    Soma(N1,N2)
+fimalgoritmo
+
+algoritmo "FazSomaFuncao"
+funcao Soma(A, B: Inteiro) : Inteiro
+var
+    S: Inteiro
+inicio
+    S <- A + B
+    Retorne S
+Fimfuncao
+inicio
+    N1 <- 5
+    N2 <- 4
+    RES <- Soma(N1,N2)
+    Escreval("A soma é ", RES)
+fimalgoritmo
+
+Prática 01: Somar dois valores
+algoritmo "SomaFuncao"
+var
+    V1, V2, S: Inteiro
+Funcao Soma(X, Y: Inteiro) : Inteiro
+inicio
+    Retorne X + Y
+FimFuncao
+inicio
+    Escreva("Digite o primeiro valor: ")
+    Leia(V1)
+    Escreva("Digite o segundo valor: ")
+    Leia(V2)
+    S <- Soma(V1, V2)
+    Escreval("A soma é ", S)
+fimalgoritmo
+
+Prática 02: Verificar se o número é par ou ímpar
+algoritmo "ParImparFuncao"
+var
+   N: Inteiro
+   R: Caractere
+Funcao ParOuImpar(V: Inteiro): Caractere
+inicio
+      Se (V % 2 = 0) entao
+        Retorne "Par!"
+      senao
+        Retorne "Impar!"
+      FimSe
+FimFuncao
+inicio
+      Escreva("Digite um número: ")
+      Leia(N)
+      R <- ParOuImpar(N)
+      Escreval("O número ", N, " é ", R)
+fimalgoritmo
+
+Prática 03: Fatorial de um número
+algoritmo "FatorialFuncao"
+var
+   N, F: Inteiro
+Funcao Fatorial(V: Inteiro): Inteiro
+var C, R: Inteiro
+inicio
+    R <- 1
+    Para C <- 1 ate V faca
+        R <- R * C
+    FimPara
+    Retorne R
+FimFuncao
+inicio
+      Escreva("Digite um número: ")
+      Leia(N)
+      F <- Fatorial(N)
+      Escreval("O valor de ", N, "! é igual a ", F)
+fimalgoritmo
+
+Passagem de parâmetro
+por valor e por referência
+
+algoritmo "FibonacciFuncao"
+var
+    C, T1, T2, T3: Inteiro
+Funcao ProximoFibonacci(var A, B: Inteiro): Inteiro
+var C: Inteiro
+inicio
+    C := A + B
+    A := B
+    B := C
+    Retorne C
+FimFuncao
+inicio
+    T1 <- 0
+    Escreval(T1)
+    T2 <- 1
+    Escreval(T2)
+    Para C := 3 ate 5 faca
+        T3 <- ProximoFibonacci(T1, T2)
+        Escreval(T3)
+    FimPara
+fimalgoritmo
+
+Tratamento de String
+Site <- "CursoEmVideo"
+
+Compr(Site)  # Comprimento da string
+12
+
+Copia(Site, 6, 2)  # 1º Parâmetro é a variável,
+                   # 2º Parâmetro é a posição de início (começando do 1)
+                   # 3º Parâmetro é a quantidade de caracteres você quer mostrar
+                   # a partir da posição de início comunicada no 2º Parâmetro
+Em
+
+Maiusc(Site)  # Transforma toda a string em maiúsculo
+CURSOEMVIDEO
+
+Minusc(Site)  # Transforma toda a string para minúscula
+cursoemvideo
+
+Pos("Video", Site)  # 1º Parâmetro é a string que você quer achar
+                    # 2º Parâmetro é a variável onde você quer procurar a string
+8
+
+Asc("C")  # Transforma a letra em seu respectivo código da tabela ascii
+67
+
+Carac(67)  # Transforma o número em sua respectiva letra da tabela ascii
+C
+
+Prática 05: Analisador de nomes
+algoritmo "AnalisadordeNomes"
+var
+    N, C: Caractere
+inicio
+    Escreva("Digite seu nome: ")
+    Leia(N)
+    Escreval("Total de letras do seu nome: ", Compr(N))
+    Escreval("Seu nome em maiúsculas é ", Maiusc(N))
+    Escreval("Seu nome em minúsculas é ", Minusc(N))
+    Escreval("A primeira letra do seu nome é ", Copia(Maiusc(N), 1, 1))
+    Escreval("A última letra do seu nome é ", Copia(Maiusc(N), Compr(N), 1))
+    Escreval("Seu nome tem a letra A na posição: ", Pos("A", Maiusc(N)))
+    Escreval("O código da letra A é ", Asc("A"))
+    Escreval("A letra de código 65 é ", Carac(65))
+
+    Para C <- Compr(N) ate 1 passo -1 faca
+         Escreva(Copia(Maiusc(N), C, 1))
+    FimPara
+fimalgoritmo

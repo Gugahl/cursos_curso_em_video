@@ -1,0 +1,102 @@
+- Comando de entrada: Forma de entrar dados na memória do computador.
+- Utilizando atribuições:
+algorítmo "MeuNome"
+var
+  nome: Caractere
+Inicio
+  nome <- "Gustavo"
+  Escreva('Muito prazer!', nome)
+FimAlgoritmo
+
+- Utilizando comandos de entrada:
+algoritmo "MeuNome"
+var
+  nome: Caractere
+inicio
+  Escreva("Digite seu nome")
+  Leia(nome)
+  Escreva('Muito prazer ', nome)
+FimAlgoritmo
+
+nome: Caractere
+Leia(nome)  # Quando chegar nesse comando o cursor vai começar a piscar na tela
+            # e o usuário vai colocar alguma coisa para ser colocada na variável 
+            # nome, funciona em qualquer tipo primitivo.
+
+algoritmo "MeuNome"
+var
+  num1, num2, soma: Inteiro
+inicio
+  Escreva("Me forneça um valor ")
+  Leia(num1)
+  Escreva("Me forneça outro valor ")
+  Leia(num2)
+  soma <- num1+num2
+  Escreva("A soma entre ", num1, " e", num2, " é", num1+num2)
+FimAlgoritmo
+
+Operadores aritméticos:
++ = Adição
+- = Subtração
+* = Multiplicação
+/ = Divisão
+\ = Divisão Inteira
+^ = Exponenciação
+% = Módulo
+
+algoritmo "MeuNome"
+var
+  num1, num2, adicao: Real
+  subtracao1, subtracao2, multiplicacao: Real
+  divisao1, divisao2, divisao_inteira1: Real
+  divisao_inteira2, exponenciacao1, exponenciacao2: Real
+  modulo1, modulo2: Real
+inicio
+  Escreva("Me forneça um valor ")
+  Leia(num1)
+  Escreva("Me forneça outro valor ")
+  Leia(num2)
+  adicao <- num1+num2
+  subtracao1 <- num1-num2
+  subtracao2 <- num2-num1
+  multiplicacao <- num1*num2
+  divisao1 <- num1/num2
+  divisao2 <- num2/num1
+  divisao_inteira1 <- num1\num2
+  divisao_inteira2 <- num2\num1
+  exponenciacao1 <- num1**num2
+  exponenciacao2 <- num2**num1
+  modulo1 <- num1%num2
+  modulo2 <- num2%num1
+  Escreva("A soma entre ", num1, " e", num2, " é igual a", adicao)
+  Escreva("A subtração entre", num1, " e", num2, " é igual a", subtracao1)
+  Escreva("A subtração entre", num2, " e", num1, " é igual a", subtracao2)
+  Escreva("A multiplicação entre ", num1, " e", num2, " é igual a", multiplicacao)
+  Escreva("A divisao inteira entre", num1, " e", num2, " é igual a", divisao_inteira1)
+  Escreva("A divisão inteira entre", num2, " e", num1, " é igual a", divisao_inteira2)
+  Escreva("A divisão entre", num1, " e", num2, " é igual a", divisao1)
+  Escreva("A divisão entre", num2, " e", num1, " é igual a", divisao2)
+  Escreva("O número ", num1, " elevado a", num2, " é igual a", exponenciacao1)
+  Escreva("O número ", num2, " elevado a", num1, " é igual a", exponenciação2)
+  Escreva("O resto da divisão do número ", num1, " pelo número", num2, " é igual a", modulo1)
+  Escreva("O resto da divisão do número ", num2, " pelo número", num1, " é igual a", modulo2)
+FimAlgoritmo
+
+- Ordem de precedência:
+()  - Parênteses
+^   - Exponenciação
+* / - Multiplicação / Divisão
++ - - Adição / Subtração
+
+- Funções aritméticas do visualg
+Abs()   - Valor absoluto, ou seja, sem o sinal.
+Exp()   - Exponenciação
+Int()   - Valor inteiro
+RaizQ() - Raiz quadrada
+Pi      - Retorna Pi
+Sen()   - Seno (rad)
+Cos()   - Cosseno (rad)
+Tan()   - Tangente (rad)
+GraupRad() - Graus para Rad
+
+

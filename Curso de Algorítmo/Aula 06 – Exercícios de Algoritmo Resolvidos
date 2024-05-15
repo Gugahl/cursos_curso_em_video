@@ -1,0 +1,70 @@
+Aula 06 – Exercícios de Algoritmo Resolvidos
+Creuza
+Situação 01 - Quantos anos tem a Creuza?
+algoritmo "semnome"
+var
+   anonasci, anoatual, idade: Inteiro
+inicio
+      Escreval("Em que ano eu nasci? ")
+      Leia(anonasci)
+      Escreval("Em que ano nós estamos? ")
+      Leia(anoatual)
+      idade <- anoatual - anonasci
+      Escreva("Então eu tenho", idade, " anos.")
+fimalgoritmo
+
+Situação 02 - Quantos dólares tem a Creuxa?
+algoritmo "semnome"
+var
+   reais, dolares: Real
+inicio
+      Escreval("Quantos reais eu tenho? ")
+      Leia(reais)
+      dolares <- reais / 5
+      Escreva("Então eu tenho U$S", dolares, " dolares.")
+fimalgoritmo
+
+Situação 03 - Temperatura
+algoritmo "semnome"
+var
+   farenheit, celsius: Real
+inicio
+      Escreval("Quantos graus farenheit está fazendo? ")
+      Leia(farenheit)
+      celsius <- (farenheit - 32) / 1.8
+      Escreva("Então esta fazendo ", celsius:4:2, " ºC.")
+fimalgoritmo
+
+Situação 04 - Imposto
+algoritmo "semnome"
+var
+   valor_do_produto, valor_da_taxacao: Real
+inicio
+      Escreval("Qual o valor da sua compra? ")
+      Leia(valor_do_produto)
+      valor_da_taxacao <- (valor_do_produto * 60) / 100
+      Escreva("Então você pagará ", valor_da_taxacao:5:2, " reais de imposto.")
+fimalgoritmo
+
+Situação 05 - Juros
+algoritmo "semnome"
+var
+   nome: Caractere
+   valor_do_emprestimo, valor_do_juro, valor_a_ser_pago: Real
+   quantidade_meses, parcela_mensal: Real
+inicio
+      Escreval("Qual é o seu nome? ")
+      Leia(nome)
+      Escreval("Qual o valor do seu emprestimo? ")
+      Leia(valor_do_emprestimo)
+      valor_do_juro <- (valor_do_emprestimo * 20) / 100
+      valor_a_ser_pago <- valor_do_emprestimo + valor_do_juro
+      Escreval("Em quantos meses você quer pagar? ")
+      Leia(quantidade_meses)
+      parcela_mensal <- valor_a_ser_pago / quantidade_meses
+      Escreval("Bom dia ", nome, "!")
+      Escreval("O valor do seu empréstimo será de R$", valor_do_emprestimo)
+      Escreval("Dividido em ", quantidade_meses, " meses.")
+      Escreval("Ficando no valor mensal de R$", parcela_mensal, ".")
+      Escreval("E o valor total acrescido de juros ficou de R$", valor_a_ser_pago,".")
+fimalgoritmo

@@ -1,0 +1,236 @@
+Estruturas de Repetição 3
+Enquanto não arrumar o quarto faca
+    castigo
+FimEnquanto
+liberado
+
+repita
+    castigo
+Ate arrumar o quarto
+liberado
+
+c <- 1
+Enquanto (c <= 10) faca
+    Escreval(c)
+    c <- c + 1
+FimEnquanto
+
+c <- 1
+repita
+    Escreval(c)
+    c <- c + 1
+Ate (c > 10)
+
+Para variavel <- inicio ate fim [passo salto] faca
+    bloco
+FimPara
+
+Para C <- 1 ate 10 passo 1 faca
+    Escreval(C)
+FimPara
+
+Prática 01: Contar de 1 até 10
+algoritmo "Contar1a10"
+var
+    c: Inteiro
+inicio
+    Para c <- 1 ate 10 passo 1 faca
+        Escreva(c, " ")
+    FimPara
+fimalgoritmo
+
+algoritmo "Contar5a10"
+var
+    c: Inteiro
+inicio
+    Para c <- 5 ate 10 passo 1 faca
+        Escreva(c, " ")
+    FimPara
+fimalgoritmo
+
+algoritmo "Contar1a10p2"
+var
+    c: Inteiro
+inicio
+    Para c <- 1 ate 10 passo 2 faca
+        Escreva(c, " ")
+    FimPara
+fimalgoritmo
+
+algoritmo "Contar10a1"
+var
+    c: Inteiro
+inicio
+    Para c <- 10 ate 1 passo -1 faca
+        Escreva(c, " ")
+    FimPara
+fimalgoritmo
+
+algoritmo "Somador"
+var
+    N, C, S: Inteiro
+inicio
+    S <- 0
+    Para C <- 1 ate 5 faca
+        Escreval("Digite um valor: ")
+        Leia(N)
+        S <- S + N
+    FimPara
+    Escreval("A soma de valores é", S)
+fimalgoritmo
+
+Só podemos usar a Estrutura Para quando soubermos até quanto nós iremos
+
+Prática 02: Números pares
+algoritmo "numerospares"
+var
+    c, v: Inteiro
+inicio
+    Escreva("Digite um valor: ")
+    Leia(v)
+    Para c <- 0 ate v passo 2 faca
+        Escreva(c, " ")
+    FimPara
+fimalgoritmo
+
+algoritmo "contagemregressiva"
+var
+    c, v: Inteiro
+inicio
+    Escreva("Digite um valor: ")
+    Leia(v)
+    Se (v%2=1) entao
+        v <- v - 1
+    FimSe
+    Para c <- v ate 0 passo -2 faca
+        Escreva(c, " ")
+    FimPara
+fimalgoritmo
+
+Prática 03: Quantos valores estão entre 0 e 10
+algoritmo "QuantosEntre0e10"
+var
+    V, C, Tot010: Inteiro
+inicio
+    Tot010 <- 0
+    Para C <- 1 ate 6 faca
+        Escreva("Digite um valor: ")
+        Leia(V)
+        Se (V >= 0) e (V <= 10) entao
+            Tot010 <- Tot010 + 1
+        FimSe
+    FimPara
+    Escreval("Ao todo foram ", Tot010, " valores entre 0 e 10.")
+fimalgoritmo
+
+algoritmo "SomadosImpares"
+var
+    V, C, Tot010, SImp: Inteiro
+inicio
+    Tot010 <- 0
+    Para C <- 1 ate 6 faca
+        Escreva("Digite um valor: ")
+        Leia(V)
+        Se (V >= 0) e (V <= 10) entao
+            Tot010 <- Tot010 + 1
+            Se (V%2=1) entao
+                SImp <- SImp + 1
+            FimSe
+        FimSe
+    FimPara
+    Escreval("Ao todo foram ", Tot010, " valores entre 0 e 10.")
+    Escreval("Nesse intervalo, a soma de ímpares foi ", SImp)
+fimalgoritmo
+
+algoritmo "SomadosImpares"
+var
+    V, C, Tot010, SImp: Inteiro
+inicio
+    Tot010 <- 0
+    Para C <- 1 ate 6 faca
+        Escreva("Digite um valor: ")
+        Leia(V)
+        Se (V >= 0) e (V <= 10) entao
+            Tot010 <- Tot010 + 1
+        FimSe
+        Se (V % 2 = 1) entao
+           SImp <- SImp + V
+        FimSe
+    FimPara
+    Escreval("Ao todo foram ", Tot010, " valores entre 0 e 10.")
+    Escreval("Nesse intervalo, a soma de ímpares foi ", SImp)
+fimalgoritmo
+
+Prática 04: Combinações
+Aninhamento de Estruturas de Repetição
+algoritmo "Combinações"
+var
+    C1, C2: Inteiro
+inicio
+    Para C1 := 1 ate 3 faca
+        Para C2 := 1 ate 3 faca
+            Escreval(C1, C2)
+        FimPara
+    FimPara
+fimalgoritmo
+
+Exercício 01: Sequência de Fibonacci
+algoritmo "Combinações"
+var
+    t1, t2, t3, fim, c: Inteiro
+inicio
+    Escreva("Quantos termos você deseja mostrar? ")
+    Leia(fim)
+    t1 <- 0
+    t2 <- 1
+    Para c <- 1 ate fim faca
+         t3 <- t1 + t2
+         Se (c = 1) entao
+              Escreva("0")
+         FimSe
+         Se (c = 2) entao
+              Escreva(" -> 1")
+         FimSe
+         Se (c = 3) entao
+              t1 <- 0
+              t2 <- 1
+              t3 <- t1 + t2
+         FimSe
+         Se (c > 2) e (c <= fim) entao
+              Escreva(" ->", t3)
+         FimSe
+         t1 <- t2
+         t2 <- t3
+    FimPara
+    Escreva(" -> FIM.")
+fimalgoritmo
+
+Exercício 02: Analisador de valores
+algoritmo "Analise"
+var
+    qtd, c: Inteiro
+    valor, soma, divi5, nulo, somap, media: Real
+inicio
+    Escreva("Digite quantos valores você quer ler: ")
+    Leia(qtd)
+    Para c <- 1 ate qtd faca
+        Escreva("Digite o", c, "º valor: ")
+        Leia(valor)
+        soma <- soma + valor
+        Se (valor % 5 = 0) entao
+            divi5 <- divi5 + 1
+        FimSe
+        Se (valor = 0) entao
+            nulo <- nulo + 1
+        FimSe
+        Se (valor % 2 = 0) entao
+           somap <- somap + valor
+        FimSe
+    FimPara
+    media <- soma/qtd
+    Escreval("Soma dos valores:", soma)
+    Escreval("Média entre os valores:", media:0:2)
+    Escreval("Divisíveis por 5:", divi5)
+    Escreval("Nulos:", nulo)
+    Escreval("Pares:", somap)
+fimalgoritmo

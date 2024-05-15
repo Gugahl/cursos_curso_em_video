@@ -1,0 +1,52 @@
+Maneira tradicional de sair de bases diferentes da decimal e ir para outras bases diferentes da decimal é passando pela
+decimal.
+
+Conversão Base Octal - Base Binária:
+(27) Base Octal = 2 x 8¹ + 7 x 1 = (23) Base Decimal
+                                    23 / 2 = 11 (1)
+                                    11 / 2 = 5  (1)
+                                     5 / 2 = 2  (1)
+                                     2 / 2 = 1  (0)
+                                     1 / 2 = 0  (1)
+                                     (10111) Base Binária
+
+Macete Base Octal - Base Binária:
+Divide cada casa da base octal em três casas da base binária, coloca as três primeiras potências da binária e vai
+somando até a binária dar o mesmo valor da octal.
+                (27) Base Octal
+         (0 1 0        1 1 1)
+          4 2 1        4 2 1
+             (10111) Base Binária
+
+Da mesma forma:
+Cada três casas da base binária equivale uma casa da base octal, pega as mesmas bases da base binária e multiplica essas
+potencias pelo número correspondente.
+            (1000101) Base Binária
+        0 0 1  0 0 0  1 0 1
+        4 2 1  4 2 1  4 2 1
+          1      0      5 = (105) Base Octal
+
+Conversão Base Hexadecimal - Base Binária:
+(1B) Base Hexadecimal = 1x16¹ + 11x1 = (27) Base Decimal
+                                        27 / 2 = 13 (1)
+                                        13 / 2 =  6 (1)
+                                         6 / 2 =  3 (0)
+                                         3 / 2 =  1 (1)
+                                         1 / 2 =  0 (1)
+                                         (11011) Base Binária
+
+Macete Base Hexadecimal - Base Binária:
+Divide cada casa da base hexadecimal em quatro casas da base binária, coloca as quatro primeiras potências da binária e
+vai somando até a binária dar o mesmo valor da hexadecimal.
+                (1B) Base Hexadecimal
+         0 0 0 1      1 0 1 1
+         8 4 2 1      8 4 2 1
+                (11011) Base Binária
+
+Da mesma forma:
+Cada quatro casas da base binária equivale uma casa da base hexadecimal, pega as mesmas bases da base binária e
+multiplica essas potencias pelo número correspondente.
+            (1011101) Base Binária
+       0 1 0 1   1 1 0 1
+       8 4 2 1   8 4 2 1
+          5         13 = (5D) Base Hexadecimal

@@ -1,0 +1,82 @@
+Quem veio primeiro? O Git ou o Github?
+
+Um pouco de história...
+- CVS 1985
+--> Centralizado
+--> Open Source
+--> Mais popular
+--> Alguns problemas
+--> Lentidão
+
+- SVN 2000
+--> Centralizado
+--> Open Source
+--> Ativo até hoje
+--> CVS-like
+--> Mais rápido que o CVS
+
+- BitKeeper 2000
+--> Distribuido
+--> Proprietário
+--> Versão comunidade
+--> CVS-free
+--> Era por ele que se desenvolvia o kernel do Linux (Treta)
+--> Um software Open Source sendo desenvolvido por um software proprietário
+
+- 2004
+--> BitKeeper
+> SourcePuller - Programa para a comunidade que fazia acesso ao repositório
+do BitKeeper;
+> Crack que liberava recursos, feito por engenharia reversa
+
+- 2005
+--> BitKeeper
+> Nova licença
+> Bloqueio do acesso aos metadados
+> Dificultava ver o passado do código, para vender a versão comercial
+
+- 2005
+--> Git
+> Distribuido
+> Criado após as mudanças do BitKeeper em 2005
+> Open Source
+> Feito em 10 dias
+> Foco em Performance
+> Commit em 1 2 segundos
+
+--> O que quer dizer "Git"?
+> Três letras do alfabeto, da para pronunciar e não tem nenhum código com
+esse nome;
+> Teimoso, cabeça-dura, pensa que sempre está certo;
+> Global Information Tracker
+> Goddamn Idiotic Truckload of Shit
+
+E o Github?
+- 2008
+--> GitHub
+> Proprietário
+> Hospedagem de código
+> Baseado em Git
+> Crescimento meteórico
+> 2009: 46k repositórios
+> 2010: 100k users / 1M repositórios
+> 2011: Ultrapassou SourceForge
+> 2013: 3M users / 5M repositórios
+> 2016: 14º lugar na lista da Forbes (Forbes Cloud Hundred)
+> 2018: Maior ataque DDoS da história (1.35 TERABYTES POR SEGUNDO foi o
+que derrubou o GitHub)
+
+- 2018
+--> GitHub
+> Adquiridos pela Microsoft
+> US$ 7.5 Bilhões
+> Operação independente
+> 2020: GitHub compra npm (Node Packet Manager)
+
+E esse mascote esquisito?
+--> Polvo, cabeça de gato antropormofizado
+--> Mesmo criador do pássaro azul do Twitter (X)
+
+E agora, o que faremos?
+--> Vamos utilizar o GitHub
+--> Vamos utilizar o git

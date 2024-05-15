@@ -1,0 +1,84 @@
+- Tudo aquilo que você faz que é uma rotina é considerado algorítmo.
+- Algorítmos computacionais o foco é o mesmo, porém o foco de execução 
+  é um pouco diferente.
+- Algorítmos são passos a serem seguidos por um módulo processador e 
+  seus respectivos usuários que, quando executados na ordem correta,
+  conseguem realizar determinada tarefa.
+- Módulo processador é tudo aquilo que pode efetuar processamento.
+- Usuário é quem utiliza o programa.
+- Realizar uma tarefa é resolver determinado problema que seu usuário
+  esteja tendo, e que precise do módulo processador para isso.
+- Sistemas de comércio, redes sociais, jogos, streaming de vídeo tudo
+  hoje em dia é feito por algorítmos computacionais.
+- Primeiros passos da criação de um algorítmo:
+- Todo algorítmo computacional começa com a criação da Lógica de 
+  Programação.
+- Depois você escreve essa Lógica em uma Linguagem de Programação.
+- Essa Linguagem de Programação vai ser utilizada para criar um siste-
+  ma completo, que é o aplicativo, ou o software que o seu usuário vai
+  utilizar
+- Todo sistema nasce assim: Nasce na cabeça de um programador, essa lógica
+  de programação parte da cabeça deles e é estruturada em uma liguagem de
+  programação que vai ser utilizada para criar um sistema completo.
+- Para estruturar a Lógica de Programação temos várias ferramentas:
+- Uma delas é o fluxograma: Que vai representar a Lógica através de um
+  fluxo de informações seguindo de um ponto ao outro.
+- Diagrama NassiShneiderman\Chapn: Onde você vai representar a Lógica do seu
+  programa através de blocos.
+- Portugol: Pseudocódigo, Lógica do seu programa escrito na sua lingua
+  nativa, no nosso caso por ser Português ficou conhecido por Portugol.
+- Portugol não é uma linguagem de programação, é uma maneira de representar
+  a sua lógica de programação antes de passar para uma linguagem de programação.
+- O aplicativo que nós vamos utilizar é o visualg: visualizador de algorítmos.
+- Criado pelo Claúdio Morgado.
+- Abrindo o visualg ele pode aparecer com um código ou vazio, se aparecer vazio
+  digite ! + aperte Ctrl + aperte Espaço e vai aparecer o código.
+- Tradição do 'Olá, mundo!': Reza a lenda que quando você vai aprender qualquer
+  coisa na área da programação, principalmente linguagens, você tem que escrever
+  Olá, mundo! na tela.
+- Escreva: Faz o programa mostrar a frase digitada.
+- Escreval: Faz o programa mostrar a frase digitada e salta a linha.
+- Variáveis: Um armário cheio de espaços vazios, e em alguns lugares desse armário
+  você coloca pequenas etiquetas, 
+  Exemplos: 
+  Bola: Brinquedo; 
+  Boneca: Brinquedo;
+  Chinelo: Calçado;
+  Sapato: Calçado; 
+  Quando eu coloco um valor em uma variável, eu não consigo colocar outro valor na mesma
+  variável, se eu quiser colocar outro valor em uma variável eu terei que tirar
+  o valor existente e colocar o novo.
+  Na área de variável nós temos que colocar
+  identificador: tipo
+  Para que serve um identificador?
+  Identificar determinadas variáveis;
+  Existem seis regras para a nomeação de identificadores no visualg:
+  1. Deve começar com uma letra
+  2. Os próximos podem ser letras ou números
+  3. Não pode utilizar nenhum símbolo, exceto _
+  4. Não pode conter espaços em branco
+  5. Não pode conter letras com acentos
+  6. Não pode ser uma palavra reservada
+- Palavra reservada: Palavras em azul ou sublinhadas
+Nota1: Passou nas seis regras
+Média: Não atende a quinta regra
+Salário Bruto: Não atende nem a quarta nem a quinta regra
+9dade: Não atende a primeira regra
+Algoritmo: Não atende a sexta regra
+Inicio_Algoritmo: Passou nas seis regras
+- Tipos primitivos:
+Inteiro: Vai permitir que a sua variável guarde apenas números inteiros
+EX: 1, 3, -5, 198, 0
+Real: Vai permitir que sua variável guarde números inteiros e fracionados
+EX: 0.5, 5.0, 9.8, -77.3, 3.1415
+Caractere: Tudo aquilo que é colocado entre aspas
+EX: "Gustavo", "Algorítmo", "123"
+Lógico: verdadeiro, falso
+
+msg: Caractere
+- Na memória do computador foi dito que o espaço msg está sendo ocupado
+  por caracteres
+Simbolo de atribuição
+msg <- "Olá, mundo!"
+A variável msg recebe a mensagem Olá, mundo!
+Escreval(msg)

@@ -1,0 +1,114 @@
+Aula 07 - Estruturas Condicionais 1
+Se eu tiver dinheiro então vou fazer uma
+viagem para a Disney
+
+Se (expressão) entao
+    bloco
+fimSe
+
+Se (dinheiro >= 10000) entao
+    Escreva("Partiu Disney")
+fimSe
+
+Quando um bloco é executado se uma condicional for 
+verdadeira, chamamos isso de Condicional Simples
+
+algoritmo "CalculoIdade"
+var
+    ano, nasc, idade: Inteiro
+inicio
+    Escreva("Em que ano estamos? ")
+    Leia(ano)
+    Escreva("Em que ano você nasceu? ")
+    Leia(nasc)
+    idade <- ano - nasc
+    Escreval("Em ", ano, " você terá ", idade, " anos")
+    Se (idade >= 21) entao
+        Escreva("e já terá atingido a maioridade")
+fimalgoritmo
+
+Se (expressão) entao
+    Bloco A
+senao
+    Bloco B
+fimSe
+
+Se (dinheiro >= 10000) entao
+    Escreva("Partiu Disney")
+senao
+    Escreva("#chateado")
+fimSe
+
+Condicional Composta
+
+algoritmo "ParOuImpar"
+var
+    N: Inteiro
+inicio
+    Escreva("Digite um número qualquer: ")
+    Leia(N)
+    Se (N % 2 = 0) entao
+        Escreval("O número ", N, " é PAR!")
+    senao
+        Escreval("O número ", N, " é ÍMPAR!")
+fimalgoritmo
+
+algoritmo "CalculoIMC"
+var
+    M, A, IMC: Real
+inicio
+    Escreva("Massa (Kg): ")
+    Leia(M)
+    Escreva("Massa (Kg): ")
+    Leia(A)
+    IMC <- M / (A ^ 2)
+    Escreval("IMC: ", IMC:5:2)
+    Se (IMC >= 18.5) e (IMC < 25) entao
+        Escreva("Parabéns! Você está no seu peso ideal")
+    senao
+        Escreva("Você não está na faixa de peso ideal")
+fimalgoritmo
+
+algoritmo "CNH"
+var
+    ano, nasc, idade: Inteiro
+inicio
+    Escreval("--------------------------")
+    Escreval(" DEPARTAMENTO DE TRÂNSITO ")
+    Escreval("--------------------------")
+    Escreva("Ano Atual (yyyy): ")
+    Leia(ano)
+    Escreva("Ano de Nascimento (yyyy): ")
+    Leia(nasc)
+    idade <- ano - nasc
+    Escreval("--------", " STATUS ", "--------")
+    Escreval("Idade: ", idade, " anos")
+    Se (idade >= 18) entao
+        Escreval("APTO A TIRAR A CARTEIRA")
+    senao
+        Escreval("INAPTO A TIRAR CARTEIRA")
+    fimSe
+    Escreva("------------------------")
+fimalgoritmo
+
+algoritmo "MEDIA"
+var
+    media, N1, N2: Real
+inicio
+    Escreval("-----------------------")
+    Escreval(" ESCOLA JAVALI CANSADO ")
+    Escreval("-----------------------")
+    Escreva("Primeira Nota: ")
+    Leia(N1)
+    Escreva("Segunda Nota: ")
+    Leia(N2)
+    media <- (N1 + N2) / 2
+    Escreval("------------------------")
+    Escreval("MEDIA: ", media)
+    Se (media >= 7) entao
+        Escreval("ALUNO APROVADO")
+    senao
+        Escreval("ALUNO REPROVADO")
+    fimSe
+    Escreval("------------------------")
+fimalgoritmo

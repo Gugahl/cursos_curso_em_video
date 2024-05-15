@@ -1,0 +1,241 @@
+# Aula 09 - Estruturas de Repetição 1
+"""
+mão <- 0
+Enquanto (mão <= 5) faça
+    troca
+    mão <- mão + 1
+fimEnquanto
+
+looping
+Enquanto expressão faca
+    bloco
+fimEnquanto
+
+Enquanto não arrumar o quarto faca
+    castigo
+fimEnquanto
+liberado
+
+Prática 01: Contar de 0 até 10
+algoritmo "Contagem 0 a 10"
+var
+    contador: Inteiro
+inicio
+    contador <- 0
+    Enquanto (contador <= 10) faca
+        Escreval(contador)
+        contador <- contador + 1
+    FimEnquanto
+fimalgoritmo
+
+algoritmo "Contagem 0 a 5"
+var
+    contador: Inteiro
+inicio
+    contador <- 0
+    Enquanto (contador <= 5) faca
+        Escreval(contador)
+        contador <- contador + 1
+    FimEnquanto
+    Escreval("Terminei de contar")
+fimalgoritmo
+
+Prática 02: Contar de 10 até 0
+algoritmo "Contagem 10 a 0"
+var
+    contador: Inteiro
+inicio
+    contador <- 10
+    Enquanto (contador >= 0) faca
+        Escreval(contador)
+        contador <- contador - 1
+    FimEnquanto
+    Escreval("Terminei de contar")
+fimalgoritmo
+
+Prática 03: Contar de 0 até i
+algoritmo "Contagem 0 a i"
+var
+    contador, i: Inteiro
+inicio
+    Escreva("Até qual número você deseja que eu conte? ")
+    Leia(i)
+    contador <- 0
+    Enquanto (contador <= i) faca
+        Escreval(contador)
+        contador <- contador + 1
+    FimEnquanto
+    Escreval("Terminei de contar")
+fimalgoritmo
+
+algoritmo "Contagem 0 a i"
+var
+    contador, salto, i: Inteiro
+inicio
+    Escreva("Até qual número você deseja que eu conte? ")
+    Leia(i)
+    Escreva("Qual será o valor do salto? ")
+    Leia(salto)
+    contador <- 0
+    Enquanto (contador <= i) faca
+        Escreval(contador)
+        contador <- contador + salto
+    FimEnquanto
+    Escreval("Terminei de contar")
+fimalgoritmo
+
+Prática 04: Ler 10 números e somá-los
+algoritmo "somadorNumérico"
+var
+    num, soma, contador: Real
+inicio
+    num <- 0
+    soma <- 0
+    contador <- 1
+    Enquanto (contador <= 10) faca
+        Escreval("Digite um número: ")
+        Leia(num)
+        soma <- soma + num
+        contador <- contador + 1
+    FimEnquanto
+    Escreval("O resultado da soma foi: ", soma)
+fimalgoritmo
+
+algoritmo "semnome"
+var
+    contador, num, soma, maior: Real
+inicio
+    contador <- 1
+    soma <- 0
+    Enquanto (contador <= 10) faca
+        Escreval("Digite um número: ")
+        Leia(num)
+        Se (num > maior) entao
+           maior <- num
+        FimSe
+        soma <- soma + num
+        contador <- contador + 1
+    FimEnquanto
+    Escreval("O resultado da soma foi:", soma, " e o maior número foi:", maior)
+fimalgoritmo
+
+algoritmo "semnome"
+var
+    contador, num, soma, maior, menor: Real
+inicio
+    contador <- 1
+    soma <- 0
+    Enquanto (contador <= 10) faca
+        Escreval("Digite um número: ")
+        Leia(num)
+        Se (num > maior) entao
+           maior <- num
+        FimSe
+        Se (contador = 1) entao
+            menor <- num
+        FimSe
+        Se (contador > 1) e (num < menor) entao
+            menor <- num
+        FimSe
+        soma <- soma + num
+        contador <- contador + 1
+    FimEnquanto
+    Escreval("O resultado da soma foi:", soma)
+    Escreval("O maior número foi:", maior)
+    Escreval("O menor número foi:", menor)
+fimalgoritmo
+
+Prática 05: Fazer conversão de moedas 4x
+algoritmo "semnome"
+var
+    R, D, C: Real
+inicio
+    C <- 1
+    Enquanto (C <= 4) faca
+        Escreva("Qual o valor em R$? ")
+        Leia(R)
+        D <- R/2.20
+        Escreval("O valor convertido em US$", D:5:2)
+        C <- C + 1
+    FimEnquanto
+fimalgoritmo
+
+algoritmo "semnome"
+var
+    R, D, C, Conv: Real
+inicio
+    C <- 1
+    Escreva("Quantas conversões serão realizadas? ")
+    Leia(Conv)
+    Enquanto (C <= Conv) faca
+        Escreva("Qual o valor em R$? ")
+        Leia(R)
+        D <- R/2.20
+        Escreval("O valor convertido em US$", D:5:2)
+        C <- C + 1
+    FimEnquanto
+fimalgoritmo
+
+algoritmo "ContagemInteligente"
+var
+    inic, fim, contagem: Inteiro
+inicio
+    Escreval("--------------------")
+    Escreval("CONTAGEM INTELIGENTE")
+    Escreval("--------------------")
+    Escreva("Início: ")
+    Leia(inic)
+    Escreva("Fim: ")
+    Leia(fim)
+    contagem <- 1
+    Se (inic > fim) entao
+        Escreval("--------------------")
+        Escreval("  C O N T A N D O   ")
+        Escreval("--------------------")
+        contagem <- inic
+        Enquanto (contagem >= fim) faca
+            Escreva(contagem, "... ")
+            contagem <- contagem - 1
+        FimEnquanto
+    FimSe
+    Se (fim > inic) entao
+        Escreval("--------------------")
+        Escreval("  C O N T A N D O   ")
+        Escreval("--------------------")
+        contagem <- inic
+        Enquanto (contagem < fim + 1) faca
+            Escreva(contagem, "... ")
+            contagem <- contagem + 1
+        FimEnquanto
+    FimSe
+fimalgoritmo
+
+algoritmo "MelhorAluno"
+var
+    qtd, contagem: Inteiro
+    nome, nomedomelhor: Caractere
+    nota, maiornota: Real
+inicio
+    Escreval("------------------------")
+    Escreval(" Escola Santa Paciência ")
+    Escreval("------------------------")
+    Escreva("Quantos alunos a turma tem? ")
+    Leia(qtd)
+    contagem <- 1
+    Enquanto (contagem < qtd + 1) faca
+       Escreval("------------------------")
+       Escreval("Aluno", contagem)
+       Escreva("Nome do(a) aluno(a): ")
+       Leia(nome)
+       Escreva("Nota de ", nome, ": ")
+       Leia(nota)
+       Escreval("------------------------")
+       Se (nota > maiornota) entao
+            maiornota <- nota
+            nomedomelhor <- nome
+       FimSe
+       contagem <- contagem + 1
+    FimEnquanto
+    Escreval("O melhor aproveitamento foi de ", nomedomelhor, " com a nota ", maiornota:3:1)
+fimalgoritmo
+"""

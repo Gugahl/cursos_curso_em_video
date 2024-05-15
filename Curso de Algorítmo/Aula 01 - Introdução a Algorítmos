@@ -1,0 +1,78 @@
+- Algorítmo é um conjunto de passos finitos e organizados 
+  que, quando executados resolvem um determinado problema.
+- Toda repetição de padrões é chamada de rotina.
+- Nós fazemos algorítmos a todo momento, não só em disposi-
+  tivos tecnológicos.
+
+Exemplos de Algorítmos
+
+Algorítmos funcionais:
+Algorítmo AtravessarRua
+  Olhar para a direita
+  Olhar para a esquerda
+  Se tiver vindo carro
+    Não atravesse
+  senão
+    Atravesse
+  Fim-Se
+Fim-Algorítmo
+
+Algorítmo AtravessarRua
+  Olhar para a esquerda
+  Olhar para a direita
+  Se não estiver vindo carro
+    Atravesse
+  senão
+    Não atravesse
+  Fim-Se
+Fim-Algorítmo
+
+Algorítmo não funcional:
+Algorítmo AtravessarRua
+  Atravesse
+  Se estiver vindo carro
+    Olhar para a direita
+  senão
+    Olhar para a esquerda
+  Fim-Se
+  Não atravesse
+Fim-Algorítmo
+
+Trazendo esse conceito para computadores:
+- Um programa de computador é desenvolvido para suprir uma 
+  necessidade, ou seja, resolver um problema.
+
+Algorítmo para resolver equações do segundo grau
+var
+  a, b, c: Inteiro
+  delta: Real
+  x1, x2: Real
+inicio
+    Escreva1 ('Equação do Segundo Grau')
+    Escreva1 ('-----------------------')
+    Escreva ('Informe o valor de A: ')
+    Leia (a)
+    Escreva ('Informe o valor de B: ')
+    Leia (b)
+    Escreva ('Informe o valor de C: ')
+    Leia (c)
+    Escreva1 ('----------------------')
+    Escreva1 ('Sua equação é: ', a, 'x2 +', b, 'x +', c, '= 0')
+    delta := (b*b) - 4*a*c
+    Escreva1 ('Valor de Delta: ', delta:4:2)
+    Escreva1 ('---------------------------')
+    Se (delta < 0) entao
+      Escreva1 ('Para Delta negativo, não existem raízes reais.')
+    senao
+      Se (delta = 0) entao
+        x1 := (-b + raizQ(delta))/ (2*a)
+        Escreva1 ('Para Delta zero, temos duas raízes iguais a ', x1)
+      senão
+          x1 := (-b + raizQ(delta))/(2*a)
+          x2 := (-b - raizQ(delta))/(2*a)
+          Escreva1 ('Para delta positivo. Raízes diferentes: ')
+          Escreva1 ("x' = ", x1:4:2)
+          Escreva1("x" = ", x2:4:2)
+      FimSe
+    FimSe
+FimAlgorítmo

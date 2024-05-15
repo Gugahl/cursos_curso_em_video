@@ -1,0 +1,313 @@
+Aula 12 - Procedimentos
+Rotinas Parte 01
+Rotina - Uma coisa que acontece constantemente
+
+Verifique a escotilha
+Botão azul posição 1
+Olhe pelo visor
+Gire a manivela
+Botão azul posição 2
+Gire a manivela
+Aperte o botão Vermelho
+-> Coloque a carne
+Verifique a escotilha
+Botão azul posição 1
+Olhe pelo visor
+Gire a manivela
+Botão azul posição 2
+Gire a manivela
+Aperte o botão Vermelho
+
+RotinaPreparo()
+Verifique a escotilha
+Botão azul posição 1
+Olhe pelo visor
+Gire a manivela
+Botão azul posição 2
+Gire a manivela
+Aperte o botão Vermelho
+
+RotinaPreparo()
+Coloque a carne
+RotinaPreparo()
+
+Procedimento RotinaPreparo()
+inicio
+    Verifique a escotilha
+    Botão azul posição 1
+    Olhe pelo visor
+    Gire a manivela
+    Botão azul posição 2
+    Gire a manivela
+    Aperte o botão Vermelho
+fimProcedimento
+inicio
+    RotinaPreparo()
+    Coloque a carne
+    RotinaPreparo()
+fimalgoritmo
+
+Prática 01: Detector de Pesados
+algoritmo "DetectorPesado"
+var
+    I: Inteiro
+    N, Pesado: Caractere
+    P, Mai: Real
+inicio
+    LimpaTela
+    Escreval("------------------------------------")
+    Escreval(" D E T E C T O R   DE   P E S A D O ")
+    Escreval(" Maior Peso até agora: ", Mai, "Kg")
+    Escreval("------------------------------------")
+    Para I <- 1 ate 5 faca
+        Escreva("Digite o nome: ")
+        Leia(N)
+        Escreva("Digite o peso de ", N, ": ")
+        Leia(P)
+        Se (P > Mai) entao
+            Mai <- P
+            Pesado <- N
+        FimSe
+        LimpaTela
+        Escreval("------------------------------------")
+        Escreval(" D E T E C T O R   DE   P E S A D O ")
+        Escreval(" Maior Peso até agora: ", Mai, "Kg")
+        Escreval("------------------------------------")
+    FimPara
+    LimpaTela
+    Escreval("------------------------------------")
+    Escreval(" D E T E C T O R   DE   P E S A D O ")
+    Escreval(" Maior Peso até agora: ", Mai, "Kg")
+    Escreval("------------------------------------")
+    Escreval("A pessoa mais pesada foi ", Pesado, ", com ", Mai, " quilos.")
+fimalgoritmo
+
+algoritmo "DetectorPesado"
+var
+    I: Inteiro
+    N, Pesado: Caractere
+    P, Mai: Real
+Procedimento Topo()
+inicio
+    LimpaTela
+    Escreval("------------------------------------")
+    Escreval(" D E T E C T O R   DE   P E S A D O ")
+    Escreval(" Maior Peso até agora: ", Mai, "Kg")
+    Escreval("------------------------------------")
+FimProcedimento
+inicio
+    Topo()
+    Para I <- 1 ate 5 faca
+        Escreva("Digite o nome: ")
+        Leia(N)
+        Escreva("Digite o peso de ", N, ": ")
+        Leia(P)
+        Se (P > Mai) entao
+            Mai <- P
+            Pesado <- N
+        FimSe
+        Topo()
+    FimPara
+    Topo()
+    Escreval("A pessoa mais pesada foi ", Pesado, ", com ", Mai, " quilos.")
+fimalgoritmo
+
+Passagem de Parâmetro
+Passagem por valor
+Procedimento Soma(A, B: Inteiro)
+inicio
+    Escreval("Recebi o valor ", A)
+    Escreval("Recebi o valor ", B)
+    Escreval("A soma vale ", A+B)
+FimProcedimento
+
+algoritmo "FazSomaProcedimento"
+var
+    X, Y: Inteiro
+Procedimento Soma(A, B: Inteiro)
+inicio
+    Escreval("Recebi o valor ", A)
+    Escreval("Recebi o valor ", B)
+    Escreval("A soma entre os dois é ", A+B)
+FimProcedimento
+inicio
+    X <- 5
+    Y <- 3
+    Soma(X,Y)
+fimalgoritmo
+
+Prática 02: Verificador Par/Ímpar
+algoritmo "ParOuImparProcedimento"
+var
+    N: Inteiro
+Procedimento ParOuImpar(V: Inteiro)
+inicio
+    Se (V % 2 = 0) entao
+        Escreval("O número ", V, " é PAR!")
+    senao
+        Escreval("O número ", V, " é ÍMPAR!")
+    FimSe
+FimProcedimento
+inicio
+    Escreva("Digite um número: ")
+    Leia(N)
+    ParOuImpar(N)
+fimalgoritmo
+
+Escopo: Local onde uma determinada variável vai funcionar
+
+algoritmo "TesteEscopo"
+var
+    N1, N2: Inteiro
+Procedimento Rotina(A, B: Inteiro)
+var
+    X, Y: Inteiro
+inicio
+    X <- A
+    Y <- B
+    Escreva(N1, N2, A, B, X, Y)
+FimProcedimento
+Inicio
+    N1 <- 5
+    N2 <- 3
+    Rotina(N1, N2)
+    Escreva(N1, N2, A, B, X, Y)
+FimAlgoritmo
+
+N1, N2: Variáveis de Escopo Global, funcionam em qualquer lugar do algoritmo
+X, Y: Variáveis de Escopo Local, funcionam somente dentro do procedimento
+A, B: Parâmetros de Escopo Local, funcionam somente dentro do procedimento
+
+Dentro do procedimento o Escreva escreveu N1, N2, A, B, X, Y
+Fora do procedimento o Escreva deu erro já que as variáveis A, B, X, Y não foram encontradas
+
+algoritmo "ParOuImparProcedimento"
+var
+    N: Inteiro
+Procedimento ParOuImpar(V: Inteiro)
+inicio
+    Escreval("O valor de V é ", V)
+    Escreval("O valor de N é ", N)
+    Se (V % 2 = 0) entao
+        Escreval("O número ", V, " é PAR!")
+    senao
+        Escreval("O número ", V, " é ÍMPAR!")
+    FimSe
+FimProcedimento
+inicio
+    Escreva("Digite um número: ")
+    Leia(N)
+    ParOuImpar(N)
+fimalgoritmo
+
+O Escreva encontrou V e N
+
+algoritmo "ParOuImparProcedimento"
+var
+    N: Inteiro
+Procedimento ParOuImpar(V: Inteiro)
+inicio
+    Se (V % 2 = 0) entao
+        Escreval("O número ", V, " é PAR!")
+    senao
+        Escreval("O número ", V, " é ÍMPAR!")
+    FimSe
+FimProcedimento
+inicio
+    Escreva("Digite um número: ")
+    Leia(N)
+    ParOuImpar(N)
+    Escreval("O valor de V é ", V)
+    Escreval("O valor de N é ", N)
+fimalgoritmo
+
+O Escreva não encontrou a variável V
+
+Passagem de parâmetro
+Passagem por referência
+
+Passagem por valor:
+Procedimento Soma(A, B: Inteiro)
+inicio
+A <- A + 1
+B <- B + 2
+Escreval("A soma vale", A + B)
+inicio
+    X <- 4
+    Y <- 8
+    Soma(X, Y)
+    Escreval(X, Y)
+fimalgoritmo
+
+Passagem por referência:
+Procedimento Soma(var A, B: Inteiro)
+inicio
+A <- A + 1
+B <- B + 2
+Escreval("A soma vale", A + B)
+inicio
+    X <- 4
+    Y <- 8
+    Soma(X, Y)
+    Escreval(X, Y)
+fimalgoritmo
+
+algoritmo "somaparametrosreferencia"
+var
+    X, Y: Inteiro
+Procedimento Soma(A, B: Inteiro)
+inicio
+    A <- A + 1
+    B <- B + 2
+    Escreval("Valor de A = ", A)
+    Escreval("Valor de B = ", B)
+    Escreval("Soma A + B = ", A + B)
+FimProcedimento
+inicio
+    X <- 4
+    Y <- 8
+    Soma(X, Y)
+    Escreval("Valor de X = ", X)
+    Escreval("Valor de Y = ", Y)
+fimalgoritmo
+
+algoritmo "somaparametrosreferencia"
+var
+    X, Y: Inteiro
+Procedimento Soma(var A, B: Inteiro)
+inicio
+    A <- A + 1
+    B <- B + 2
+    Escreval("Valor de A = ", A)
+    Escreval("Valor de B = ", B)
+    Escreval("Soma A + B = ", A + B)
+FimProcedimento
+inicio
+    X <- 4
+    Y <- 8
+    Soma(X, Y)
+    Escreval("Valor de X = ", X)
+    Escreval("Valor de Y = ", Y)
+fimalgoritmo
+
+Prática 03: Sequência de Fibonacci
+algoritmo "Fibonacci"
+var
+    C, T1, T2, T3: Inteiro
+Procedimento ProximoFibonacci(var A, B: Inteiro)
+var C: Inteiro
+inicio
+    C := A + B
+    Escreva(C)
+    A := B
+    B := C
+FimProcedimento
+inicio
+    T1 <- 0
+    Escreva(T1)
+    T2 <- 1
+    Escreva(T2)
+    Para C := 3 ate 10 faca
+        ProximoFibonacci(T1, T2)
+    FimPara
+fimalgoritmo

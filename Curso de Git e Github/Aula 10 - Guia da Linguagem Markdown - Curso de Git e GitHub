@@ -1,0 +1,30 @@
+- Linguagem Markdown - 
+--> No que consiste?
+- Markdown é uma linguagem de marcação assim como HTML;
+- Um dos objetivos era facilitar a leitura de um código HTML;
+- Outro objetivo é que fosse fácil de converter de Markdown para HTML;
+- Negrito: **Frase**
+- Itálico: *Frase*
+
+--> Onde eu aplico?
+- Readme's
+- Issues
+- Pool Requests
+
+--> Funções:
+- Negrito: **Frase** ou __Frase__
+- Itálico: *Frase* ou _Frase_
+- Riscado: ~~Frase~~
+- Título nível 1: # Título
+- Título nível 2: ## Título
+- Título nível 3: ### Título
+- Linha: --- ou ***
+- Mistura: Negrito e Itálico: _**Frase**_
+- Listas de primeira ordem: 1. Teste
+- Listas de segunda ordem:     1. Teste2
+- Listas demarcadas de primeira ordem: * Teste ou - Teste
+- Listas demarcadas de segunda ordem:     * Teste ou - Teste
+- Listas de Tarefas: - [ ] Criar página principal
+-                    - [ ] Criar página da loja
+-                    - [ ] Finalizar a reunião com o cliente
+-                    - [ ]

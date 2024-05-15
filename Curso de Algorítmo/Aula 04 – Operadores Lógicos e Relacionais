@@ -1,0 +1,221 @@
+Operadores Relacionais:
+- Vão criar a relação entre variáveis ou expressões. 
+- Você vai poder comparar variáveis ou expressões e gerar resultados lógicos,
+- como verdadeiro ou falso.
+
+Operadores Relacionais do visualg:
+> - Maior que
+< - Menor que
+>= - Maior ou igual a
+<= - Menor ou igual a
+= - Igual a
+<> - Diferente de
+
+Comparando valores numéricos:
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(a>b)
+fimalgoritmo
+FALSO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(a=b)
+fimalgoritmo
+FALSO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(a<>b)
+fimalgoritmo
+VERDADEIRO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(a>2)
+fimalgoritmo
+FALSO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(a>=2)
+fimalgoritmo
+VERDADEIRO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(c=a+b)
+fimalgoritmo
+VERDADEIRO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(c>=b^a)
+fimalgoritmo
+FALSO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(c<=b^a)
+fimalgoritmo
+VERDADEIRO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(b<=c%2)
+fimalgoritmo
+FALSO
+
+algoritmo "semnome"
+var
+    a, b, c: Inteiro
+inicio
+      a <- 2
+      b <- 3
+      c <- 5
+      Escreva(1=c%2)
+fimalgoritmo
+VERDADEIRO
+
+Operadores Lógicos:
+p   q   p E q
+V   V     V
+V   F     F
+F   V     F
+F   F     F
+Utilizando o operador E, nós vamos ter o resultado verdadeiro, somente nos casos
+em que as premissas p e q forem verdadeiras, em todos os outros casos, os resul-
+-tados lógicos de p E q serão falsos.
+
+p   q   p OU q
+V   V     V
+V   F     V
+F   V     V
+F   F     F
+Utilizando o operador OU, só vamos ter o resultado falso, somente nos casos em
+que as duas premissas forem falsas, em todos os outros casos os resultados lógicos
+serão verdadeiros.
+
+p   NÃO p
+V     F
+F     V
+
+algoritmo "semnome"
+var
+   A, B, C: Inteiro
+inicio
+      A <- 2
+      B <- 3
+      C <- 5
+      Escreva ((A = B) ou (C>A))
+fimalgoritmo
+VERDADEIRO
+
+algoritmo "semnome"
+var
+   A, B, C: Inteiro
+inicio
+      A <- 2
+      B <- 3
+      C <- 5
+      Escreva (nao((A = B) ou (C>A)))
+fimalgoritmo
+FALSO
+
+Ordem de precedência dentro de expressões que contenham operações aritméticas,
+lógicas e relacionais:
+
+1 - Aritméticos: 
+() - Parênteses
+^ - Exponenciação
+* / - Multiplicação e divisão
++ - - Soma e subtração
+
+2 - Relacionais
+TODOS
+
+3 - Lógicas
+E
+OU
+NÃO
+
+algoritmo "triangulos"
+var
+   L1, L2, L3: Real
+   EQ, ES: Logico
+inicio
+      Escreva("Digite o primeiro lado: ")
+      Leia(L1)
+      Escreva("Digite o segundo lado: ")
+      Leia(L2)
+      Escreva("Digite o terceiro lado: ")
+      Leia(L3)
+      EQ <- (L1 = L2) e (L2 = L3)
+      ES <- (L1 <> L2) e (L2 <> L3) e (L1 <> L3)
+      EscrevaL("O triangulo e EQUILATERO? ", EQ)
+      Escreval("O triangulo e ESCALENO? ", ES)
+fimalgoritmo
+
+algoritmo "triangulos"
+var
+   L1, L2, L3: Real
+   EQ, ES, TRI: Logico
+inicio
+      Escreva("Digite o primeiro lado: ")
+      Leia(L1)
+      Escreva("Digite o segundo lado: ")
+      Leia(L2)
+      Escreva("Digite o terceiro lado: ")
+      Leia(L3)
+      TRI <- (L1 < L2 + L3) e (L2 < L1 + L3) e (L3 < L1 + L2)
+      EQ <- (L1 = L2) e (L2 = L3)
+      ES <- (L1 <> L2) e (L2 <> L3) e (L1 <> L3)
+      Escreval("Pode formar um TRIANGULO? ", TRI)
+      EscrevaL("O triangulo e EQUILATERO? ", EQ)
+      Escreval("O triangulo e ESCALENO? ", ES)
+fimalgoritmo

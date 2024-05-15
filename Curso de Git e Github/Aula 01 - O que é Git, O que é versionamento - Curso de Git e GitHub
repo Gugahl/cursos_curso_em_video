@@ -1,0 +1,95 @@
+Git e Github:
+- Para que serve isso?
+- Git é diferente de Github
+- Git = Software de Controle de Versão
+- Github = Plataforma de Rede Social para Programadores
+
+Git
+VCS = Software de Controle de Versão
+Versionamento de Software/Código = muitas versões de uma mesma coisa
+
+Um exemplo:
+
+- index.html:
+--> organizar em pastas: site-cliente
+--> compactar o arquivos: site-cliente.zip
+--> criou outra versão do site: site-cliente-v2/v3/v4/v5/v6/v7.zip
+--> deu erro: site-cliente-deu-bosta.zip
+--> resolve o erro do cliente: site-cliente-resolvido.zip
+--> ta quase saindo: site-cliente-agora-vai.zip
+--> mudou tudo: site-cliente-mudou-tudo.zip
+--> "versão final": site-cliente-versão-final-01/02/03/04/05.zip
+
+- Criar um backup:
+--> Google Drive
+--> Dropbox
+
+- Muitos profissionais trabalhando com versões diferentes:
+--> Frontend
+--> Backend
+--> Designer
+--> Conteúdo
+
+- Cada um tem seu próprio .zip e joga todos esses .zip's no mesmo backup
+
+- Para isso serve o versionamento: Mudou uma linha? Ele sabe. Ele guarda os códigos anteriores
+  e pode te mostrar eles.
+
+- Git - Software de Versionamento (VCS)
+
+- Primeiro VCS surge em 1972
+- Antigamente existia um software que fazia um versionamento, por meio de um commit, mandando para um repositório
+  central.
+- Quando você pega uma pasta, monitora ela e manda para um repositório central a gente diz que você fez um commit.
+
+- Os primeiros softwares de versão tinham uma limitação:
+- Para você realizar um commit você tinha que ter conexão ativa
+  com o servidor constantemente, você não tinha um monitoramento do seu código se você não tivesse conexão com o
+  servidor.
+- Claro, que na década de 70/80, conexão com o servidor não significava conexão com a internet, porém hoje em dia com
+  esses softwares modernos, você tem que estar conectado por internet ou remotamente com o servidor, a depender do
+  servidor.
+- Com vários profissionais fazendo commits no servidor, o software de versionamento consegue pegar esses commits e
+  juntar todos eles em uma versão sem precisar fazer um arquivo diferente para cada um, ele sabe qual era a versão
+  anterior, a versão posterior, qual foi a diferença entre elas dentre outros
+- Esse tipo de versionamento é chamado de Linear/Centralizado
+
+- Os softwares de hoje em dia utilizam um tipo de versionamento chamado de distribuído
+- A equipe commita no repositório local, não precisando do poder de processamento do servidor, a computação evoluiu
+  e hoje em dia não precisa nem ter conexão ativa com o servidor,
+- A gente vai aprender a fazer um versionamento local de todos os arquivos que você vai ter
+- Para qualquer projeto, programa etc que você for criar, crie versionamento, para você ter uma máquina do tempo no
+  seu computador.
+- Os commits do repositório local de diversos profissionais se interligam por meio do repositório remoto, estilo
+  Google Drive que você vai jogar as versões
+- Você da um Push no repositório remoto, que é basicamente você pegar o versionamento que você tem na sua máquina e
+  jogar no repositório remoto.
+
+- Softwares Centralizados/Linear:
+- CA Software Change Manager (CCC)
+- Source Code Control System (SCCS)
+- Panvalet
+- Concurrent Version System (CVS)
+- Apache Subversion (SVN)
+- ClearCase
+- Visual SourceSafe dava muito problema
+- Perforce
+
+- Softwares Distribuídos:
+- Mercurial
+- Bazaar
+- Code Co-op
+- GNU arch
+- Monotone
+- Fossil
+- Bitkeeper
+- Git
+
+- Principais vantagens:
+- Controle de histórico
+- Trabalho em equipe
+- Ramificação do projeto
+- Segurança
+- Organização
+
+- Git != GitHub:

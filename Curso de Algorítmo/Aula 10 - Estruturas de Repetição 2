@@ -1,0 +1,289 @@
+Estruturas de Repetição 2
+Repita
+    bloco
+Ate expressão
+
+algoritmo "somadorNumérico"
+var
+    num, soma, contador: Real
+inicio
+    soma <- 0
+    contador <- 1
+    Enquanto (contador <= 10) faca
+        Escreval("Digite o ", contador, "º número: ")
+        Leia(num)
+        soma <- soma + num
+        contador <- contador + 1
+    FimEnquanto
+    Escreval("O resultado da soma foi: ", soma)
+fimalgoritmo
+
+algoritmo "somadorNumérico"
+var
+    num, soma: Real
+    resp: Caractere
+inicio
+    soma <- 0
+    resp <- "S"
+    Enquanto (resp = "S") faca
+        Escreva("Digite um número: ")
+        Leia(num)
+        soma <- soma + num
+        Escreva("Você quer continuar? [S/N]: ")
+        Leia(resp)
+    FimEnquanto
+    Escreval("O resultado da soma foi: ", soma)
+fimalgoritmo
+
+Enquanto não arrumar o quarto faca
+    castigo
+fimEnquanto
+liberado
+
+repita
+    castigo
+Ate arrumar o quarto
+
+algoritmo "SomadorRepita"
+var
+    num, soma: Real
+    resp: Caractere
+inicio
+    soma <- 0
+    Repita
+        Escreva("Digite um valor ==> ")
+        Leia(num)
+        soma <- soma + num
+        Escreva("Você quer continuar? [S/N]: ")
+        Leia(resp)
+    Ate (resp = "N")
+    Escreval("O resultado da soma foi: ", soma)
+fimalgoritmo
+
+Prática 01: Contar de 1 até 10
+algoritmo "ContagemRepita"
+var
+    contador: Inteiro
+inicio
+    contador <- 1
+    Repita
+        Escreva(contador, "... ")
+        contador <- contador + 1
+    Ate (contador = 11)
+fimalgoritmo
+
+algoritmo "TabuadaRepita"
+var
+    contador, num: Inteiro
+inicio
+    Escreva("Digite um número para ver sua tabuada: ")
+    Leia(num)
+    contador <- 1
+    Repita
+        Escreva(num, " x ", contador:2:0, " = ", (num*contador):2:0)
+        contador <- contador + 1
+    Ate (contador = 11)
+fimalgoritmo
+
+Prática 02: Números negativos
+algoritmo "numerosnegativos"
+var
+    contador, num, totalnega: Inteiro
+inicio
+    contador <- 1
+    totalnega <- 0
+    Repita
+        Escreva("Digite um número: ")
+        Leia(num)
+        Se (num < 0) entao
+            totalnega <- totalnega + 1
+        FimSe
+        contador <- contador + 1
+    Ate (contador > 5)
+    Escreval("Foram digitados ", totalnega, " números negativos.")
+fimalgoritmo
+
+Prática 03: Fatorial de um número
+algoritmo "Fatorial"
+var
+    numero, total: Inteiro
+inicio
+    total <- 1
+    Escreva("Digite um valor: ")
+    Leia(numero)
+    Escreva(numero, "! = ")
+    Repita
+        Se (numero > 0) entao
+            total <- total * numero
+        FimSe
+        Se (numero > 1) entao
+            Escreva(numero, " * ")
+        FimSe
+        Se (numero = 1) entao
+            Escreva(numero)
+        FimSe
+    numero <- numero - 1
+    Ate (numero = 0)
+    Escreva(" = ", total)
+fimalgoritmo
+
+algoritmo "Fatorial"
+var
+    numero, total: Inteiro
+    resposta: Caractere
+inicio
+Repita
+    total <- 1
+    Escreva("Digite um valor: ")
+    Leia(numero)
+    Escreva(numero, "! = ")
+    Repita
+        Se (numero > 0) entao
+            total <- total * numero
+        FimSe
+        Se (numero > 1) entao
+            Escreva(numero, " * ")
+        FimSe
+        Se (numero = 1) entao
+            Escreva(numero)
+        FimSe
+    numero <- numero - 1
+    Ate (numero = 0)
+    Escreval(" = ", total)
+    Escreva("Deseja continuar? [S/N]: ")
+    Leia(resposta)
+    LimpaTela
+Ate (resposta = "N")
+fimalgoritmo
+
+LimpaTela autoexplicativo, limpa as linhas de código
+
+algoritmo "Fatorial"
+var
+    numero, total: Inteiro
+    resposta: Caractere
+inicio
+Repita
+    total <- 1
+    Escreva("Digite um valor: ")
+    Leia(numero)
+    Escreva(numero, "! = ")
+    Repita
+        Se (numero > 0) entao
+            total <- total * numero
+        FimSe
+        Se (numero > 1) entao
+            Escreva(numero, " * ")
+        FimSe
+        Se (numero = 1) entao
+            Escreva(numero)
+        FimSe
+    numero <- numero - 1
+    Ate (numero = 0)
+    Escreval(" = ", total)
+    Escreva("Deseja continuar? [S/N]: ")
+    Leia(resposta)
+    LimpaTela
+Ate (resposta = "N")
+fimalgoritmo
+
+Prática 04: Números Primos
+algoritmo "NúmeroPrimos"
+var
+    numero, contador, divisores, numprim: Inteiro
+inicio
+    divisores <- 0
+    contador <- 1
+    numprim <- 0
+    Escreva("Digite um número: ")
+    Leia(numero)
+    Repita
+        Se (numero % contador = 0) entao
+            divisores <- divisores + 1
+        FimSe
+        contador <- contador + 1
+    Ate (contador > numero)
+    Escreva("O número ", numero)
+    Se (divisores = 2) entao
+       Escreva(" é um número primo.")
+    senao
+       Escreva(" não é um número primo.")
+    FimSe
+fimalgoritmo
+
+Exercício 01: SuperContador
+algoritmo "SuperContador"
+var
+    entrada, contador: Inteiro
+inicio
+Repita
+      contador <- 0
+      Escreval("=================")
+      Escreval("\    M E N U    /")
+      Escreval("=================")
+      Escreval("=================")
+      Escreval("/ [1] De 1 a 10 \")
+      Escreval("  [2] De 10 a 1  ")
+      Escreval("\ [3] Fechar    /")
+      Escreval("=================")
+      Escreva("")
+      Leia(entrada)
+      Se (entrada = 1) entao
+         contador <- 1
+         Repita
+               Escreva(contador, "... ")
+               contador <- contador + 1
+         Ate (contador = 11)
+         LimpaTela
+      senao
+      Se (entrada = 2) entao
+         contador <- 10
+         Repita
+               Escreva(contador, "... ")
+               contador <- contador - 1
+         Ate (contador = 0)
+         LimpaTela
+         FimSe
+      FimSe
+Ate (entrada = 3)
+fimalgoritmo
+
+Exercício 02: Escolhendo pessoas
+algoritmo "EscolhendoPessoas"
+var
+    sexo, resp: Caractere
+    idade, corcabelo, hom18cast, mul2530loir: Inteiro
+inicio
+Repita
+    LimpaTela
+    Escreval("===========================")
+    Escreval("     SELETOR DE PESSOAS    ")
+    Escreval("===========================")
+    Escreva("Qual é o sexo? [M/F]: ")
+    Leia(sexo)
+    Escreva("Qual é a idade? ")
+    Leia(idade)
+    Escreval("Qual é a cor do seu cabelo?")
+    Escreval("---------------------------")
+    Escreval("[1] Preto")
+    Escreval("[2] Castanho")
+    Escreval("[3] Loiro")
+    Escreval("[4] Ruivo")
+    Escreva("")
+    Leia(corcabelo)
+    Se (sexo = "M") e (idade > 18) e (corcabelo = 2) entao
+        hom18cast <- hom18cast + 1
+    FimSe
+    Se (sexo = "F") e (idade >= 25) e (idade <= 30) e (corcabelo = 3) entao
+        mul2530loir <- mul2530loir + 1
+    FimSe
+    Escreva("Deseja continuar? [S/N]: ")
+    Leia(resp)
+Ate (resp = "N")
+LimpaTela
+Escreval("O número de homens maiores de 18 anos")
+Escreval("e com cabelo na cor castanha foi", hom18cast, ".")
+Escreval(" ")
+Escreval("Enquanto o número de mulheres entre 25 e 30 anos")
+Escreval("e que são loiras foi de", mul2530loir, ".")
+fimalgoritmo

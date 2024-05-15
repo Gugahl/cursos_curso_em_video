@@ -1,0 +1,301 @@
+# Aula 08 - Estruturas Condicionais 2
+"""
+Se eu tiver dinheiro vou para a Disney
+Se não se eu tiver pouco dinheiro eu vou para a minha cidade natal
+Se não eu fico em casa
+"""
+
+Se eu tiver muito dinheiro entao
+    Eu vou fazer uma viagem para a Disney
+senao
+    Eu vou ficar em casa
+
+Se eu tiver muito dinheiro entao
+    Eu vou fazer uma viagem para a Disney
+senao Se eu tiver uma graninha entao
+    Eu vou fazer uma viagem para a minha cidade natal
+senao
+    Eu vou ficar em casa
+
+Se (situação 1) entao
+    Bloco A
+senao
+    Se (situação 2) entao
+        Bloco B
+    senao
+        Bloco C
+    fimSe
+fimSe
+
+# Condicional Aninhada
+Se (dinheiro >= 10000) entao
+    Escreva("Partiu Disney.")
+senao
+    Se (dinheiro >= 5000) e (dinheiro < 10000) entao
+        Escreva("Visitar familia")
+    senao
+        Escreva("#chateado")
+    fimSe
+fimSe
+
+# Prática 01: Aluno aprovado, reprovado ou em recuperação?
+
+algoritmo "Aluno"
+var
+    N1, N2, M: Real
+inicio
+    Escreva("Primeira Nota: ")
+    Leia(N1)
+    Escreva("Segunda Nota: ")
+    Leia(N2)
+    M <- (N1 + N2) / 2
+    Escreval("A média do aluno foi: ", M:4:2)
+    Se (M >= 7) entao
+        Escreval("Aluno APROVADO!")
+    senao
+        Escreval("Aluno REPROVADO!")
+fimalgoritmo
+
+algoritmo "Aluno"
+var
+    N1, N2, M: Real
+inicio
+    Escreva("Primeira Nota: ")
+    Leia(N1)
+    Escreva("Segunda Nota: ")
+    Leia(N2)
+    M <- (N1 + N2) / 2
+    Escreval("A média do aluno foi: ", M:4:2)
+    Se (M >= 7) entao
+        Escreval("Aluno APROVADO!")
+    senao
+        Se (M >= 5) e (M < 7)
+            Escreval("Aluno em RECUPERAÇÃO!")
+        senao
+            Escreval("Aluno REPROVADO!")
+        fimSe
+    fimSe
+fimalgoritmo
+
+# Prática 02: Cálculo do IMC
+IMC = Massa / (Altura ** 2)
+
+"""
+abaixo de 17: Muito abaixo do peso
+entre 17 e 18.5: Abaixo do peso
+de 18.5 a 25: Peso ideal
+de 25 a 30: Sobrepeso
+de 30 a 35: Obesidade
+de 35 a 40: Obesidade Severa
+40 ou mais: Obesidade Mórbida
+"""
+
+algoritmo "CalculoIMC"
+var
+    M, A, IMC: Real
+inicio
+    Escreva("Massa (Kg): ")
+    Leia(M)
+    Escreva("Altura (m): ")
+    Leia(A)
+    IMC <- M / (A ^ 2)
+    Escreval("IMC: ", IMC:5:2)
+    Se (IMC >= 18.5) e (IMC < 25) entao
+        Escreva("Parabéns! Você está no seu peso ideal.")
+    senao
+        Escreva("Você não está na faixa de peso ideal")
+    fimSe
+fimalgoritmo
+
+algoritmo "CalculoIMC"
+var
+    M, A, IMC: Real
+inicio
+    Escreva("Massa (Kg): ")
+    Leia(M)
+    Escreva("Altura (m): ")
+    Leia(A)
+    IMC <- M / (A ^ 2)
+    Escreval("IMC: ", IMC:5:2)
+    Se (IMC < 17) entao
+        Escreval("Muito abaixo do peso.")
+    senao
+        Se (IMC >= 17) e (IMC < 18.5) entao
+            Escreval("Abaixo do peso.")
+            senao
+                Se (IMC >= 18.5) e (IMC < 25) entao
+                    Escreval("Peso ideal.")
+                senao
+                    Se (IMC >= 25) e (IMC < 30) entao
+                        Escreval("Sobrepeso.")
+                    senao
+                        Se (IMC >= 30) e (IMC < 35) entao
+                            Escreval("Obesidade.")
+                        senao
+                            Se (IMC >= 35) e (IMC < 40) entao
+                                Escreval("Obesidade Severa.")
+                            senao
+                                Escreval("Obesidade Mórbida.")
+                            FimSe
+                        FimSe
+                    FimSe
+                FimSe
+            FimSe
+        FimSe
+fimalgoritmo
+
+Escolha (variavel)
+    Caso valor
+        Bloco A
+    Caso valor
+        Bloco B
+    Caso valor
+        Bloco C
+    OutroCaso
+        Bloco D
+FimEscolha
+
+# Prática 03: Criança Esperança
+
+algoritmo "CriancaEsperanca"
+var
+    D : Inteiro
+    Valor : Real
+inicio
+    Escreval("-------------------------")
+    Escreval("    Criança Esperança    ")
+    Escreval("-------------------------")
+    Escreval(" [1] para doar R$10 ")
+    Escreval(" [2] para doar R$25 ")
+    Escreval(" [3] para doar R$50 ")
+    Escreval(" [4] para doar outros valores ")
+    Escreval(" [5] para cancelar ")
+    Leia(D)
+    Escolha D
+        Caso 1
+            Valor <- 10
+        Caso 2
+            Valor <- 25
+        Caso 3
+            Valor <- 50
+        Caso 4
+            Escreval("Qual o valor da doação? R$")
+        Caso 5
+            Valor <- 0
+    FimEscolha
+    Escreval("-------------------------")
+    Escreval(" Sua doação foi de R$", valor)
+    Escreval("      Muito obrigado!     ")
+    Escreval("-------------------------")
+fimalgoritmo
+
+# Prática 04: Criança Esperança
+
+algoritmo "DependentesFuncionário"
+var
+    Nome : Caractere
+    Dep : Inteiro
+    Sal, NSal : Real
+inicio
+    Escreva("Qual o nome do funcionário? ")
+    Leia(Nome)
+    Escreva("Qual o salário do funcionário? ")
+    Leia(Sal)
+    Escreva("Qual a quantidade de dependentes? ")
+    Leia(Dep)
+    Escolha Dep
+        Caso 0
+            NSal <- Sal + (Sal*5/100)
+        Caso 1, 2, 3
+            NSal <- Sal + (Sal*10/100)
+        Caso 4, 5, 6
+            NSal <- Sal + (Sal*15/100)
+        OutroCaso
+            NSal <- Sal + (Sal*18/100)
+    FimEscolha
+    Escreval("-------------------------")
+    Escreval(Nome, " que ganha R$", Sal)
+    Escreval("Passará a ganhar R$", NSal)
+    Escreval("-------------------------")
+fimalgoritmo
+
+# Exercício 01: Aproveitamento de um aluno
+
+Média A-F
+A = 1000 - 900
+B = 890 - 800
+C = 790 - 700
+D = 690 - 600
+E = 590 - 500
+F = Abaixo de 500
+
+algoritmo "AproveitamentodoAluno"
+var
+    N1, N2, Media: Real
+inicio
+    Escreval("---------------------")
+    Escreval("Escola Javali Cansado")
+    Escreval("---------------------")
+    Escreva("Primeira Nota: ")
+    Leia(N1)
+    Escreva("Segunda Nota: ")
+    Leia(N2)
+    Media <- (N1 + N2) / 2
+    Se (Media <= 10) e (Media >= 9) entao
+        Escreval("Média: ", Media, " Aproveitamento: A")
+    senao
+        Se (Media < 9) e (Media >= 8) entao
+            Escreval("Média: ", Media, " Aproveitamento: B")
+            senao
+                Se (Media < 8) e (Media >= 7) entao
+                    Escreval("Média: ", Media, " Aproveitamento: C")
+                senao
+                    Se (Media < 7) e (Media >= 6) entao
+                        Escreval("Média: ", Media, " Aproveitamento: D")
+                    senao
+                        Se (Media < 6) e (Media >= 5) entao
+                            Escreval("Média: ", Media, " Aproveitamento: E")
+                        senao
+                            Se (Media < 5) entao
+                                Escreval("Média: ", Media, " Aproveitamento: F")
+                        FimSe
+                    FimSe
+                FimSe
+            FimSe
+        FimSe
+    FimSe
+fimalgoritmo
+
+# Exercício 02: Uma partida de futebol
+0 : Empate
+3 : Partida Normal
+5 : Goleada
+
+algoritmo "PartidadeFutebol"
+var
+    Time1, Time2, Diferenca : Inteiro
+inicio
+    Escreva("Quantos gols do BANGU? ")
+    Leia(Time1)
+    Escreva("Quantos gols do MADUEREIRA? ")
+    Leia(Time2)
+    Se (Time1 > Time2) entao
+        Diferenca <- Time1 - Time2
+    senao
+        Diferenca <- Time2 - Time1
+    FimSe
+    Escreval("-------------------------")
+    Escolha Diferenca
+        Caso 0
+            Escreval("Diferença: 0")
+            Escreval("Empate")
+        Caso 1, 2, 3
+            Escreval("Diferença:", Diferenca)
+            Escreval("Jogo normal")
+        OutroCaso
+            Escreval("Diferença:", Diferenca)
+            Escreval("Goleada")
+    FimEscolha
+    Escreval("-------------------------")
+fimalgoritmo
+

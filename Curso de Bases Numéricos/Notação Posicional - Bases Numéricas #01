@@ -1,0 +1,85 @@
+3785 - Sistema Decimal
+
+Por que a gente usa o sistema decimal?
+O sistema decimal utiliza a base 10, pois nós seres humanos temos
+10 dedos na mão, e com isso fica mais fácil de fazer contas.
+
+Sendo assim o número 3785 é composto por quatro algarismos:
+O algarismo 3, o algarismo 7, o algarismo 8 e o algarismo 5
+
+Porém esse 3 não vale 3, esse 7 não vale 7, esse 8 não vale 8
+e esse 5 não vale 5.
+
+Na verdade o três vale três mil, o sete vale setecentos, o oito vale oitenta
+e o cinco é o único que vale o valor que a gente ta falando que ele vale, que é
+cinco.
+
+Três mil = 3 x 1000 = 3 x 10³
+Setecentos = 7 x 100 = 7 x 10²
+Oitenta = 8 x 10 = 8 x 10¹
+Cinco = 5 x 1 = 5 x 10⁰
+3785 = 3x10³ + 7x10² + 8x10¹ + 5x10⁰
+
+Quando a gente trata de um único sistema de numeração, como você tratou até
+agora do sistema decimal, você não precisa indicar a base, pois todo número
+que você ver é em base decimal, só que para os computadores e para as redes
+de computadores é importante que você indentifique a base, pois a gente vai
+trabalhar com outras bases.
+
+Trabalhando com números nós estamos trabalhando com casas, na matemática tra-
+-dicional cada casa é uma potência de 10, logo o sistema é decimal, a cada
+casa que você vai para a esquerda aumenta em 1 a potência.
+
+Em exemplo do número 3785:
+Começando pelas UNIDADES: 5
+Depois temos as DEZENAS: 8
+E depois tem as CENTENAS: 7
+E por último as UNIDADES DE MILHAR: 3
+
+Isso só funciona para a Base Decimal
+
+Quanto mais casas tivermos maior será o valor do número
+
+O valor atribuído a cada algarismo dentro de um número é chamado
+Notação Posicional.
+
+Notação Posicional: Cada posição de um digito, cada posição de um algarismo
+tem um valor diferente dentro de um número.
+
+Os computadores usam o Sistema Binário
+
+O programador faz a ponte entre o sistema decimal que é o que o ser humano
+entende para o sistema binário que é o sistema que os computadores entendem.
+
+O Sistema Decimal tem 10 números:
+0, 1, 2, 3, 4, 5, 6, 7, 8 e 9.
+
+O Sistema Binário tem 2 dígitos:
+0 e 1.
+
+Computadores funcionam por meio de sinais elétricos, e sinais elétricos só
+possuem 2 fases ligado e desligado.
+
+Aprendendo a contar:
+Contar é uma sequência de combinações, primeiro usamos só as unidades, depois
+usamos as dezenas, quando acaba as dezenas, usamos as centenas etc.
+
+0 - 0
+1 - 1
+2 - 10
+3 - 11
+4 - 100
+5 - 101
+6 - 110
+7 - 111
+8 - 1000
+9 - 1001 = 1 (2x2x2) + 0 x (2x2) + 0 x 2 + 1 x 1 = 8 + 0 + 0 + 1 = 9
+10 - 1010
+11 - 1011 = 1 x (2x2x2) + 0 x (2x2) + 1 x (2) + 1 x 1 = 8 + 0 + 2 + 1 = 11
+12 - 1100
+13 - 1101
+14 - 1110
+15 - 1111
+16 - 10000
+
+Enquanto na Base Decimal é usada potência de 10, na Base Binária é usada a potência de 2.

@@ -1,0 +1,42 @@
+O que é GitHub? Pra que ele serve? - Curso de Git e GitHub
+- Git != GitHub
+
+VCS Distribuído:
+- Equipe de programadores, cada um na sua casa(home office)
+- Um é designer, outro frontend, outro backend, todo mundo trabalhando no projeto, cada um na sua ramificação.
+- Eles commitam direto em seus repositórios locais e depois dão push direto para o repositório remoto.
+- Git é o repositório local
+- Toda vez que você commita no repositório local ele vai salvar na sua máquina o estado, ele simplesmente vai
+  salvar a diferença de um arquivo para o outro.
+- Se você tem um HTML já salvo no repositório que possui 200 linhas, e você cria mais 10 linhas, o commit no
+  repositório não vai ser de 210 linhas, e sim das 10 linhas novas, e se você quiser voltar para o estado a-
+  -nterior á criação dessas 10 linhas você consegue.
+- GitHub é o repositório remoto.
+- GitHub é um ambiente que além de você subir código, você consegue colaborar com o código dos outros, você
+  consegue testar o código dos outros e dizer quais são as ISSUES, quais são as necessidades, quais são os
+  problemas que você identificou, você pode pegar uma issue de outra pessoa ou pegar sua própria issue e su-
+  -gerir alterações, é uma grande comunidade, você pode conhecer novos programadores.
+- GitHub.com/gustavoguanabara
+- Você pode criar seu repositório, participar de outros repositórios, conheça as entranhas de opensource(Git
+  Linux, WordPress etc), no seu perfil você consegue habilitar coisas como hospedagem de site simples, pode habilitar para que ele encontre
+  oportunidades de vagas de emprego.
+
+GitHub:
+- Repositórios Ilimitados
+- Hospedagem de código fonte
+- Características de rede social
+- GitHub Pages integrado
+- Colaboração
+- Forks
+
+Só existe o GitHub?:
+- GitLab
+- Bitbucket
+- Phabricator
+- Gogs
+- kallithea
+
+Git = Repositório local
+GitHub = Repositório remoto
+
+Criando seu perfil no GitHub:
