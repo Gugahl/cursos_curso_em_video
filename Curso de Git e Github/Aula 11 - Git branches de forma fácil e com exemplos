@@ -7,5 +7,5 @@ haverá mudanças no código principal (Master), isso
 previne erros e facilita na hora de consertar bugs 
 
 Depois que todos os testes da Branch funcionarem
-você da um Merge dentro da Branch que vai misturar o código
-da branch com a master
+você da um Merge dentro da Branch que vai misturar
+o código da branch com a master
