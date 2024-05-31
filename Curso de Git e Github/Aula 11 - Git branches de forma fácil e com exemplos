@@ -1,0 +1,11 @@
+Branch - Ramificações
+Master - Ramo principal exemplo: v4.0
+Origin - Repositório remoto GitHub
+
+Quando você for commitar, commite na branch e não 
+haverá mudanças no código principal (Master), isso
+previne erros e facilita na hora de consertar bugs 
+
+Depois que todos os testes da Branch funcionarem
+você da um Merge dentro da Branch que vai misturar o código
+da branch com a master

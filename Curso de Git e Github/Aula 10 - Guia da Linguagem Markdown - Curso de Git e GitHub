@@ -27,4 +27,27 @@
 - Listas de Tarefas: - [ ] Criar página principal
 -                    - [ ] Criar página da loja
 -                    - [ ] Finalizar a reunião com o cliente
--                    - [ ]
+-                    - [ ] Receber pagamento
+- Listas de Tarefas Feitas: - [x] Criar página principal
+- Links: [Acesse meu GitHub](https://github.com/Gugahl)
+- Tabelas: Num | Nome | Nota
+           ---|---|---
+           1 | Gustavo | 8.5
+           2 | Maria | 10.0
+           3 | José | 9
+- Código:
+```
+num = int(input("Digite um valor: "))
+if num % 2 == 0:
+  print(f"O valor {num} é PAR")
+else:
+  print("O valor {num} é ÍMPAR")
+```
+- Emoji: :vulcan_salute:
+         :hand:
+         github.com/ikatyang
+         repositório emoji-cheat-sheet
+- Marcar pessoas: @usuário
+- Responder pessoas: > comentario
+                     Muito legal sua postagem!
+
