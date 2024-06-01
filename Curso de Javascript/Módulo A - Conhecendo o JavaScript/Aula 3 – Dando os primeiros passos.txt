@@ -1,0 +1,40 @@
+Você consegue responder essas perguntas?
+/* Q01
+Sabe que empresa criou o Javascript?
+*/
+Netscape
+
+/* Q02
+Java e Javascript tem alguma relação?
+*/
+Além de serem derivadas do C, não tem mais nada
+
+/* Q03
+O que ECMAScript tem a ver com Javascript?
+*/
+O ECMAScript padronizou o Javascript
+
+/* Q04
+Sabia que o programa WhatsApp desktop é criado em Javascript?
+*/
+Sim
+
+`${Primeiros Passos JS}`
+
+- Não da para aprender programação só assistindo vídeos
+- Você só aprende praticando
+
+Como aprender?
+- Assistindo vídeos
+- Codando
+- Ler conteúdos
+--> Livros
+    - Javascript: O Guia Definitivo
+    - Javascript: Guia do Programador
+--> Sites
+    - Guia de referência da Mozilla
+    - Guia de referência da ECMA
+- Anotações
+- Converse com outras pessoas
+- Pense em projetos próprios
+

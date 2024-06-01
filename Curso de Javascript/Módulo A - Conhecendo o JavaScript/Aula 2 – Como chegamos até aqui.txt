@@ -1,0 +1,93 @@
+Você consegue responder essas perguntas?
+/" Q01
+Sabe a diferença entre um cliente e um servidor para a internet? "/
+R - O cliente solicita arquivos para o servidor
+O servidor guarda e manda os arquivos para o cliente
+
+/" Q02
+Para que serve o HTML, CSS e JavaScript? 
+"/
+R - HTML serve para manipular o conteúdo
+CSS serve para estilizar o site
+JavaScript serve para fazer as interações com o site
+
+/" Q03
+Cite 4 sites que fazem uso do JavaScript? 
+"/
+R - YouTube, Google, G1, Netflix
+
+JavaScript e Java são a mesma coisa?
+São diferentes?
+Por que tem um script no final de um?
+JavaScript e ECNOScript, tem alguma relação?
+O que é esse ECNOScript?
+
+`${Evolução JS}`
+Linha do tempo:
+1960: 
+- Guerra Fria
+- URSS lançou primeiro satélite artificial (Sputinik)
+1970:
+- Primórdios da Internet
+- Presidente Militar Dwight Eisenhower decreta uma agência de pesquisa tecnológica (DARPA), que tinha como objetivo pesquisar tecnologia para guerra
+- Uma dessas tecnologias envolvia a segurança dos centros militares, centro militar na época tinham computadores com dados, que se fossem destruídos se perderiam, a idéia da DARPA era criar uma rede para proteger esses dados, onde um centro militar se comunicaria com outro e caso um fosse atacado, os dados de um estavam dentro de outro, então a gente perdia só a parte física, não os dados, essa rede foi chamada de Arpanet, uma rede gerenciada pelo governo e pelos militares, mas tinha também universidades dentro, 2 que se destacaram foi a Universidade da Califórnia e o Departamento do MIT, essa rede teve um crescimento gigante, até que chegou um momento que os militares e o governo não estavam dando conta, já que era enorme, e também se juntaram outras redes a ela, e foi nesse momento que ela mudou de nome várias vezes, e o último nome que ficou foi Internet.
+- Os anos se passaram, a internet sofreu várias atualizações, vários crescimentos, novas tecnologias que surgiram
+1993:
+- Em Genebra, um inglês chamado (Tim Berners-Lee) TBL, foi responsável pela criação de uma tecnologia que a gente tem até hoje, e é muito importante no nosso dia a dia, ele pesquisou um meio de transformar o conteúdo em algo mais interativo através de ligações entre documentos, surgiu então o HTML e o protocolo HTTP, que se juntou ao conjunto de protocolos TCPIP que fazia parte da internet, e também fundou a World Wide Web, a (www) que a gente usa até hoje, basicamente quando você abre o navegador e digita www, você está usando uma tecnologia criada por TBL, em 1993, que trabalha no CERN, organização européia para pesquisa nuclear
+- Para navegar na web precisa de um navegador, e foi nesse ano que surgiu o Mozake, criado pelo NCSA, Centro Nacional de Aplicações de Super Computadores, criado pelo pesquisador Mark Anderson, o Mozake foi um navegador muito importante para a indústria e evolução da tecnologia, pois foi ele o primeiro, adaptado de um interpretador de Golfer, protocolo anterior ao HTTP, que funcionava com Golfer e HTTP e também mostrava páginas web
+1994:
+- Mark Anderson sai da NCSA, e se junta com o bilionário fundador da Silicon Graphics, Dim Clark, Dim Clark tinha contato com esse negócio de internet e falou que ia abrir uma empresa disso, se juntou ao Mark Anderson e fundaram a Netscape, e criaram um navegador baseado no Mozake, que rapidamente se tornou o navegador mais usado, eles colocavam nomes engraçadinhos nos projetos, um dos projetos dele homenageava o Monstro Godzilla, e assim surge o Mozilla
+1995:
+- O HTML era uma linguagem muito estática
+- Brandom Nike sai da Silicon Graphics e vai para a Netscape, era um dev que tinha o trabalho de criar uma linguagem que desse mais funcionalidades ao HTML, e assim surge o Moca/LiveScript
+- Na mesma época surge o JAVA, que ganhou um sucesso enorme na mídia, que estava chamando a linguagem de linguagem do futuro, se o nome JAVA faz sucesso, nós não vamos chamar nossa linguagem de LiveScript, nós vamos chamar ela de JavaScript, e assim surge o nome JavaScript, que não vem por conta de uma derivação do JAVA, e sim por que o JAVA estava fazendo sucesso na época e para surfar no hype colocaram esse nome
+- Alguns comandos de JAVA e JavaScript se parecem, pois as duas foram derivadas do C, mas são linguagens totalmente diferentes
+- Microsoft cria um navegador com o código base do Mozake, o Internet Explorer, e precisa de uma linguagem, vendo o Javascript fazendo sucesso eles criam o JScript
+1997:
+- Netscape vendo a pachorra da Microsoft de criar uma linguagem igual em nome e funções, padronizou a linguagem, eles foram atrás de uma empresa de padronização, a ECMA, a Associação Européia de Fabricantes de Computadores
+- Com a Netscape cedendo o Javascript para a ECMA fazer a padronização que surgiu a linguagem ECMAScript, que basicamente é o Javascript padronizado
+- Logo hoje em dia toda vez que você estuda Javascript, você estuda ECMAScript junto
+2002:
+- Encerramento da briga Microsoft x Netscape, foi uma briga enorme, já que o Internet Explorer era imbutido no Windows 95, o que fez ele ter um crescimento avassalador já que todos os computadores que eram comprados já vinham de fábrica com o Internet Explorer, e com isso a Netscape fale
+- Após falir, os funcionários da Netscape se juntam em uma fundação e dão a ela o nome de um de seus projetos antigos, e assim surge a mozilla, que não desistiu de fazer navegadores, que passou por uma repaginada e virou o Firefox
+- o Mozilla Firefox até ganhou uma notoriedade, mas nunca chegou a ser o maior navegador usado
+2008:
+- Criação do Google Chrome, que nos primeiros dois anos de vida se tornou o 3 maior navegador do mundo, hoje em dia ele é o navegador mais usado do mundo, com mais de 50% do mercado
+2009:
+- V8: Motor do Google Chrome, que rodava Javascript
+- Spider Monkey: Mozilla Firefox
+- Nitro: Safari
+- Karakan: Opera
+- Chakra: Microsoft Edge
+- A grande vantagem do V8 do Google Chrome, que tornou ele muito importante, é que ele gerava código JiT (Just in Time), outra vantagem é que o V8 é código aberto e qualquer um pode mecher 
+2010:
+- Inclusive um grupo pega o V8, meche e faz a transformação, o V8 só rodava se tivesse o Google Chrome, mas ele é código aberto, logo eu posso adaptar para ele funcionar fora do Google Chrome, assim surge o Node.js
+- o NODE.JS é uma máquina que roda Javascript fora do navegador
+- Javascript foi feito para o cliente, e roda dentro do navegador
+- o Node.JS foi uma das grandes iniciativas que popularizou a saída do Javascript do navegador, e foi para os servidores
+
+O ECMAScript
+- 1997: 1.0
+- 1998: 2.0
+- 1999: 3.0
+- 2009: ES5 Compatível com .json/Tratamentos de arrays
+- 2015: ES6 Strings/Templates
+- 2016: ES2016 Operador de exponenciação
+- 2017: ES2017 Funções assíncronas
+- 2018: ES2018 Expressões regulares
+
+Tecnologias que usam Javascript
+- jQuery
+- Angular
+- React
+- Vue
+- Electron
+- Ionic
+- Cordoba
+
+Jogos
+- Phaser
+- PixiJS
+- Impact
+- Melon.JS
+- CraftyJS

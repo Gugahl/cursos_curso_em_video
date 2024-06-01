@@ -1,0 +1,84 @@
+Mudou o plano de fundo da home do Google de branco para preto com um comando, apertando um botão;
+
+Mudou o tema da logo do Google de colorido para preto e branco;
+
+Sumiu a logo do Google;
+
+`${O que faz o JavaScript?}`
+JavaScript faz praticamente tudo
+
+Conceito bastante importante
+
+Client x Server
+Cliente x Servidor
+
+Clientes = PC/Smartphone
+Servidor = Youtube
+
+O cliente entra na web por meio de um navegador (Chrome), que usa as urls para navegar dentro da estrutura da internet e ela vai te responder para qual servidor você vai ser enviado;
+
+De maneira geral, a infraestrutura da internet vai chegar em um determinado servidor, esse servidor é parecido com a sua máquina, ele tem um sistema operacional, e ele tem pastas (diretórios) internos, dentro dessa pasta ele tem arquivos, que podem ser fotos, texto, vídeo (como no meu caso agora), e na maioria das vezes é um documento html, quando você solicita para um servidor ele vai te enviar uma cópia, ele vai pegar o arquivo html e te enviar uma cópia, essa cópia é enviada para o cliente, por meio do navegador web, o navegador a partir dai vai começar a trabalhar para gerar o efeito visual, para gerar o site;
+
+De uma maneira bem resumida a web funciona assim:
+
+Parte de cima: Cliente (você), o que o cliente quer é um bando de arquivos que estão nos Servidores;
+
+JavaScript é uma tecnologia clientside, ou seja, JavaScript funciona muito mais do lado do cliente;
+
+Ele também funciona para o servidor, mas ele surgiu focado no cliente;
+
+Tecnologias relacionadas ao JavaScript
+Geralmente um site é composto por 3 tecnologias do lado do cliente:
+Considere um site como um jornal
+Para existir um jornal você precisa de alguns profissionais
+
+Jornalista:
+Conteúdo
+Escrever texto
+Imagens
+Vídeo
+
+Designer:
+Organizar cores
+Organizar tamanhos
+Dimensionar formatos
+
+Programador:
+Em que áreas a gente precisa entregar os jornais
+Configurações de cada uma das coisas da entrega
+A segurança da entrega do jornal
+
+
+Conteúdo, Design, As interações
+Jornalista - HTML
+Designer - CSS
+Programador - JavaScript
+
+A jornalista foi chamada para fazer uma reportagem
+Ela começa colocando o título
+Ela produziu a reportagem e gerou os parágrafos, texto, organizou
+A produção de texto é o que a gente chama de HTML, a tecnologia HTML para a criação de sites foca basicamente nos textos e nas marcações que existem nesse texto, ela pode criar marcas específicas para transformar aquele texto de cima em título, colocar imagens, nada de boniteza, o objetivo é entregar o conteúdo
+
+A Jornalista - HTML entrega o conteúdo na mão do Designer - CSS
+O Designer vai pegar esse conteúdo e organizar para deixar o site mais bonito e agradável, vai deixar o texto arrumadinho entre outros
+Ele pode diminuir a reportagem
+Trocar cores
+Colocar bordas
+
+O Designer entrega o Design na mão do Programador que faz as interações com o site
+Faz um texto aparecer caso o usuário passe o mouse sobre uma imagem
+Faz uma imagem ampliar caso o usuário aperte nela
+
+O JavaScript permite você mudar quase tudo, até mesmo modificar o HTML e o CSS
+
+HTML e CSS não são linguagens de programação e sim tecnologias de construção de sites
+
+JavaScript é uma linguagem de programação
+
+Quem usa JavaScript?
+Google, Youtube, Linkedin, Netflix, Facebook e 90% dos sites atuais
+
+Mão na massa
+Google sem JavaScript é o Google antigo
+O YouTube não roda sem JavaScript
+O Instagram não roda sem JavaScript
