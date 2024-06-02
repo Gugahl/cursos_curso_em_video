@@ -1,0 +1,19 @@
+Módulo A: 
+Conhecendo o Javascript: 
+Evolução;
+Instalações;
+Primeiros scripts;
+
+Módulo B: 
+Comandos Básicos:
+Armazenando dados;
+Tratamento de dados;
+Tipos primitivos
+Operações com dados;
+
+5 dicas:
+- Não pule aulas
+- Anote tudo
+- Duas telas
+- Pratique
+- Compartilhe

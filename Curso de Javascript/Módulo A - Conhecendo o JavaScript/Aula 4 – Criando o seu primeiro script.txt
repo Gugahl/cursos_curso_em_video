@@ -1,0 +1,39 @@
+/* Q01
+Que livros/documentos nós recomendamos?
+*/
+--> Livros
+    - Javascript: O Guia Definitivo
+    - Javascript: Guia do Programador
+--> Sites
+    - Guia de referência da Mozilla
+    - Guia de referência da ECMA
+
+/* Q02
+Para aprender JS, precisamos saber Inglês?
+*/
+Não
+
+/* Q03
+Que dica nós demos para quem quer estudar?
+*/
+- Assistindo vídeos
+- Codando
+- Ler conteúdos
+--> Livros
+    - Javascript: O Guia Definitivo
+    - Javascript: Guia do Programador
+--> Sites
+    - Guia de referência da Mozilla
+    - Guia de referência da ECMA
+- Anotações
+- Converse com outras pessoas
+- Pense em projetos próprios
+
+
+/* Q04
+Quais programas nós instalamos no computador?
+*/
+VSCode, Chrome e NODEJS
+
+`${Nossos Primeiros Scripts}`
+

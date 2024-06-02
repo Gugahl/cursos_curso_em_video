@@ -1,0 +1,94 @@
+/* Q01
+Já sabe organizar suas pastas com VSCode?
+*/
+Sim
+
+/* Q02
+O Node.js está instalado no seu computador?
+*/
+Sim
+
+- Você sabe para que serve o Node.js?
+Para codar Javascript fora do navegador
+
+/* Q03
+Sabe diferenciar HTML5, CSS3 e JS dentro de um código?
+*/
+Sim
+
+/* Q04
+Já sabe disparar alertas, confirmações e perguntas?
+*/
+Sim, alert(""), confirm("") e prompt("")
+
+`{Tipos de Dados e Variáveis}`
+
+window.alert("")
+window.confirm("")
+window.prompt("")
+
+Os dados se perderam, pois não foram salvos na memória
+
+Comentários: 
+// uma única linha
+/* 
+mais de uma linha de código
+*/
+
+Variáveis:
+- Você tem um terreno
+- Você quer transformar esse terreno em um estacionamento, isso é você quer receber automóveis para ficarem estacionados no seu terreno
+- Se você começar a colocar carros loucamente dentro desse terreno, daqui a pouco tudo vai estar uma bagunça, e pior, não consegue tirar os primeiros carros que colocou
+- O que você faz para evitar isso? Delimita vagas para cada automóvel dentro do estacionamento, essas vagas, são uma marca física, de onde os carros vão parar
+- As vagas tem nomes para sua identificação: ex(a1, a2, a3...)
+- Tem as vagas menores, para motocicletas, ex(m1, m2, m3...)
+- Tem as vaga maiores, para caminhões, ex(c1, c2, c3...)
+
+Como funciona?
+
+vaga a1 = carro1
+= recebe
+
+vaga a1 = carro2 // isso é possível?
+Sim, mas antes o carro1 precisa ser retirado
+
+vaga a1 = null
+não existe nada dentro da vaga a1
+
+Relacionando com computadores:
+O terreno será a memória
+Os carros serão os dados
+As vagas serão as variáveis
+
+var n1 = 5
+var n2 = 8.5
+var n3 = 15
+Atribuição
+
+var s1 = "Javascript"
+var s2 = "Curso em Vídeo"
+var s3 = "Guanabara"
+
+Existem 3 tipos de aspas no Javascript
+Aspas duplas
+Aspas simples (Apostrofo)
+Crase
+
+Nomes de variáveis são chamados de Identificadores
+Regras:
+- Podem começar com letra, $ ou _
+- Não podem começar com números
+- É possível usar letras ou números
+- É possível usar acentos e símbolos
+- Não podem conter espaços
+- Não podem ser palavras reservadas ex(function, alert, var...)
+
+Dicas:
+- Maiúsculas e minúsculas fazem diferença
+- Tente escolher nomes coerentes para as variáveis
+
+Tipos primitivos
+- Int: Números inteiros
+- Float: Números com casas decimais
+- Booleanos: True/False
+- Strings: Tudo entre aspas
