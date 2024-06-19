@@ -1,0 +1,84 @@
+- Curso Acadêmico de Fundamentos de Redes de Computadores e Internet
+
+- Internet
+-- Conceitos
+-- Como surgiu
+-- As tecnologias
+--- Endereçamento IP
+---- Protocolo IPv4
+--- Classes IP
+--- Endereço MAC
+-- Onde surgiu
+
+- Como se conectar a internet
+-- Formas de conexão
+-- Provedores de acesso
+-- Portas
+-- Links
+-- Correio eletrônico
+
+- Formato de endereçamento de sites
+-- Protocolos
+-- Portas de comunicação
+-- WW (World Wide Web)
+-- HTTP (Hyper Text Transfer Protocol)
+-- FTP
+-- DNS
+-- HTTPS
+-- URL (Uniform Resource Locator)
+
+- Domínios
+-- Navegadores (Browser)
+-- Internet
+-- Intranet
+-- Extranet
+
+- Componentes de um navegador
+-- Barra de ferramentas
+
+Conceitos e funções válidas para todos os marcadores
+
+- Redes de computadores
+-- Classificação por modelo computacional
+--- Redes/Arquitetura ponto a ponto
+--- Rede/Arquitetura Cliente Servidor
+--- Servidores
+
+-- Classificação por abrangência
+--- PAN (Personal Área Network)
+--- LAN (Local Área Network)
+--- CAN (Campus Área Network)
+--- MAN (Metropolian Área Network)
+--- WAN (Wide Área Network)
+
+-- Classificação por topologia
+--- Topologia física
+--- Topologia ponto a ponto
+--- Topologia multiponto
+
+- Meios de transmissão
+-- Par trançado
+--- UTP (Unshielded Twisted Pair)
+--- STP (Shielded Twisted Pair)
+
+-- Cabo direto
+--- Cabo crossover
+
+- Equipamentos e rede
+-- Equipamentos passivos
+--- Patch panel
+--- Tomada de superfície
+--- Patch cord
+--- Device cord
+
+-- Equipamentos ativos
+--- Transcriptor/Transceiver
+--- Repetidor
+--- Hub (Concentrador)
+--- Switch (Comutador)
+--- Bridge (Ponte)
+--- Roteador
+--- Gateway
+
+- Protocolos
+-- Principais protocolos e portas

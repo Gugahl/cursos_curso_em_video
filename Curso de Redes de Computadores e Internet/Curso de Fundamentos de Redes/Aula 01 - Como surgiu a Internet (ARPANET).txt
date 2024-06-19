@@ -1,0 +1,36 @@
+Internet - Interconexão + Rede (Network)
+
+- A Internet são várias rede interconectadas trocando informações
+
+- Internet é a grande rede que abrange o mundo todo assim como uma rede que abrange apenas 2 casas
+
+- Surge nos Estados Unidos com propósitos militares
+
+- Na época da Guerra Fria a internet foi criada para criar, desenvolver e facilitar o desenvolvimento de novas tecnologias a fim dos Estados Unidos ganharem a Guerra Fria, onde o contexto era EUA x URSS
+
+- Eles procuravam proteger as informações secretas que eles tinham, assim como proteger os projetos de danos físicos, como uma ataque a um polo tecnologico/base militar, que iria destruir o hardware, porém com a conexão de redes a informação estaria salva na rede que poderia ser acessada por outras bases
+
+- Eles também queriam uma maneira de propagar as informações de uma maneira mais rápida até os cientistas e eles conseguissem desenvolver tecnologia mais rápido
+
+- Primeiro nome da internet foi ARPANET, criada pela DARPA (Defense Advanced Research Projects Agency), a função dessa agencia era criar e desenvolver novas tecnologias. Era um modelo de troca e compartilhamento de informações que permitisse a descentralização das mesmas
+
+- Logo, o email surgiu primeiro, uma forma de enviar mensagem entre os polos. Depois que veio a internet
+
+- Passou a ser usada por universidades para desenvolver pesquisas acadêmicas
+
+- Nos anos 90 a internet se torna comercial, por conta do WWW
+
+- Quando você fala que vai entrar na internet você esta errado
+
+- Internet é a parte física: Equipamento, cabo, roteador, switch...
+
+- Internet é Hardware, Web é Software
+
+- Internet é a infraestrutura
+- WWW foi a plataforma para subir conteúdo
+- Tim Bernes Lee (Criador da World Wide Web)
+- WWW permite que as pessoas do meio acadêmico colocasse conteúdo no computador, e esse conteúdo fosse compartilhado para qualquer pessoa que tivesse acesso a rede sem restrição
+- Ele teve alguns problemas
+- Ele criou a plataforma para subir conteúdo (Texto, Imagem etc), mas não tinha uma linguagem que pudesse desenvolver material para poder subir nessa plataforma, assim foi criado o HTML, também pelo Tim Bernes Lee
+- Ele criou a plataforma, ele criou a linguagem, mas ele não tinha como levar esse conteúdo para o usuário, ai ele cria o protocolo HTTP, que tinha a função de pegar as informação dos servidores, dos computadores do WWW e levar até o usário
+- Ele criou a plataforma, a linguagem e o protocolo, mas ele não tinha como mostrar esse conteúdo para o usuário, ai ele cria o navegador Mosaic

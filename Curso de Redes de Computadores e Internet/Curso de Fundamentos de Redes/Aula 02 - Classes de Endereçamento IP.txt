@@ -1,0 +1,24 @@
+Endereço IP (Internet Protocol)
+
+- Os IPs eles constituem recursos que podem ser utilizados na identificação de (microcomputadores) computadores de mesa, que acessam a rede. Em resumo, é uma identificação (lógica), é como o cpf/identidade, dada aos computadores e dispositivos na rede. Ele é formado por 4 números separados por pontos:
+
+
+- IPv4: Cada número é chamado de octeto, já que o computador só entende 0s e 1s e se chama octeto, pois é obrigatório que tenha oito números binários ali
+
+-- Base Decimal:   192.168.0.1    Classe C
+-- Base Binária:   11000000.10101000.00000000.00000001
+
+- Classes IP 
+-- Cinco classes de IP: A, B, C, D, E, determinadas pelo primeiro número
+--- A: 0 a 127 - 128 (Quantas redes possíveis)
+--- B: 128 a 191 - 64 
+--- C: 192 a 223 - 32
+--- D: 224 a 239 - 16
+--- E: 240 a 255 - 16
+--- A, B, C - Utilizadas pela internet
+
+-- Características
+--- Os IPs só pode utilizar valores entre 0 e 255;
+--- Nenhum IP começa com 0;
+--- A rede 127 (local host) é um endereço de retorno (Loopback);
+--- As classes D e E são utilizadas para Multicast e testes de novas
