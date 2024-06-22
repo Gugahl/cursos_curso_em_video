@@ -1,0 +1,27 @@
+Modem vem com as configurações do provedor de internet
+Modem vem com senha para usuários normais não mecherem
+Você pode resetar, mas perde as configurações e não vai
+ter mais acesso a internet
+Qual a solução? Comprar um roteador
+Configurando um roteador
+Cabo Ethernet amarelo, na porta amarela do MODEM (Switch),
+de onde sai a internet para a porta azul do Roteador (Internet),
+ou porta de roteamento
+Quando você pluga Switch Switch não acontece nada, você tem que
+plugar Switch Roteamento
+
+Ethernet 10mbps
+Fast Ethernet 100mbps
+Gigabit Ethernet 1 000mbps
+10 Gigabit Ethernet 10.000mbps
+
+Atenção ao comprar um roteador, veja se o cabo aguenta todo o
+potencial do roteador
+
+O que acontece? O cliente compra um plano bom e um roteador fraco
+O roteador não é capaz de suprir o plano e acaba limitando a velocidade
+
+Modem é feito para 2 3 aparelhos, roteador consegue muito mais aparelhos
+IPV4 IP do computador
+Gateway Padrão IPV4 IP do MODEM
+
