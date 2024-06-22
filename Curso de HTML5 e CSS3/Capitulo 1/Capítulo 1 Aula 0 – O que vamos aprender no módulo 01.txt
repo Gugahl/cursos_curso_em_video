@@ -1,0 +1,69 @@
+O que vamos aprender nesse módulo?
+
+- Primeiro passos
+
+- Evolução da internet
+-- De onde surgiu
+-- Quais são as evoluções
+-- O que são protocolos
+-- Como eles surgiram
+-- Como era a infraestrutura dos protocolos
+-- A infraestrutura da rede
+
+- Como a internet funciona
+
+- Como funcionam os protocolos
+
+- Como funcionam os pacotes
+-- Como vai pacote
+-- Como volta pacote
+
+- Diferença entre domínio e hospedagem
+
+- Diferença entre backend e frontend
+
+- Quais as diferenças entre as linguagens HTML, CSS e Javascript
+-- HTML e CSS são línguagens, mas não podem ser denominadas de linguagens de programação
+-- Javascript pode ser considerada linguagem de programação
+
+- Organizar o ambiente
+-- Instalar o VSCode
+-- Instalar o Google Chrome
+--- O porque de utilizar o Google Chrome
+--- Quais os pluguins/extensões do Google Chrome que serão necessários
+
+- Como funciona a estrutura básica de um documento HTML
+-- Como o VSCode nos ajuda a criar essa estrutura básica
+--- Por que que cada comando tem que ta ali naquela posição
+--- Qual a diferença de maiúsculas para minúsculas
+
+- Aprender a trabalhar com textos
+-- Textos grandes
+-- Símbolos
+-- Emojis
+-- Hierarquia de títulos
+-- Semântica
+
+- HTML só organiza texto, quem estiliza é o CSS
+
+- Aprender a trabalhar com links e âncoras
+
+- Aprender a trabalhar com multimídia
+-- Imagens
+--- Flexíveis
+--- Adaptáveis
+
+-- Aúdio
+
+-- Vídeo
+--- Qual a diferença entre colocar um arquivo de vídeo no nosso servidor e colocar fora, utilizando YouTube por exemplo
+---- Vantagens e Desvantagens
+
+- Aplicação de estilização nas CSS
+-- Como criar um estilo CSS in line
+-- Como criar seletores utilizando CSS interno
+-- Como eu uso CSS externos
+--- Quais Vantagens e Desvantagens
+--- Em que momento eu uso o interno, em que momento eu uso o externo
+
+- CSS são a forma do conteúdo e a HTML é o conteúdo em si
