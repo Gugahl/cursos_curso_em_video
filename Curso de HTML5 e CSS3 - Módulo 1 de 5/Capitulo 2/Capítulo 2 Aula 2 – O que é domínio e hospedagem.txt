@@ -1,0 +1,51 @@
+Outras pessoas vão ver meus sites?
+
+- Vários pontos clientes, um servidor e um DNS 
+- Situação 1: Guardado no servidor
+-- Digitar um endereço: ex: gustavoguanabara.github.io
+-- Manda para o DNS
+-- DNS retorna o IP
+-- Tu entra no servidor e tem acesso ao conteúdo
+
+- Situação 2: Guardado no meu PC
+-- Você guarda o HTML e o CSS no seu PC
+-- Você é o cliente e só você pode acessar o conteúdo
+-- Você não consegue dar acesso para outras pessoas através do IP, pois sua máquina não é um servidor
+-- Como não tem um endereço, eu não tenho como acessar o DNS, como não acessa o DNS, não acessa o IP
+-- Sendo assim nenhum outro cliente pode acessar o site
+
+- Situação 3: Guardado em outro PC
+-- Mesma situação da situação 2
+
+Só funciona se estiver no servidor e tiver um endereço
+
+- A URL é a ponte, que acessa o DNS para te dar o IP do servidor, o DNS retorna o IP e tu entra no servidor e tem acesso ao conteúdo
+
+- Para ter uma URL você tem que ter um domínio
+- Você precisa de um servidor, um lugar para hospedar o conteúdo, a hospedagem
+
+- Domínio 
+-- Nome único, não se tem dois domínios iguais
+-- Pago anualmente
+-- URL - Uniform Resource Locator
+-- www.github.com/gustavoguanabara
+-- www - Subdomínio
+-- github.com = Domínio
+-- .com = TLD
+-- TLDs (Top Level Domains)
+-- GPLD (Generic)
+-- com (Instituição Comercial)
+-- edu (Instituição Educacional)
+-- gov (Instituição Governamental)
+-- store (Loja)
+-- CCPLD (Country Code)
+-- /(...) Caminho
+-- gustavoguanabara.github.io
+-- github.io = Domínio
+-- io = GPLD
+-- gustavoguanabara = Subdomínio
+
+- Hospedagem
+-- Espaço para armazenar arquivos
+-- Paga mensalmente
+-- Espaço, memória, recursos

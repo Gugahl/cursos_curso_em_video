@@ -1,0 +1,21 @@
+Front-end, Back-end e Fullstack
+
+front-end
+- client-side = Lado do cliente (HTML, CSS e JS)
+
+- dev front-end != designer
+- front focado na experiência do usuário
+
+back-end
+- server-side = Lado do servidor (php, JS, C#, Python, Ruby, JAVA)
+
+- php
+-- Cliente quer entrar na loja online
+--- Cliente faz uma solicitação para o servidor
+---- Site estático retorna somente o front, não tendo features como o estoque por exemplo
+---- Hoje, as informações ficam guardadas em um banco de dados, o php faz requisições a esse banco de dados, o php cria um html com essas informações para o cliente
+
+-- back focado na relação código-servidor
+
+fullstack
+- front-end + back-end = fullstack

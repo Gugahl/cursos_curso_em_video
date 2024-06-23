@@ -1,0 +1,88 @@
+Precisamos fazer um acordo...
+
+O que vamos estudar?
+- HTML e CSS
+
+- Módulos do curso
+
+-- Módulo 01
+--- Primeiros passos em HTML + CSS
+---- Conceitos básicos
+---- Preparação do ambiente
+---- Semântica do HTML5
+---- Textos
+---- Títulos
+---- Ligações
+---- Multimídia
+---- Estilos
+
+-- Módulo 02
+--- Deixando as coisas mais bonitas
+---- Fundamentos de design
+---- Psicologia das cores
+---- Tipografia
+---- Elementos CSS
+---- Modelo de caixas
+---- Wireframe
+---- Prototipação de projetos/sites
+---- Responsividade celular/desktop/smart tvs
+
+-- Módulo 03
+--- Colocando um protótipo no ar
+---- Versionamento de software
+---- Hospedagem de sites estáticos
+---- Tabelas
+
+-- Módulo 04
+--- Aprofundando os conhecimentos
+---- Quadros em linha (in line frame)
+---- Formulários
+---- Media queries
+---- Mobile first
+
+-- Módulo 05
+--- Novas tecnologias
+---- Flexbox
+---- Grid Layout
+---- Projeto Final
+
+Do que eu vou precisar?
+- Desktop
+-- Desenvolvimento
+
+- Smartphone
+-- Testes
+
+- Acesso a internet
+
+- Foco
+-- Preste atenção total a aula
+
+- Exercitar bastante
+-- Exercite
+
+- Caderno
+-- O mesmo conteúdo deve te atingir de maneiras diferentes
+-- Anote coisas importantes
+--- Comandos que podem ser esquecidos
+
+- Assistir os vídeos
+
+- Material de apoio
+-- Disponível em github.com/gustavoguanabara
+-- gustavoguanabara.github.io
+
+- Estudar em grupo
+
+Atenção!
+- Não assista esse curso como uma série
+-- Não maratone
+
+- Pratique, você precisa praticar
+
+- Não tenha pressa
+
+- Rotina
+
+Cinco certificados
+- Cada módulo tem mais ou menos 40 aulas

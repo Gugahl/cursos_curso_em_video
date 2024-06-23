@@ -1,0 +1,10 @@
+Comentários <!-- -->
+
+Símbolos
+&lt; Last Than (Menor que)
+&gt; Greater Than (Maior que)
+&""; Faz qualquer símbolo
+
+Emojis
+emojipedia
+&#x"código dps do U+"

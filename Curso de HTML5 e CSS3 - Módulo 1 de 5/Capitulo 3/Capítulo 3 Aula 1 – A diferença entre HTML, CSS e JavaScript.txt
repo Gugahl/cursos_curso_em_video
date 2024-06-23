@@ -1,0 +1,65 @@
+Como funciona a HTML e as CSSs?
+- A HTML, pois é a LINGUAGEM HTML
+- As CSSs, pois são as FOLHAS DE ESTILOS
+
+"Eu programo em HTML e CSS"
+- HTML e CSS não são línguagens de programação
+"Eu desenvolvo em HTML e CSS"
+
+HTML - HyperText Markup Language
+-- HTML é uma linguagem de marcação
+-- A línguagem HTML é focada em conteúdo
+-- Conteúdo pode ser textos, imagens, vídeos, tabelas etc
+
+CSS - Cascading Style Sheets
+-- CSS são folhas de estilos em cascata
+-- As folhas CSS são focadas em design
+-- Design pode ser cores, sombras, tamanhos, posicionamentos etc
+
+Javascript
+-- JS é uma língugem de programação
+-- JS é focado em interações
+-- interações podem ser menus, animações, popups, validações etc
+
+Essa trinca é primordial para o desenvolvimento web
+
+Conteúdo em HTML
+- Exemplo de título (conteúdo) usa a tag 
+(abertura de tag) <h1>titulo</h1> (fechamento de tag)
+
+- Exemplo de parágrafo usa a tag
+(abertura de tag) <p>titulo</p> (fechamento de tag)
+
+- Exemplo de foto usa a tag
+(abertura de tag) <img src="foto.png" alt="Exemplo de foto">
+-- src e alt são exemplos de parâmetros
+-- "" exemplos de valor
+--- src = source = caminho da imagem, alt = texto alternativo = se a imagem não for encontrada isso será colocado
+
+Estilo em CSS
+
+(seletor)
+h1{
+                (declarações)
+(propriedades)  font-family: Arial (valores);
+                font-size: 20pt;
+                color: blue;
+}
+
+Estrutura básica de documentos HTML
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Olá, mundo!</h1>
+    </body>
+</html>
+
+Como funcionam HTML e CSS?
+- Após o DNS te retornar o IP e você entrar no servidor, o servidor te fornecerá uma cópia do HTML e do CSS para o seu Google Chrome, que analisará linha a linha e enviará o resultado para a sua tela

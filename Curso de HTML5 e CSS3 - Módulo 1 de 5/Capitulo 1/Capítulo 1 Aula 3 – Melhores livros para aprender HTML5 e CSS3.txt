@@ -1,0 +1,15 @@
+Bibliografia
+ 
+- PDFs Curso em Video
+
+- Sites
+-- MDN - Mozilla Developer Network
+-- W3C - W3C Standards - World Wide Web Consortium
+-- WHATWG Living Standard - Web Hypertext Application Technology Working Group
+-- W3Schools - Refsnes Data
+
+- Livros
+-- Coloquei nos favoritos
+
+- Dica: Estudar design
+
