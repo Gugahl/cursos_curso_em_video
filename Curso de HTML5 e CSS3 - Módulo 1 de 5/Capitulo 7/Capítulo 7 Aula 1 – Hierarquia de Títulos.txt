@@ -1,0 +1,11 @@
+Hierarquia de Títulos
+Considere um sumário
+- Título h1
+-- Subtítulos h2
+--- Títulos dentro de subtítulos h3
+---- Subtítulos dentro de títulos, dentro de subtítulos dentro de títulos h4
+
+Você viu que existem subníveis?
+É assim que os títulos se comportam
+
+Vai de h1 a h6

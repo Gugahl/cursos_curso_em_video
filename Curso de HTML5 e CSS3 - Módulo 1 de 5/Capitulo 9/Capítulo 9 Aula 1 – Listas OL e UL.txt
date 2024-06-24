@@ -1,0 +1,14 @@
+Ordenando listas
+- tag ol = Order list
+- tag li = List item
+- Parâmetros
+- type: Muda a forma de contagem
+- start: Muda em qual item a contagem começou
+
+-- A partir do HTML 5 o </li> se tornou opcional
+
+Listas não ordenadas
+- tag ul = Unorder list
+- tag li = List item
+- Parâmetros
+- type: Muda a forma de contagem (circle, disc e square)

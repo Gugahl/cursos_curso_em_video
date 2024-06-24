@@ -1,0 +1,17 @@
+Fonte não monoespaçada = normal
+Fonte monoespaçada = código
+- tag code = Fonte monoespaçada
+- tag pre = Considera a indentação
+
+Citações
+- Citações simples
+-- tag q = Cria aspas
+
+- Citações compostas
+-- tag blockquote = Desloca o texto á direita
+
+Abreviações
+- tag abbr = Cria um contexto para a abreviação
+
+Inversão de texto
+- tag bdo = Escolha a direção que você quer inverte ltf ou rtf

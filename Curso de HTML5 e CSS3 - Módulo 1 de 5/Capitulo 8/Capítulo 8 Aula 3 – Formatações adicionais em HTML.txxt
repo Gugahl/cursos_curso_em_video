@@ -1,0 +1,22 @@
+Temos duas formas em CSS de destacar um texto com cores
+
+Destacando todos com a mesma cor: Coloque o style dentro do head
+
+Destacando um por um: Coloque o style dentro do mark que já está dentro de um parágrafo
+
+Textos grandes e pequenos
+- tag big = Obsoleta
+- tag small = Ainda em uso
+
+Texto deletado
+- tag del
+
+Texto inserido
+- Com semântica: tag ins
+- Sem semântica: tag U 
+
+Texto sobrescrito
+- tag sup
+
+Texto subscrito
+- tag sub

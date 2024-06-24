@@ -1,0 +1,6 @@
+Favicon - Icone de favorito (fotinha que fica do lado do nome da guia na aba)
+
+Criação de favicon
+
+Utilizando o Favicon
+- Digita o comando: link:favicon, em cima do title

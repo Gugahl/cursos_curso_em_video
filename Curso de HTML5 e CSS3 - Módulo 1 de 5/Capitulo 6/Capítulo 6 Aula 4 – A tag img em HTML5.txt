@@ -1,0 +1,14 @@
+<p>
+    Abaixo você verá imagens que estão na mesma pasta
+</p>
+<img src="html5-200px.png" alt="logo HTML5">
+<img src="css3-200px.png" alt="logo CSS3">
+<p>
+    Abaixo você verá imagens que estão em pastas separadas
+</p>
+<img src="imagens/html5/html5-200px.png" alt="logo HTML5">
+<img src="imagens/css3/css3-200px.png" alt="logo CSS3">
+<p>
+    Você também pode copiar imagens de links
+</p>
+<img src="https://camo.githubusercontent.com/f61ba0cfafffe73387e3a9926f7783f2abf4a68580543b497ca4278e6435153a/68747470733a2f2f7261772e6769746875622e636f6d2f766f6f646f6f74696b69676f642f6c6f676f2e6a732f6d61737465722f73706563696669632d757365732f62616467655f6a732d7374726963742e706e67" alt="logo Javascript">

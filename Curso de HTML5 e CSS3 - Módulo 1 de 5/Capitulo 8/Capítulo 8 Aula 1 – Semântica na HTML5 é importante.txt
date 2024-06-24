@@ -1,0 +1,5 @@
+Semântica = Significado
+
+Algumas tags ficaram obsoletas na mudanças do HTML4 para o HTML5 por exemplo bgcolor, center
+
+HTML não faz mais mudanças de estilo/forma, isso tudo ficou nas mãos das CSS

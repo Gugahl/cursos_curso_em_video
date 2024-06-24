@@ -1,0 +1,8 @@
+Instalando o Gimp
+
+Formatos de arquivo para imagens para WEB
+- JPEG
+-- JPEG compacta dados
+
+- PNG
+-- Permite transparência

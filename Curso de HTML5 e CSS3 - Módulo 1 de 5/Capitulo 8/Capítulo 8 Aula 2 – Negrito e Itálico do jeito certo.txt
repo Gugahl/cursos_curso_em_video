@@ -1,0 +1,11 @@
+Temos duas formas de colocar um termo em negrito
+
+Com semântica: tag STRONG
+Sem semântica: tag B
+
+Bizúzinho para envelopar: CTRL + Shift + P + Enter + tag
+
+Temos duas formas de colocar um termo em itálico
+
+Com semântica: tag EM
+Sem semântica: tag I
