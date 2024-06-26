@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(40, 36, 36);
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+h2 {
+    color: rgb(86, 86, 199);
+}
+
+h3 {
+    color: rgb(195, 153, 48);
+}
+
+p {
+    text-align: justify;
+}

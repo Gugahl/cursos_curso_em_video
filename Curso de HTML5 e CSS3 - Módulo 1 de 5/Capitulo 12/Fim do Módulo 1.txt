@@ -1,0 +1,20 @@
+O que aprendemos no módulo 1?
+- Conceitos básicos
+- Preparação do ambiente
+- Semântica do HTML
+- Textos
+- Títulos
+- Ligações
+- Multimídia
+- Estilos
+
+O que vem no módulo 2?
+- Fundamentos de design
+- Psicologia das cores
+- Tipografia
+- Elementos CSS
+- Modelo de caixas
+- Wireframe
+- Responsividade
+
+

@@ -1,0 +1,3 @@
+Estilos locais é bem mais vantajoso que estilos inline
+trabalhando com seletores
+desvantagens: muito espaço, precisa repetir em todas as páginas

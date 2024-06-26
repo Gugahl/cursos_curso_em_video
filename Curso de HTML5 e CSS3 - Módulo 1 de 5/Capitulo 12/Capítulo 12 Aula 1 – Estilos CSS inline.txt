@@ -1,0 +1,12 @@
+CSS = Cascading Style Sheets
+
+bg color - é uma tag antiga do html, não utilize
+font - tag antiga do html
+
+argumento Style
+valor background color
+valor font family
+valor text align
+valor font size
+em - porcentagem do valor da fonte 0 a 1
+
