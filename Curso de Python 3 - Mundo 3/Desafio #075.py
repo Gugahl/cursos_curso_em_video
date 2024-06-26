@@ -28,7 +28,7 @@ for i in range(4):
     if numero < menor:
         menor = numero
 
-print(f"A tupla organizada ficou {sorted(tupla)}")
+print(f"A tupla organizada ficou {tuple(sorted(tupla))}")
 print(f"O valor 9 aparece {nove} vezes")
 print(f"O primeiro valor foi {menor}, ele foi declarado na posição {tupla.index(menor)}")
 print(f"Os número pares foram {pares}")
