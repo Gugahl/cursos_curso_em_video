@@ -1,0 +1,15 @@
+formatos compatíveis
+.mp4
+.m4v
+.webm
+.ogv
+
+handbrake - conversor de vídeo
+
+muito cuidado com o tamanho dos vídeos para não ter um alto tráfego de dados e o plano de hospedagem não ficar caro
+
+tag video
+argumento width
+argumento poster
+argumento controls
+tag source

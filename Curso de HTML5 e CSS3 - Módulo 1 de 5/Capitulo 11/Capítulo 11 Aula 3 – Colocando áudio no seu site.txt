@@ -1,0 +1,14 @@
+tag audio
+- argumento autoplay
+- argumento controls
+
+formatos compatíveis com todos os navegadores: mp3, ogg e wav
+
+- argumento preload = vai carregar os dados quando o html carregar
+-- valores: 
+--- none: não vai carregar os dados
+--- metadata: vai ler somente os dados importantes
+--- auto: vai ler tudo
+
+- argumento loop
+

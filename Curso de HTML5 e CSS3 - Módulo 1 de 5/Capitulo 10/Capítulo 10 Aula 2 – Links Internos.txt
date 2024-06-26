@@ -1,0 +1,7 @@
+Ctrl + Espaço - Vê os arquivos HTML no mesmo diretório
+
+O argumento rel="" pode assumir os valores next, prev e nofollow, eles servem para guiar o mecanismo de busca do Google
+O argumento target="" pode assumir o valor _self, para abrir na mesma página e guiar o mecanismo de busca do Google
+
+Links dentro de pastas - "noticias/pag003.html"
+Links fora de pastas - "../index.html"

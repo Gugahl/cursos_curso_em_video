@@ -1,0 +1,11 @@
+Toda vez que você clica em um lugar para ir para outro lugar isso é um link
+
+Todo Hiper Link é construído através de uma âncora no código HTML
+Google é o maior buscador do mundo
+o segundo maior buscador do mundo é o Youtube
+
+Dica: Estudar SEO
+
+tag a - Transforma um texto em um hiper link por meio do argumento href
+argumento rel="" - Avisa que é um link que leva a um site externo
+argumento target="" - Uma tela branca

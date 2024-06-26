@@ -1,0 +1,11 @@
+start - start só funciona com números, por exemplo: type="a" start="5", ele irá começar no 5 elemento da lista, você não pode mandar ele começar pelo "e" por exemplo
+
+hotkey (alt, click) = Digita em diversos lugares ao mesmo tempo
+
+Listas dentro de outras
+
+Lista de definição
+- tag dl - definition list
+- tag dt - termo
+- tag dd - descriição
+
