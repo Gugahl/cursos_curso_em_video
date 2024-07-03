@@ -1,0 +1,7 @@
+background-image: linear-gradient(to right/left/top/bottom, cor01, 100%, cor02);
+
+* configuração global das css
+height 
+
+background-attachment: fixed;
+radial-gradient(circle)

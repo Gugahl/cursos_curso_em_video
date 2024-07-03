@@ -1,0 +1,5 @@
+Você pode colocar cor por várias maneiras
+- Com o nome das cores
+- Com o código hexadecimal
+- Com o código rgb
+- Com o código hsl (Hue, Sat8ration, Luminosity)

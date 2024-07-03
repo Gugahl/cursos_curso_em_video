@@ -1,0 +1,7 @@
+@charset "UTF-8";
+main div principal
+margin
+border-radius: arredondamento de borda
+box-shadow: quanto a sombra anda para o lado, quanto essa sombra vai andar para baixo, quanto essa sombra vai espalhar, quanto de transparência essa sombra vai ter
+text-align: center;
+text-shadow: ;

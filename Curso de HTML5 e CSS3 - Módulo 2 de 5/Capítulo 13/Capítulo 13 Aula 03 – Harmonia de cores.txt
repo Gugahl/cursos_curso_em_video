@@ -1,0 +1,26 @@
+Harmonia de cores
+
+Circulo Cromático
+- Cores primárias, secundárias e terciárias
+
+Circulo Cromático Guanabara
+- Cores primárias: Amarelo, Azul e Vermelho
+- Cores secundárias: Laranja, Violeta e Verde
+- Cores terciárias: Todas as que são misturas das cores primárias e secundárias: amarelo-esverdeado, amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado e azul-esverdeado, algumas das terciárias são os tons pastéis
+
+Temperatura das cores
+- Cores frias
+- Cores quentes
+
+Paleta de cores
+- 3 a 5 cores
+- Cores complementares: Cores que tem mais contraste entre si, cores opostas no circulo cromático
+- Cores análogas: Cores que tem pouco contraste entre si, cores ao lado no circulo cromático
+- Técnica: Pegar duas cores análogas e uma complementar
+- Cores análogas relacionadas: Você pega pega uma cor primária, uma análoga, pula uma e pega a próxima análoga essa última você pode pegar tanto depois da primeira análoga como antes da primária
+- Cores intercaladas: Você pega uma cor, pula uma e pega a próxima, pula outra e pega a próxima
+-- Cores triádicas: Pega uma cor, pula 3 cores e pega outra, pula mais 3 cores e pega outra
+-- Cores em quadrado: Pega uma cor, pula de 2 em 2 cores pegando as que cairem
+-- Cores tetrádicas: Pega uma cor e sua complementar, outra cor e sua complementar
+- Monocromia: Você pega uma cor e fica alterando a saturação e a luminosidade
+

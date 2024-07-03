@@ -1,0 +1,3 @@
+Extensão para capturar cores
+- colorzilla
+

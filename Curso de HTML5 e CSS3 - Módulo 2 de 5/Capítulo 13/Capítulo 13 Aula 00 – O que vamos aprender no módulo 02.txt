@@ -1,0 +1,16 @@
+Vai do capítulo 13 ao 17
+- Psicologia das cores
+-- Cor principal
+-- Combinações de cores
+-- Harmonização de cores
+-- Paleta de cores
+
+- Tipografia
+-- Fontes
+
+- Classes, ID e variáveis
+
+- Conceito de caixas
+
+- Site do zero
+ 
