@@ -7,22 +7,21 @@
     <title>Meu primeiro programa</title>
     <style>
         body {
-            background-color: rgb(255, 255, 255);
-            color: rgb(255, 0, 0);
-            font: normal 20pt Arial;
-        }
-        h1 {
+            background-color: #fff;
+            color: #1d0f81;
+            font: normal 16pt Arial;
+        } /* Comentário em CSS */
+        h3 {
             color: black;
         }
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h3>Olá, mundo!</h3> <!-- Isso é um comentário -->
     <p>Já me livrei da maldição</p>
     <script>
-        window.alert("Minha primeira mensagem");
-        window.confirm("Está gostando de Javascript?"); // janela com botão Ok e Cancel
-        window.prompt("Qual é o seu nome? "); // vai perguntar seu nome
+        var nome = window.prompt("Qual é o seu nome? "); // Vai perguntar seu nome
+        window.alert("É um grande prazer em te conhecer, " + nome + "!") // Concatenação
     </script>
 </body>
 </html>

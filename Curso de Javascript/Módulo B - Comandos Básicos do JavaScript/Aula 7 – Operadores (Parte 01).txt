@@ -1,0 +1,68 @@
+/* Q01
+Como é possível guardar o valor digitado em um prompt() dentro de uma variável?
+*/
+R- Colocando uma variável no modelo nome_variável = antes do prompt()
+
+/* Q02
+Como fazer com que um número digitado em um prompt() possa ser usado em cálculos?
+*/
+R- Envolve o prompt() com o comando parseInt() ou parseFloat ficando parseInt(prompt())
+
+/* Q03
+Como transformar um texto todo para letras maiúsculas?
+*/
+R- Utilizando o comando .toUpperCase() depois da variável
+
+/* Q04
+Como mostrar um número formatado como um valor monetário?
+*/
+R- Utilizando o comando .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) depois da variável
+
+`${Operadores do JS}`
+Parte 01
+
+Operadores
+- Aritméticos
+- Atribuição
+- Relacionais
+- Lógicos
+- Ternário
+
+Aritméticos
+- 5 + 2 = 7
+- 5 - 2 = 3
+- 5 * 2 = 10
+- 5 / 2 = 2.5
+- 5 % 2 = 1
+- 5 ** 2 = 25
+
+Precedência
+()
+**
+* / %
++ -
+
+5 + 3 / 2 = 6.5
+(5 + 3) / 2 = 4
+
+Atribuição simples
+- var a = 5 + 3 = 8
+- var b = a % 5 = 3
+- var c = 5 * b ** 2 = 45
+- var d = 10 - a / 2 = 6
+- var e = 6 * 2 / d = 2
+- var f = b % e + 4 / e = 3
+
+Auto-atribuições
+- var n = 3
+- n = n + 4 = 7 = n += 4
+- n = n - 5 = 2 = n -= 5 
+- n = n * 4 = 8 = n *= 4
+- n = n / 2 = 4 = n /= 2
+- n = n ** 2 = 16 = n **= 2
+- n = n % 5 = 1 = n %= 5
+
+Incrementos
+- var x = 5
+- x = x + 1  x += 1  x++ // Pós incremento  ++x // Pré incremento
+- x = x - 1  x -= 1  x-- // Pós incremento  --x // Pré incremento

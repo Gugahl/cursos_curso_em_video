@@ -1,0 +1,80 @@
+/* Q01
+Para que serve o operador % em JS? Seria para calcular porcentagem? 
+*/
+R- Para calcular o resto da divisão de um número por outro. Não.
+
+/* Q02
+6 + 4 / 2 é igual a 5 ou 8?
+*/
+R- 8.
+
+/* Q03
+Se uma variável n está valendo 10 e executamos um n += 5, qual será seu novo valor?
+*/
+R- 15.
+
+`${Operadores do JS}`
+Parte 02
+
+Operadores
+- Aritméticos
+- Atribuição
+- Relacionais
+- Lógicos
+- Ternário
+
+Relacionais
+- 5 > 2 = True
+- 7 < 4 = False
+- 8 >= 8 = True
+- 9 <= 7 = False
+- 5 == 5 = True
+- 4 != 4 = False
+
+// Exemplos
+preço >= 200.50  // o preço é maior ou igual a 200.50?
+idade < 18  // a idade é menor do que 18?
+curso == 'Javascript' // o curso é Javascript?
+n1 != n2  // o primeiro número é diferente do segundo?
+
+// Identidade
+5 == 5 = True
+5 == '5' = True  // o Javascript não lê o tipo primitivo e sim o dado
+5 === '5' = False  // o Javascript lê o tipo primitivo
+5 === 5 = True
+5 != '5' = False
+5 !== '5' = True
+
+Lógicos
+- ! negação
+-- !True = False
+-- !False = True
+
+- && conjunção
+-- True&&True = True
+-- True&&False = False
+-- False&&True = False
+-- False&&False = False
+
+- (Alt + 124 = |) || disjunção
+-- True||True = True
+-- True||False = True
+-- False||True = True
+-- False||False = False
+
+Precedência
+- Aritméticos
+- Relacionais
+- Lógicos
+
+// Exemplos
+idade >= 15 && idade <= 17  // a idade está entre 15 e 17
+estado == 'RJ' || estado == 'SP'  // o estado é RJ ou SP?
+salário > 1500 && sexo != 'M'  // o salário é acima de 1500 e não é homem?
+
+Ternário
+- ?
+- :
+teste ? true : false
+média >= 7.0 ? "Aprovado" : "Reprovado"
+

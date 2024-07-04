@@ -88,7 +88,15 @@ Dicas:
 - Tente escolher nomes coerentes para as variáveis
 
 Tipos primitivos
+- Number - Números
+-- Infinity - 
+-- NaN Not a Number
 - Int: Números inteiros
 - Float: Números com casas decimais
 - Booleanos: True/False
 - Strings: Tudo entre aspas
+- Null
+- Undefined
+- Object
+-- Array
+- Function

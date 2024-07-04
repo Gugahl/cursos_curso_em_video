@@ -1,0 +1,80 @@
+/* Q01
+O que é uma variável?
+*/
+R- Um espaço na memória para guardar dados.
+
+/* Q02
+Como declarar uma variável numérica inteira ou real usando JS?
+*/
+R- var nome_da_variável = número inteiro ou real
+
+/* Q03
+Quais são os tipos primitivos do JS?
+*/
+R- 
+- Number - Números
+-- Infinity - 
+-- NaN Not a Number
+- Int: Números inteiros
+- Float: Números com casas decimais
+- Booleanos: True/False
+- Strings: Tudo entre aspas
+- Null
+- Undefined
+- Object
+-- Array
+- Function
+
+/* Q04
+O que significa colocar o valor null dentro de uma variável?
+*/
+R- A ausência de dados
+
+`${Manipulação de Dados}`
+
+Data Types
+- Number - Números
+-- Infinity - 
+-- NaN Not a Number
+- Int: Números inteiros
+- Float: Números com casas decimais
+- Booleanos: True/False
+- Strings: Tudo entre aspas
+- Null
+- Undefined
+- Object
+-- Array
+- Function
+
+Dois principais tipos primitivos
+- number
+- strings
+
+// Guardando dados
+- window.prompt("Qual é o seu nome? ")
+- var nome = window.prompt("Qual é o seu nome? ")
+- + pode servir tanto para adição (number + number) como para concatenação (string + string)
+- Number.parseInt(n) = Transforma string em inteiro
+- Number.parseFloat(n) = Transforma string em float
+- Number(n) = Ele mesmo descobre qual é o tipo, se é inteiro ou float
+- String(n) = Transforma de número para string
+- n.toString() = Transforma de número para string
+- Javascript é case sensitive
+-- Pode se utilizar o var, o let e o const
+
+// Formatando strings
+var s = 'Javascript'
+'Estou aprendendo s' // não faz interpolação
+'Estou aprendendo' + s // usa concatenação
+`Estou aprendendo ${s}` // usa template string
+Placeholder = ${}
+s.length // quantos caracteres a string tem
+s.toUpperCase() // tudo para maiúsculas
+s.toLowerCase() // tudo para minúsculas
+document.write() // escreve dentro do documento HTML, tags HTML funcionam se escritas aqui
+
+// Formatando números
+var n1 = 1543.5
+n1.toFixed() // .2f do Python, completa as casas decimais do número com 0s
+n1.toFixed(2).replace('.', ',') // Troca uma parte por outra, mesma coisa do Python
+n.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
