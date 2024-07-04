@@ -1,0 +1,15 @@
+Módulo A: Conhecendo o Javascript
+Módulo B: Comandos básicos
+Módulo C: Conhecendo o DOM
+
+DOM
+--> Document Object Model (Vertente WEB do Javascript para o tratamento de componentes visuais)
+--> Árvore DOM
+--> Manipulação DOM 
+
+Dicas:
+- Não pule;
+- Anote tudo;
+- Duas telas;
+- Pratique;
+- Compartilhe;

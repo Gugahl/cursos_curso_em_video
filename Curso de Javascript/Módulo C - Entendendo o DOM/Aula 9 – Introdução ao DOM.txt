@@ -1,0 +1,64 @@
+/*Q01 
+Qual é a diferença entre usar, =, == e === em códigos escritos em JS?
+*/
+R- = serve para a atribuição de valor, == serve para comparar 2 valores sem comparar seus tipos e === serve para comparar 2 valores comparando seus tipos;
+
+/*Q02
+Em uma mesma expressão, temos os operadores || e &&. Quem eu resolvo primeiro?
+*/
+R- O primeiro que vier da esquerda para a direita;
+
+/*Q03
+Você sabe usar o operador ternário para colocar um entre dois valores em uma variável?
+*/
+R- Sim, com ? e :
+
+`${Entendendo o DOM}`
+
+Programas necessários
+- Live server;
+- Node exec;
+
+DOM
+--> Document Object Model
+
+Árvore DOM                               --> meta
+           --> location         --> head --> title
+--> window --> document --> html            
+           --> history          --> body --> h1
+                                         --> p
+                                         --> p --> strong
+                                         --> div
+HTML tem dois childs = head e body
+HTML é parent de head e body
+Quem ta em baixo é child
+Quem ta imediatamente acima é parent
+HTML é child de document
+
+window.document.charset = Mostra o charset do site na tela
+window.navigator.appName = Mostra como o Chrome está se comportando
+window.document.URL = Qual a URL do site
+
+Elementos é tudo ou qualquer coisa que apareceu na árvore DOM
+
+Selecionando elementos
+- por Marca
+-- getElementsByTagName() // Consigo selecionar mais de um objeto
+-- style.color = muda a cor da letra
+-- innerText = pega o conteúdo de uma tag sem a formatação
+-- innerHTML = pega o conteúdo de uma tag com a formatação
+
+- por ID
+-- getElementsByID()
+
+- por Nome
+-- getElementsByName()
+
+- por Classe
+-- getElementsByClassName()
+
+- por Seletor
+-- querySelector()
+-- querySelectorAll()
+-- Quando é ID #
+-- Quando é Class .

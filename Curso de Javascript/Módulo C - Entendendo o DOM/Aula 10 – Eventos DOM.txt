@@ -1,0 +1,55 @@
+/* Q01
+O que significa a sigla DOM?
+*/
+R- Document Object Model;
+
+/* Q02
+Sabe montar a árvore DOM de um website simples?
+*/
+R- 
+Árvore DOM                               --> meta
+           --> location         --> head --> title
+--> window --> document --> html            
+           --> history          --> body --> h1
+                                         --> p
+                                         --> p --> strong
+                                         --> div
+
+
+/* Q03
+O que são os elements Parent e os elementos Child em uma árvore DOM?
+*/
+R- Parent são elementos que estão imediatamente acima, já os childs são os que estão imediatamente abaixo;
+
+
+/* Q04
+Quais são os cinco principais métodos de selecionar elementos DOM dentro do JS?
+*/
+R- Marca, ID, nome, classe e seletor;
+
+`${Eventos DOM}`
+
+Eventos DOM
+<DIV>
+- mouseenter
+- mousemove
+- mousedown
+- mouseup
+- click
+- mouseout
+
+Funções
+- bloco function ação(parâmetros){
+
+} (só vai ocorrer quando o evento disparar)
+
+Disparando pelo HTML
+Argumentos dentro da tag <DIV>
+- onmouseenter="nome_da_função()"
+- onclick="nome_da_função()"
+- onmouseout="nome_da_função()"
+
+Disparando pelo JS
+nome_variável.addEventListener('click', nome_da_função)
+nome_variável.addEventListener('mouseenter', nome_da_função)
+nome_variável.addEventListener('mouseout', nome_da_função)
