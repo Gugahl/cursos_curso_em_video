@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embaixada</title>
+</head>
+<body>
+    <h2>Embaixada Brasileira:</h2>
+    Bom dia senhor! Seja bem vindo ao nosso país, gostariamos de saber qual seu país de origem? <input type="text" name="textpais" id="textpais">
+    <input type="button" value="Falar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        function verificar() {
+            var txtpais = document.getElementById('textpais').value.toLowerCase()
+            var res = document.getElementById('res')
+            if (txtpais === "brasil") {
+                res.innerHTML += `<p>Vejo aqui que o senhor é <strong>Brasileiro</strong>, bem vindo de volta!</p>`
+            } else {
+                res.innerHTML += `<p>Vejo aqui que o senhor é <strong>Estrangeiro</strong>, bem vindo ao nosso país!</p>`
+            }
+        }
+    </script>
+</body>
+</html>

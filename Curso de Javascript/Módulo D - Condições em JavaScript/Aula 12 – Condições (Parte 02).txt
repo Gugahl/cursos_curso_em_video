@@ -1,0 +1,56 @@
+/* Q01
+Já sabe como usar a extensão Node Exec no VSCode?
+*/
+R- Apertando F8
+
+/* Q02
+Já sabe como criar uma condição no seu programa JS?
+*/
+R- Com Ifs e Else (e Else Ifs, mas por enquanto não deveria saber)
+
+/* Q03
+Já consegue diferenciar condições simples e condições compostas?
+*/
+R- As simples só tem os Ifs, as compostas tem os Ifs e o Else
+
+`${Condições em JS}`
+        Parte 02
+
+Condição simples:
+if (condição) {
+    true
+}
+
+Condição composta:
+if (condição) {
+    true
+} else {
+    false
+}
+
+Condição aninhada:
+if (condição1) {
+    bloco1
+} else {
+    if (condição2) {
+        bloco2
+    } else {
+        bloco3
+    }
+}
+
+Condição múltipla:
+switch (expressão) {
+    case valor 1:
+
+    break
+    case valor 2:
+
+    break
+    case valor 3:
+
+    break
+    default:
+
+    break
+}

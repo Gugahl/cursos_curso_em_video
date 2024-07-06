@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do dia</title>
+    <style>
+        h1 {
+            font-size: 40px;
+        }
+        body {
+            background-color: #deb887;
+            color: #fff;
+            text-align: center;
+        }
+        div#area {
+            font: normal;
+            background-color: #fff;
+            width: 700px;
+            height: 425px;
+            text-align: center;
+            line-height: 1;
+            color: #000000;
+            padding: 10px;
+            margin: auto;
+        }
+        img {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hora do dia</h1>
+    <div id="area">
+        <h3>
+            Agora são <span id="hora"></span> horas.
+        </h3>
+        <div id="imagem"></div>
+        <div id="mensagem"></div>
+    </div>
+    <script>
+        var agora = new Date()
+        var hora = agora.getHours()
+        var horaSpan = document.getElementById('hora')
+        horaSpan.innerText = hora
+        var mensagem = document.getElementById('mensagem')
+        var imagem = document.getElementById('imagem')
+
+        if (hora < 5) {
+            mensagem.innerHTML = `Boa madrugada`
+            imagem.innerHTML = `<img src="madrugada.png" alt="Madrugada">`
+        } else if (hora < 12) {
+            mensagem.innerHTML = `Bom dia`
+            imagem.innerHTML = `<img src="dia.png" alt="Dia">`
+        } else if (hora < 18) {
+            mensagem.innerHTML = `Boa tarde`
+            imagem.innerHTML = `<img src="tarde.png" alt="Tarde">`
+        } else {
+            mensagem.innerHTML = `Boa noite`
+            imagem.innerHTML = `<img src="noite.png" alt="Noite">`
+        }
+    </script>
+</body>
+</html>

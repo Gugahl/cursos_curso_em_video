@@ -1,0 +1,49 @@
+/* Q01
+Consegue citar três eventos que podem acontecer com elementos DOM de um site?
+*/
+R- 
+mousedown, quando um botão de um dispositivo apontador é pressionado sobre um elemento; 
+mouseup, quando um botão de um dispositivo apontador pressionado é solto; 
+mousemove, quando um dispositivo apontador está dentro da região do botão;
+mouseout, quando um dispositivo apontador sai da região do botão;
+
+/* Q02
+O que é uma função? Como criar funções em JS?
+*/
+R-
+É um conjunto de instruções que o script vai realizar;
+Estrutura de uma função:
+function ação(parâmetros){
+
+};
+
+/* Q03
+Sabe como pegar valores de caixas de texto e fazer cálculos com eles?
+*/
+R- Com inputs, getElements, variáveis e afins
+
+`${Condições em JS}`
+        Parte 01
+
+Sequências:
+var n = 3
+n += 2
+window.alert(n)
+
+Condições
+if (condição) {
+    true
+} else {
+    false
+}
+
+Tipos de condição
+if (condição) {
+    true
+} // condição simples
+
+if (condição) {
+    true
+} else {
+    false
+} // condição composta
