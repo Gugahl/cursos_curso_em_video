@@ -1,0 +1,38 @@
+/* Q01 
+O que faço se quiser fazer uma determinada atividade acontecer várias vezes?
+*/
+R- Utiliza estrutura de repetição
+
+/* Q02
+Sabe diferenciar as estruturas de condição e as estruturas de repetição?
+*/
+R- Sim
+
+/* Q03
+Consegue dizer a diferença entre as estruturas while e a do...while?
+*/
+R- while faz a comparação antes do bloco, já do...while faz depois
+
+`${Repetições em JS}`
+            Parte 2
+
+Repetições
+Possui variável de inicialização, teste lógico e incremento
+- Entra na estrutura
+- Faz o teste lógico
+- Incrementa
+- Reinicia até dar False
+
+for (inicio ; teste ; incremento) {
+
+}
+
+var c = 1
+while (c <= 10) {
+    bloco
+    c++
+}
+
+for (var c = 1; c <= 10; c++) {
+    bloco
+}

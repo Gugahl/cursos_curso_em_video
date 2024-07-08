@@ -1,0 +1,68 @@
+/* Q01
+Sabe mudar a cor de fundo de um site dinâmicamente, utilizando JS?
+*/
+R- document.body.style.background
+
+/* Q02
+Consegue inserir uma imagem dentro do seu site sem ter a tag <img> previamente criada?
+*/
+R-
+var img = window.document.createElement('img')
+img.setAttribute('id', 'foto')
+img.setAttribute('src', 'foto-crianca-h.png')
+
+/* Q03
+Já treinou bastante o uso de condições simples, compostas, aninhadas e múltiplas?
+*/
+R- Yes my brother
+
+`${Repetições em JS}`
+            Parte 01
+
+função ComerPizza()
+
+function comerPizza() {
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+}
+
+a --> b
+
+Sequências
+a --> ° --> ° --> b
+
+Desvios
+a --> /\ True --> ()
+      \/ False --> ()
+
+Laços
+ a-> /\ ---- 
+ ^   \/    |
+ |    |    |
+ ------    |
+           |
+       _____
+       |
+       v
+    while (condição) {
+        bloco
+    }
+
+function comerPizza() {
+    while (temFatia()) {
+        comerFatia()
+    }
+}
+
+a --> () --> /\
+|----------- \/
+
+do {
+    
+} while (condição)
