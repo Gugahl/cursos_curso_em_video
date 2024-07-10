@@ -1,0 +1,51 @@
+/* Q01
+Conseguiu simplificar seus códigos com o uso de Array?
+*/
+R- Sim.
+
+/* Q02
+Sabe colocar um array em ordem usando apenas uma chamada de função?
+*/
+R- Sim, for(c in a) {}
+
+/* Q03
+Lembra como disparar uma função simples quando apertamos um botão?
+*/
+R- Com o argumento onclick=""
+
+/* Q04
+Quer aprender mais sobre funções?
+*/
+R- Sim!
+
+`${Funções em JS}`
+
+Funções
+- São ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+- Uma função pode receber parâmetros e retornar um resultado.
+
+Exemplo: Comprar leite
+- Chamada = Sua mãe
+- Parâmetro = Dinheiro e leite
+- Ação = Comprar o leite
+- Retorno = Entregar o leite para a mãe
+
+- onclick="" = Função do HTML, que fica monitorando o botão para que quando acionado dispare a função que está em seu argumento
+
+function ação(parâm) {
+    // Ação
+    return res
+}
+
+ação(5)  // Chamada
+
+function parimp(n) {
+    if(n % 2 == 0) {
+        return 'par'
+    } else {
+        return 'ímpar'
+    }
+}
+
+let res = parimp(11)

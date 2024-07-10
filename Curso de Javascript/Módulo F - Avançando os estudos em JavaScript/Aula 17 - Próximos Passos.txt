@@ -1,0 +1,46 @@
+/* Q01
+Você assistiu o curso completo?
+*/
+R- Sim!
+
+/* Q02
+Você fez todos os exercícios propostos?
+*/
+R- Sim!
+
+/* Q03
+Você já tentou fazer os exercícios sem a ajuda do video?
+*/
+R- Sim!
+
+/* Q04
+Você já criou uma situação qualquer e tentou resolver por conta própria?
+*/
+R- Sim!
+
+`${Próximos Passos}`
+
+- Fundamentos
+- Variáveis e dados
+- Operadores
+- Condições
+- Repetições
+- Arrays
+- Functions
+- DOM
+
+Quais são os próximos passos?
+
+...daqui para frente
+- Curso de HTML5 e CSS3
+- Functions (arrowFunctions, callbacks, funções anônimas, as iife)
+- Objetos
+- Modularização
+- Expressões Regulares (RegEx)
+- jSON
+- AJAX
+- NodeJS/jQUERY/Angular
+
+let num = [5, 8, 4]
+
+let amigo = {nome:'José', sexo:'M', peso:85.4, engordar(p){}}
