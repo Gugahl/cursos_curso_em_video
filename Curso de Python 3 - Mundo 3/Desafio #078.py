@@ -9,36 +9,30 @@ desafio = "Desafio #078"
 print(f"-=" * 15 + f"\n" + f"{desafio:^30}" + f"\n" + f"-=" * 15)
 
 valores = []
-for c in range(0, 5):
-    num = int(input(f"Digite um valor para a posição {c}: "))
+cont = 0
+imaior = f' '
+imenor = f' '
+
+while cont < 5:
+    cont += 1
+    num = int(input(f'Digite o {cont}º número: '))
     valores.append(num)
+    if cont == 1:
+        maior = menor = num
+        imaior = imenor = f'{cont - 1}'
+    else:
+        if num > maior:
+            maior = num
+            imaior = f'{cont - 1}'
+        elif num == maior:
+            imaior += f', {cont - 1}'
 
-num_maior = num_menor = num = 0
-i_maior = i_menor = f' '
-for i, num in enumerate(valores):
-    if i == 0:
-        num_menor = num
-        i_menor = i
+        if num < menor:
+            menor = num
+            imenor = f'{cont - 1}'
+        elif num == menor:
+            imenor += f', {cont - 1}'
 
-    if num == num_menor:
-        i_menor = f'{i_menor}'
-        i_menor += f'e {i} '
-
-    if num == num_maior:
-        i_maior = f'{i_maior}'
-        i_maior += f'e {i} ' 
-
-    if num > num_maior:
-        num_maior = num
-        i_maior = f'{i} '
-
-    if num < num_menor:
-        num_menor = num
-        i_menor = f'{i} '
-
-
-print(f"""
-A lista foi {valores}
-O maior valor foi {num_maior}, pego nas posições {i_maior}
-O menor valor foi {num_menor}, pego nas posições {i_menor}
-""")
+print(f"Você digitou {valores}")
+print(f"O maior número computado foi {maior} na posição de índice {imaior};")
+print(f"Já o menor número computado foi {menor} na posição de índice {imenor}.")
