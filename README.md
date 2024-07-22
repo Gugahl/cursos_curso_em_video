@@ -1,19 +1,19 @@
 # Cursos feitos dentro da plataforma do Curso em Video do professor Gustavo Guanabara
 ## Curso de Algoritmos
--- Introdução a Algoritmos
--- Primeiro Algoritmo
--- Comando de Entrada e Operadores
--- Operadores Lógicos e Relacionais
--- Exercícios de Algoritmos Resolvidos
--- Estruturas Condicionais 1
--- Estruturas Condicionais 2
--- Estruturas de Repetição 1
--- Estruturas de Repetição 2
--- Estruturas de Repetição 3
--- Procedimentos
--- Funções
--- Vetores
--- Matrizes
+* Introdução a Algoritmos
+* Primeiro Algoritmo
+* Comando de Entrada e Operadores
+* Operadores Lógicos e Relacionais
+* Exercícios de Algoritmos Resolvidos
+* Estruturas Condicionais 1
+* Estruturas Condicionais 2
+* Estruturas de Repetição 1
+* Estruturas de Repetição 2
+* Estruturas de Repetição 3
+* Procedimentos
+* Funções
+* Vetores
+* Matrizes
 
 
 ## Curso de Bases Numéricas
