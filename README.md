@@ -62,12 +62,33 @@
 ## Curso de Inglês para Iniciantes - Módulo 1
 
 ## Curso de Javascript
+* Conhecendo o Javascript
+* Comandos Básicos
+* Entendendo o DOM
+* Condições em Javascript
+* Repetições em Javascript
+* Avançando os Estudos em Javascript
 
 ## Curso de Python 3 - Mundo 1
+* Primeiros comandos
+* Tipos Primitivos e Saídas de Dados
+* Operadores Aritméticos
+* Utilizando Módulos
+* Manipulando Texto
+* Condições (Parte 1)
+* Cores no Terminal
 
 ## Curso de Python 3 - Mundo 2
+* Condições (Parte 2) - Aninhamento
+* Estrutura de Repetição for
+* Estrutura de Repetição while
+* Interrompendo Repetições while
 
 ## Curso de Python 3 - Mundo 3
+* Tuplas
+* Listas (Parte 1)
 
 ## Curso de Redes de Computadores e Internet
-
+### Curso de Fundamentos de Redes de Computadores e Internet - prof. Alfredo Júnior
+### Curso Teórico de Redes de Computadores e Internet
+### Curso Prático de Redes de Computadores e Internet
