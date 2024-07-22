@@ -1,5 +1,6 @@
 # Cursos feitos dentro da plataforma do Curso em Video, do professor Gustavo Guanabara
 - Curso de Algoritmos
+-- Introdução a Algoritmos
 - Curso de Bases Numéricas
 - Curso de Git e Github
 - Curso de HTML5 e CSS3 - Módulo 1 de 5
