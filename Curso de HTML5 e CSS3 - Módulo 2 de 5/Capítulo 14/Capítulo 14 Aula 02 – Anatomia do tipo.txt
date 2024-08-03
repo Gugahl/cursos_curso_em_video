@@ -1,0 +1,60 @@
+Estudo básico de Tipografia
+                Parte 2
+
+Anatomia do tipo:
+- Times New Roman
+- A letra x é a letra mais importante na construção de todas as fonte, pois é por ela que você pega a altura base de todas as letras minúsculas
+- As maiúsculas também são iguais em tamanho
+- O vazamento das letras minúsculas é chamado de Ascendente, quando vaza para cima, ou Descendente, quando vaza para baixo
+- O tamanho total da fonte, desde o topo das maiúsculas, até a base das ascendentes é chamado de Corpo
+- Todos esses são itens métricos
+- O resto é anatômico
+- O primeiro anatômico, pode ser classificado como anatômico geométrico é o pezinho da fonte, prolongamento, conhecido como serifa
+- Serifas servem para ajudar o cérebro a ler letras
+- O nosso cérebro não lê letra por letra e sim palavra por palavra
+- Anatomias dos tipos
+- Anatômicos geométricos
+- Haste
+- Filete - Liga duas ou mais hastes
+- Arco
+- Esporão - Saltinho
+- Vértice
+- Terminal - Elemento ligado a uma haste que não se liga a mais nada
+- Anatômicos
+- Braço - Sai de uma haste e vai para cima
+- Perna - Sai de um braço ou de uma haste e vai para baixo
+- Pé
+- Espinha
+- Barriga - Dois arcos juntos
+- Olho - Buraco fechado da letra
+- Orelha
+- Cauda
+
+- Glifo é uma letra
+- Glifos minúsculos != Glifos maiúsuculos
+- Conjunto de glifos é chamado de fonte
+
+- Open Sans
+- Duas hastes
+- Filete
+
+- Família Tipográfica
+- Open Sans (light, normal, semibolt, bolt, extrabolt)
+
+Categorias de Fontes
+- Olá, mundo! (Times New Roman)
+- Olá, mundo! (Open Sans)
+
+--> serif
+--> sans-serif
+--> sans-serif, monoespaçadas
+--> handwriting
+--> display 
+
+- monoespaçado - Tudo tem a mesma largura
+- handwriting - Tenta simular escritura a mão
+- display - Não se preocupa em obedecer regras anatômicas
+
+Para texto muito longos em telas utilize fontes não serifadas, e branco no fundo e preto na letra
+Para impressões em papéis utilize fontes serifadas, com serifs não muito grandes nem muito pequenos
+ 
