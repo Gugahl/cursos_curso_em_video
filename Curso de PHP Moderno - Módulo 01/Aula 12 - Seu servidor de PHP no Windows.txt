@@ -1,0 +1,4 @@
+Ferramentas
+- XAMPP
+- Google Chrome
+- VSCode

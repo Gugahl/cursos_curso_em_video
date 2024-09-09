@@ -1,0 +1,36 @@
+A Origem dos Bancos de Dados
+- Déc. 50
+- Surgimento dos computadores para uso militar e acadêmico
+- Antes do computadores os dados eram guardados em papel
+- Você preenchia uma ficha, que era guardada em uma pasta, e por fim armazenada dentro de um armário (arquivo) metálico
+- Fichas: Registros; Pastas: Tabelas; Armários: Arquivos
+- Arquivos guardam Tabelas, e Tabelas armazenam Registros
+- Com esse tanto de papel a galera do final da década de 50 teve como desafio digitalizar tudo isso, pois a computação começou a se espalhar
+- Logo no início eles digitalizavam as fichas uma em baixo da outra
+- Os arquivos antigamente eram guardados em fitas magnéticas ou cartões perfurados que trabalhavam de forma sequencial, ou seja, você lia tudo até chegar aonde você queria, por conta dessa característica da sequencia de registros esse tipo de arquivo ficou conhecido como Arquivo de Acesso Sequencial
+- Depois das fitas surgiram os discos, disquetes e hds (winchester, primeiro nome) e esses tipos de mecanismos armazenavam dados de maneira direta
+- Dessa maneira era possível guardar todos os registros e manter de uma espécie de tabela índices/numerações guardar chaves identificadoras de cada um dos registros, agora a pessoa ia direto para o registro pelo índice, por isso ganharam o nome de Arquivos de Acesso Direto
+
+- Déc. 60
+- O Departamento de Defesa dos Estados Unidos cria o Codasyl, um encontro que reuniu militares, empresas e universidades, lá foram discutidas muitas tecnologias emergentes e coisas para serem criadas e dessa conversa sai o COBOL, ela é muito importante pois além de se preocupar com a Lógica de Programação também se preocupou com os dados, além do COBOL surge outra tecnologia o Banco de Dados 
+
+O Banco de Dados é composto de quatro partes:
+- A Base de Dados - Que são os dados própriamente ditos
+- Sistema Gerenciador de Banco de Dados (SGPD)
+- Línguagem de Exploração
+- Programas Adicionais
+
+- IBM propõe o conceito de dados hierárquicos, onde os dados tinham uma hierarquia e eram interligados que ficou conhecido como modelo hierarquico
+- É criado o modelo em rede onde os dados não teriam uma hierarquia entre si, e eram interligados
+- Esses dois modelos serviam muito bem para diversos setores, porém não conseguia relacionar dados de setores diferentes
+
+- Déc. 70
+- Edgar F. Codd, funcionário da IBM cria um modelo que ao invés de ligações de rede ou de hierarquia teria ligações intrisecas, eles teriam relação e foi dos estudos de Codd que surgiu o modelo relacional
+
+Hoje em dia temos os modelos baseados em documentos ou os modelos orientados a objetos
+
+- O modelo relacional permitiu com que ao cliente realizar um cadastro, os dados serão guardados no banco de dados e ai eu terei acesso a todos os dados do meu cliente, até então outros modelos também fazem isso, eu posso identificar onde ele mora e quais foram as compras que ele fez, a partir das compras que ele fez eu posso ter noção de qual foi a data e qual foi a alteração no estoque e se por acaso o meu estoque estiver baixo eu falo com meu fornecedor, logo eu consigo caminhar por dados contanto que eles tenham relação entre si
+- Ai entra a línguagem de exploração que passou por alguns nomes, como Structured English Query Language e mudou para Structured Query Language, o famoso SQL
+- Basicamente SQL é uma línguagem de consulta, onde eu dou comandos ao meu ambiente de dados, que vai me retornar uma query, resposta a solicitação que fiz, a idéia inicial é que SQL seria uma línguagem universal, porém cada fabricante decidiu apimentar um pouco essa línguagem
+- Para padronizar essa bagunça surge os orgãos ANSI e ISO
+- Dai surgiram diversos bancos de dados compatíveis com as padronizações ANSISQL a exemplo do ORACLE, DB2 da IBM, o dBASE e o SQL Server da Microsoft, todas essas são soluções pagas, porém temos também soluções gratuitas como MySQL que é a que o curso utiliza, temos o MariaDB que surge após a compra do MySQL pela Oracle criado pelos mesmos desenvolvedores do MySQL e surge como um fork do MySQL, além do MySQL e do MariaDB temos também o Firebird e o PostgreSQL

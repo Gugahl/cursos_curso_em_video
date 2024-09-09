@@ -1,0 +1,6 @@
+<? Referência bibliográfica do curso ?>
+- Documentação do PHP: php.net
+- Livro: Aprendendo PHP - David Sklar
+- Livro: Programming PHP - Kevin Tatroe
+- Livro: Learn PHP 8 - Steve Prettyman
+- Livro: PHP&MySQL - Jon Duckett

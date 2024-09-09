@@ -1,0 +1,5 @@
+echo "Olá, mundo!"  exportado do Pearl
+print "Olá, mundo!"  exportado do C
+Ambos são comandos para escrever
+
+phpinfo  informações do servidor

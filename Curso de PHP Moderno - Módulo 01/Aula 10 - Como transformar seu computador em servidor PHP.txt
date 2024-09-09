@@ -1,0 +1,16 @@
+<? O que eu preciso? ?>
+client-side
+- Um navegador (Chrome)
+- Uma IDE (VSCode)
+
+server-side
+- Apache
+- MySQL
+- Interpretador PHP
+Triade AMP
+
+Linux - LAMP
+Windows - WAMP
+MacOS - MAMP
+
+XAMPP ou Wamp Server

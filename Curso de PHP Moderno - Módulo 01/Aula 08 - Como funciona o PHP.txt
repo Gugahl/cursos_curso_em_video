@@ -1,0 +1,13 @@
+<? Como o PHP funciona? ?>
+client-side
+- Cliente
+- Desktop/Smartphone/Notebook faz uma request (requisição ao servidor), pela internet, por meio da URL que é enviada para o DNS que retorna o IP, que da acesso ao servidor, que tem os arquivos (front-end), o único serviço do servidor é entregar arquivos (Response) que vai ser rodado pelo navegador, ou seja quem tem mais trabalho é o cliente; O desenvolvedor front-end se foca nas soluções client-side
+
+internet
+- DNS
+
+server-side
+- Servidor
+- Desktop/Smartphone/Notebook faz uma request (requisição ao servidor), pela internet, por meio da URL que é enviada para o DNS que retorna o IP, que da acesso ao servidor, que tem os arquivos e scripts (back-end), o serviço do servidor é entregar arquivos do front-end + os scripts da linguagem, php, que vai ser interpretado pelo servidor, podendo até pegar dados de bancos de dados, depois do processamento o resultado são arquivos html e css, que são enviados para o usuários (Response), ou seja quem tem mais trabalho é o servidor; O desenvolvedor back-end se foca nas soluções server-side
+
+o cara que desenvolve soluções tanto para o client-side como para o server-side é o fullstack

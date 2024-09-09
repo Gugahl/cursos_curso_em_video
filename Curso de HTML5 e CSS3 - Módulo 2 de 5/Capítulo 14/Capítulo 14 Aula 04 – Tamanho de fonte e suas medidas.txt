@@ -1,0 +1,7 @@
+Medidas Absolutas
+cm, mm, in, px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh
+
+16px = 1em

@@ -1,0 +1,24 @@
+<? Este curso é para você se... ?>
+- "Já sei o básico de HTML, CSS e JS, quero continuar os estudos."
+- "Estou tendo essa matéria na faculdade e não entra na minha cabeça."
+- "Quero aprender PHP, mas não tenho um servidor disponível para mim."
+- "Eu sei rodar código pronto, mas tenho dificuldades em criar meus scripts."
+- "Quero aprender o potencial de rodar scripts no servidor e criar funcionalidades."
+- "Eu já estudei PHP, mas com uma versão muito antiga."
+
+<? Este curso não é para você se... ?>
+- "Não sou iniciante, já crio script básicos e sei fazer um CRUD simples."
+- "Estou procurando por códigos prontos e templates de sistemas feitos em PHP."
+- "Estou com pressa e preciso aprender PHP em poucas semanas."
+- "Quero só um guia rápido, sem 'enrolação' e sem tanto detalhamento."
+- "Não tenho tempo para praticar e repetir os exercícios."
+- "Prefiro consultar a documentação oficial da linguagem PHP."
+
+<? Um acordo rápido ?>
+- Nada de maratonar vídeos.
+- Repete o que o Guanabara faz.
+- Anote.
+- Não tenha pressa.
+- Repita os exercícios diáriamente.
+- Organize seus horários.
+- Estude em grupo.

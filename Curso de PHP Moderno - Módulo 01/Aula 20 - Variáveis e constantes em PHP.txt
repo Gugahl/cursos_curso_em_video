@@ -1,0 +1,52 @@
+<? Variáveis com PHP ?>
+<? O que são variáveis e constantes? ?>
+
+Todo computador tem memória principal (memória ram)
+- Uma memória é um grande bloco vazio
+- Esse grande bloco vazio é uma estante/armário
+- Essa estante é cheia de gavetas, que são identificáveis/endereçáveis
+- Qualquer sistema operacional seja ele qual for é capaz de acessar essa memória, capturando dados já registrados, ou registrando novos dados
+
+E como registrar um dado na memória?
+- Eu reservo um espaço na memória, gaveta na estante, para colocar um dado 'Gustavo'
+- O que eu faço na programação é explicar para o computador que eu quero reservar um espaço na memória, e que eu quero pegar um dado e colocar no espaço reservado
+- Esse espaço reservado pode ser uma variável ou uma constante
+-- Variáveis, são dados que podem variar
+-- Constantes, são dados que não podem variar
+- Espaços reservados serão nomeados com um símbolo na frente, o $
+$sobrenome = "Guanabara";
+
+Ondem ficam armazenadas as variáveis e constantes no PHP?
+- Toda variável é armazenada no servidor
+
+Exemplos de atribuições
+$sobrenome = "Guanabara";
+$idade = 43;
+$peso = 118.5;
+$casado = false;
+
+E as constantes?
+$sobrenome = "Guanabara";  // pode mudar
+const curso = "T.I";  // não pode mudar
+
+Regras para nomes de identificadores
+- 1ª regra = Variáveis sempre começam com o símbolo $
+- 2ª regra = O segundo pode ser letra ou o símbolo _
+- 3ª regra = Aceita caracteres [a-z], [A-Z], [0-9] e [_]
+- 4ª regra = Aceita caracteres da tabela ASCII a partir de 128
+- 5ª regra = Aceita caracteres como á, õ, ç
+- 6ª regra = A linguagem é case sensitive em relação aos nomes
+- 7ª regra = Nomes especiais como $this não podem ser usados
+
+Recomendações para dar nomes a identificadores
+- 1ª regra = Tente dar nomes claros e de fácil identificação
+- 2ª regra = Evite nomes muito curtos ou muito longos
+- 3ª regra = Defina um padrão e siga em todo projeto
+- 4ª regra = Para variáveis, dê preferência para letras minúsculas
+- 5ª regra = Para constantes, dê preferência para letras maiúsculas
+- 6ª regra = Use camelCase para métodos e atributos
+- 7ª regra = Use SNAKE_CASE para nomear constantes
+
+camelCase --> Toda vez tem uma palavra nova na variável você coloca a primeira letra da palavra maiúscula, exemplo: $nomeCompletoCliente
+
+SNAKECASE --> Toda vez tem uma palavra nova na variável você coloca um underline entre palavras, exemplo: $telefone_contato_fornecedor

@@ -1,0 +1,24 @@
+<? Evolução do PHP ?>
+<? O surgimento ?>
+1994 - 
+- Rasmus Lerdorf, nasceu em 1968 na Groelândia
+- Com 12 anos ele se muda para a Dinamarca
+- Com 15 anos ele se muda para o Canadá
+- Com 25 anos, estudando Ciências da Computação na Universidade de Waterloo, mesma Universidade do criador da cripto Ethereum, Rasmus colaborava para dois grandes projetos, o Apache, software para transformar máquinas em servidores, um gestor de servidores, e também para o MySQL, um grande gerenciador de banco de dados, ele era bem experiente em C
+- Rasmus tinha um site e precisava de uma ferramenta para contar quantos usuários entravam dentro desse site, ai ele desenvolve em C uma CGI, Common Gateway Interface, assim nasce o Personal Home Page, página pessoal, ou PHP
+1995 - 
+- Rasmus lança PHP 1.0, que foi nomeado de PHP Tools, e depois muda para Form Interpreter, os comandos ainda eram em C e/ou Pearl
+1996 - 
+- Rasmus lança PHP 2.0, agora chamado de PHP/FI, começou a integrar com bancos de dados, PostgreSQL, MySQL etc, e alguns comandos
+- Rasmus registra o PHP como open source, assim como o Linux, LibreOffice, Gimp, Apache, Python, Git, Wordpress e outros
+1997 - 
+- Em Israel no Israel Institute of Technology, Andi Gutmans e Zeev Suraski entram no projeto do PHP
+- Guanabara aprende PHP
+1998 -
+- Com as contribuições de Andi e Zeev o PHP começa a tomar cara de linguagem de programação
+- Com tudo isso é lançado o PHP 3.0 nomeado de PHP3, que também muda de nome para PHP: Hypertext Preprocessor
+- Colin Viebrock e Vincent Pontier, dois artistas desenvolvem a identidade visual do PHP, onde o Colin cria o simbolo do PHP, e o Vincent cria o Elefante do PHP
+1999 - 
+- Zeev e Andi criam uma empresa para desenvolver o PHP a ZEND
+
+Após um tempo o Rasmus para de ser o cabeça do PHP e que passa a ser é o Andi

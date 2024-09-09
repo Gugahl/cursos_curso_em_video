@@ -1,0 +1,24 @@
+<? Entendendo melhor os scripts PHP ?>
+Super Tags:
+- <script language="php"> <\script>
+- <?php ?>
+- <? ?> short open tag
+- <% %> asp tag
+- <?= "CursoemVídeo" ?> short tag PHP
+
+Diferenciando código do lado do cliente e código do lado do servidor
+
+servidor
+<body>
+<h1>Testando PHP</h1>
+<?php 
+    $nome = "Gustavo";
+    echo "<p>Eu me chamo $nome!</p>";
+?>
+</body>
+
+cliente
+<body>
+<h1>Testando PHP</h1>
+<p>Eu me chamo Gustavo!</p>
+</body>

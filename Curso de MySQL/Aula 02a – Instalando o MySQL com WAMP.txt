@@ -1,0 +1,34 @@
+Iniciando no mundo do MySQL
+- Tudo surge em 1994 na Suécia, dois programadores, Michael Widenius (Monti) e David Axmark, decidiram criar um modelo gratuito de banco de dados baseado no modelo relacional, surge dai o MySQL, que ganha notoriedade por ser simples, gratuito, relacional e compativel com o ANSISQL, além de gratis o projeto era totalmente livre
+- Em 2007 a Sunmicrosystems, empresa que nasceu o JAVA, compra o grupo MySQL
+- Em 2009 a Sunmicrosystems é comprada pela Oracle e é integrada deixando de existir, e o MySQL, assim como o JAVA vão para a Oracle
+- Michael fica chateado por estar em uma empresa, sai da Oracle e cria o projeto MariaDB, o MariaDB é um fork, ou seja, uma versão do MySQL, que agora vai caminhar de maneira diferente do MySQL
+Empresas que usam MySQL:
+- Nasa
+- Google
+- Wikipedia
+- Adobe
+- Cisco
+- Ebay
+- Claro, Oi, Tim, Vivo
+- Bradesco
+- FAB
+- Hostnet
+
+MySQL segue todos os pilares de um banco de dados
+- Ele tem comando específicos
+- Tem algumas porções como:
+- DDL - Definição - Define a Estrutura
+- DML - Manipulação - Manipula os Dados
+- Você vai poder incluir dados novos, excluir dados, manipular dados de qualquer maneira alterando sua composição
+- DQL - Solicitações - Você vai poder fazer um SELECT por exemplo, para qualquer solicitação que você precisar o DQL vai te atender
+- DCL - Controle - Onde você define que usuários podem acessar seu banco, que tipo de acesso ele vai poder e que tipo de comandos ele vai executar
+- DTL - Transações - Transação é um tipo de solicitação feita a um banco de dados que vai te atender da melhor maneira possível seguindo os quatro princípios DICA
+D - Durabilidade - Todo dado tem que permanecer durável
+I - Isolamento - Se eu tenho duas transações feitas ao mesmo tempo, elas tem que ser executadas sem uma interferir na outra
+C - Consistência - Toda transação tem que levar o banco de dados de um estado consistente a outro consistente, se tudo estava ok antes tem que continuar ok
+A - Atomicidade - Toda transação tem que ser atomica, ou toda ela acontece, ou nada acontece, ou tudo da certo, ou ele da um CTRL Z, que é o retorno para um estado anteriormente consistente
+
+Baixando ferramentas
+- WAMP Server - Utiliza o MySQL junto com o PHP
+- MySQL Workbench - IDE de MySQL

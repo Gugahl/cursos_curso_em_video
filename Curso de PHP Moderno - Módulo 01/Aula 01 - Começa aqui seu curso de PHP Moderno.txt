@@ -1,0 +1,20 @@
+<? Conteúdo Módulo 01 ?>
+<? Módulo 01: Fundamentos do PHP ?>
+- Argumentação
+- Apresentação da línguagem
+- Funcionamento
+- Instalação das Ferramentas
+- Testes e configurações
+- Estrutura de Scripts
+- Saída de Dados
+- Tipos e variáveis
+- Entrada de Dados
+- Integração com Formulários
+- Operadores
+
+<? O que eu preciso saber? ?>
+- Raciocínio Lógico
+- HTML e CSS
+- Javascript
+
+
