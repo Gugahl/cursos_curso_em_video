@@ -1,0 +1,39 @@
+<? Formulários em HTML ?>
+
+<? Formulários ?>
+cliente --> internet --> servidor  //o cliente envia o request para o servidor
+
+cliente <-- internet <-- servidor  //o servidor envia o response para o cliente
+
+Formulário PHP
+method = Como os dados vão ser codificados para poderem ser enviados para o servidor
+action = Para onde vão ser enviados esses dados
+
+method = get
+action = cad.php
+
+Nome = label
+
+Caixa de texto (Gustavo) 
+name = nome do elemento
+value = valor que ta digitado
+
+Sobrenome = label
+
+Caixa de texto (Lima)
+name = sobrenome
+value = "Lima"
+
+Botão de enviar submissão
+
+Quando o método é get ele procura o arquivo cad.php e passa como parâmetros querystring as variáveis nome e sobrenome inseridas no parâmetro name
+
+<? Superglobais ?>
+A depender do method temos
+$_GET = Array que retorna os valores das variáveis, só funciona com method get
+$_POST = Array que retorna os valores das variáveis, só funciona com method post
+$_REQUEST (Junção de $_GET + $_POST + $_COOKIES) = Array que retorna os valores das variáveis, funciona com os dois method
+
+<? Operador de coalescência nula ?>
+??
+

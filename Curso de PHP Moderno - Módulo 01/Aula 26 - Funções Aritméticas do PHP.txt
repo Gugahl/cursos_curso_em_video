@@ -1,0 +1,15 @@
+<? Funções Matemáticas ?>
+
+<? Outras operações aritméticas ?>
+- abs() Retorna o valor absoluto, sem o sinal
+- base_convert(número, base atual, base final)
+-- base_convert(254, 10, 16) --> A resposta é fe (0xFE)
+- ceil(), floor(), round()
+- hypot()
+- intdiv()
+- min(), max()  Retorna os valores mínimos e máximos de uma sequência
+- pi() ou M_PI //Constante
+- pow(base, expoente) Maneira de fazer exponenciação antes da versão 5.6
+- sin(), cos(), tan()
+- sqrt() Raiz quadrada ou elevar o número a (1/2)
+Raiz cúbica número elevado a (1/3)

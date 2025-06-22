@@ -1,0 +1,23 @@
+Para a linguagem PHP, a expressão "2" + "2" tem como resultado...
+
+1) "22"
+2) "4"
+3) 4
+4) ERRO
+
+<? Operadores Aritméticos ?>
+
+<? Você conhece outras linguagens? ?>
+
+2 + 2 = 4
+"2" + "2" = 4
+
+. = Operador de Concatenação
++ = Operador de Adição
+- = Operador de Subtração
+* = Operador de Multiplicação
+/ = Operador de Divisão Real
+% = Operador de Módulo (Resto da divisão inteira)
+** = Operador de Exponenciação
+
+O operador de exponenciação não funcionava antes da versão 5.6

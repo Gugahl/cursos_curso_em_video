@@ -1,0 +1,26 @@
+Para a linguagem PHP, a expressão 50 / 2 + 3 ** 2 tem como resultado...
+1) 784
+2) 4.545454...
+3) 34
+4) 100
+
+<? Expressões Aritméticas ?>
+5 + 2 / 2 = 3.5 ou 6?
+/ maior precedência
+O resultado é 6
+
+<? Ordem de Precedência ?>
+()
+1) **
+2) * ou / ou %
+3) + ou -
+
+50 / 2 + 3 ** 2
+50 / 2 + 9
+25 + 9
+34
+
+50 / (2 + 3) ** 2
+50 / 5 ** 2
+50 / 25
+2

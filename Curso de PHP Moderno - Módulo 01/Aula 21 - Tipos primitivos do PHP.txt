@@ -1,0 +1,41 @@
+<? Tipos Primitivos ?>
+
+<? Categorias dos Tipos Primitivos ?>
+
+- Escalares
+- Compostos
+- Especiais
+
+<? Tipos Primitivos Escalares ?>
+
+$sobrenome = Silva  string
+$idade = 34  int ou integer
+$peso = 85.9  float, double ou real
+$casado = true  bool ou boolean
+
+<? 10 Exemplos ?>
+
+> "RJ"  string
+> 3.1415  float
+> 17  int
+> true  boolean
+> ""  string
+> -19  int
+> "false"  string
+> 0x1A  int  base hexadecimal
+> 3e2  float 3x10²
+> "1024"  string
+
+Comando vardump() = Mostra o valor da variável e seu tipo primitivo
+Coerção = Mudar o tipo primitivo manualmente
+O tipo real deixou de existir
+
+<? Tipos Primitivos Compostos ?>
+> array
+> object
+
+<? Tipos Primitivos Especiais ?>
+> null
+> resource
+> callabe
+> mixed  Representa todos os tipos primitivos

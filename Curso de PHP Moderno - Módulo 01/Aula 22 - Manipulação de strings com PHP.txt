@@ -1,0 +1,70 @@
+<? Strings em PHP ?>
+
+<? Quatro formatos de Strings ?>
+- double quoted
+- single quoted
+- Heredoc
+- Nowdoc
+
+<? Strings em PHP ?>
+
+double quoted
+"Curso"
+
+concatenation operator (.)
+"Curso" . "PHP"
+
+- Nas aspas duplas existe a interpretação do conteúdo da string
+
+"PHP\u{1F418}" --> PHPelefante
+
+single quoted
+
+- Nas aspas simples não existe a interpretação de conteúdo da string
+
+'PHP\u{1F418}' --> PHP\u{1F418}
+
+$nome = "Gustavo";
+echo "Olá $nome!"  --> Olá Gustavo!
+echo 'Olá $nome!'  --> Olá $nome!
+
+const ESTADO = "RJ";
+echo "Moro no ESTADO" --> Moro no ESTADO
+Para constantes a interpretação não funciona nem em aspas simples nem em aspas duplas
+
+echo "Moro no " . ESTADO; --> Moro no RJ
+Deve se usar a concatenação nesses casos
+
+$nome = "Rodrigo";
+$sobrenome = "Nogueira";
+echo "$nome "Minotauro" $sobrenome" erro sintaxe
+echo '$nome "Minotauro" $sobrenome' erro semântica
+echo "$nome \"Minotauro\" $sobrenome";  sequência de escape
+
+Sequências de Escape
+Para '' 
+somente \''\
+
+Para ""
+\n Nova linha
+\t Tabulação horizontal
+\\ Barra invertida
+\$ Sinal de cifrão
+\u{} Codepoint Unicode
+
+<? Sintaxe Heredoc ?>
+
+$curso = "PHP";
+$ano = date('Y');
+echo <<< FRASE
+        Estou estudando
+            $curso em $ano
+    FRASE;
+
+<? Sintaxe Nowdoc ?>
+$curso = "PHP";
+$ano = date('Y');
+echo <<< 'FRASE'
+        Estou estudando
+            $curso em $ano
+    FRASE;

@@ -1,0 +1,86 @@
+1 - Como aceitar . para milhar e , para decimal?
+
+Quando você envia um número como 1.234,56, o PHP não entende isso como um número válido, porque o padrão dele é 1234.56.
+
+Então você precisa limpar o valor recebido, removendo o . e trocando a , por .:
+
+$real = $_GET["real"] ?? 0;
+
+// Remove os pontos de milhar e troca a vírgula decimal por ponto
+$real = str_replace(['.', ','], ['', '.'], $real)
+
+2 - Como garantir que o valor tenha apenas duas casas decimais?
+
+Depois de fazer os cálculos, use number_format() para exibir o número com duas casas decimais, no formato certo:
+
+number_format($valor, 2, ',', '.')
+
+3 - Como consumir API's?
+
+3.1 - Qual API usar?
+Vamos usar a API do Banco Central via o serviço do AwesomeAPI, que é simples e gratuito:
+https://docs.awesomeapi.com.br/api-de-moedas
+
+3.2 - Como fazer requisição no PHP?
+Você pode usar a função file_get_contents() com json_decode() para consumir a API.
+
+3.2.1 = O que a função file_get_contents() faz?
+
+A função file_get_contents() no PHP é usada para ler o conteúdo de um arquivo ou de uma URL e retornar isso como uma string.
+
+$conteudo = file_get_contents("arquivo.txt");  // Lê o arquivo local
+$dados = file_get_contents("https://site.com/api");  // Lê o conteúdo de uma url (ex: API)
+
+O que ela faz?
+Ela abre, lê e retorna o conteúdo completo de um arquivo ou URL em forma de string.
+
+Exemplo prático com arquivo:
+$texto = file_get_contents("mensagem.txt");
+echo $texto;
+
+Suponha que mensagem.txt contenha:
+
+Olá, Gustavo!
+
+O resultado será:
+
+Olá, Gustavo!
+
+3.2.2 = O que a função json_decode() faz?
+
+A função json_decode() converte uma string JSON em um valor PHP, como um array ou objeto.
+
+JSON --> PHP
+
+json_decode(string $json, bool $associative = false)
+
+$json = A string JSON (vinda de arquivo, API, etc)
+$associative = true para retornar um array associativo, false para objeto (padrão é false)
+
+Suponha este JSON (como string):
+{
+    "nome": "Gustavo",
+    "idade": 21
+}
+
+Usando json_decode():
+
+$json = '{"nome":"Gustavo", "idade":21}';
+
+// Como objeto (padrão)
+$objeto = json_decode($json);
+echo $objeto->nome;  // Saída: Gustavo
+
+// Como array associativo
+$array = json_decode($json, true);
+echo $array["nome"];  // Saída: Gustavo
+
+Aplicação na API que você usou:
+
+$resposta = file_get_contents("https://economia.awesomeapi.com.br/json/last/USD-BRL")
+
+// Converte para array associativo
+$dados = json_decode($resposta, true);
+
+// Acessa o valor do dólar
+$cotacao = $dados["USDBRL"]["bid"];

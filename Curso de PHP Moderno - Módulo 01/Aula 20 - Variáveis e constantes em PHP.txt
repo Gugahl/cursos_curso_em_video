@@ -27,7 +27,7 @@ $casado = false;
 
 E as constantes?
 $sobrenome = "Guanabara";  // pode mudar
-const curso = "T.I";  // não pode mudar
+const CURSO = "T.I";  // não pode mudar
 
 Regras para nomes de identificadores
 - 1ª regra = Variáveis sempre começam com o símbolo $
