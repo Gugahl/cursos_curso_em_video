@@ -1,0 +1,30 @@
+<? Formulários PHP retroalimentados ?>
+
+- O formulário não está mais no arquivo HTML, agora ele está no arquivo PHP
+
+<? Formulários ?>
+
+.html
+Nome
+cx de texto
+Enviar
+
+.php
+Resultado
+Olá Gustavo! Tudo bem?
+Voltar
+
+- Arquivo único PHP
+.php
+Nome
+cx de texto
+Enviar
+
+Após envio
+.php
+Nome
+cx de texto
+Enviar
+
+Resultado
+Olá Gustavo! Tudo bem?

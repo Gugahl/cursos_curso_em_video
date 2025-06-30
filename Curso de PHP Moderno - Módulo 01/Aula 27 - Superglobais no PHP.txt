@@ -1,0 +1,35 @@
+<? Superglobais no PHP ?>
+
+$_GET = Gera um array associativo, com todas as variáveis que foram passadas por parâmetro através de uma URL;
+
+$_POST = Pega dados de formulários que foram enviados utilizando o método POST;
+
+$_REQUEST = Junção do $_GET e do $_POST;
+
+As três geram arrays associativos/vetores associativos
+
+Query string = Solicitação pela URL, passagem de parâmetros pela URL (Após a URL adicione ?nome=Gustavo&idade=21 por exemplo)
+
+Você consegue passar dois parâmetros 1 por get outro por post com <form action="superglobais.php?nome=Gustavo&idade=21" method="post">
+
+GET pega parâmetros pela URL
+POST pega parâmetros pelos pacotes/cabeçalho
+REQUEST pega parâmetros dos dois modos
+
+$_COOKIES = Tem a informação dos cookies
+Cookies = São pequenas variáveis que são guardadas dentro do navegador
+
+$_FILES = Quando você faz upload de um arquivo você consegue pegar os dados, qual arquivo que foi
+
+$_SESSION = Permite você utilizar variáveis de sessão
+Variáveis de sessão são variáveis que não são perdidas durante as navegações de páginas
+
+$_ENV = (Enviroment) São variáveis de ambiente do servidor
+
+$_SERVER
+
+$GLOBALS = Mostra os dados de todas as outras superglobais
+
+PHP_SELF98
+
+<pre></pre> = Deixa mais arrumado
