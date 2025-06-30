@@ -1,28 +1,28 @@
 
-## 🚀 Objetivo
+## 🚀 Purpose
 
-Este repositório tem como objetivo:
+This repository is intended to:
 
-- Consolidar o conhecimento adquirido em cada curso.
-- Praticar o uso do Git e GitHub no versionamento de projetos.
-- Criar uma base de estudos para revisões e futuras consultas.
+- Reinforce the knowledge learned in each course.
+- Practice version control with Git and GitHub.
+- Serve as a study portfolio for future reference.
 
-## 🛠 Tecnologias e Ferramentas
+## 🛠 Technologies and Tools
 
-- HTML5
-- CSS3
-- JavaScript
-- PHP
-- VS Code
-- Git & GitHub
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP  
+- VS Code  
+- Git & GitHub  
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **Gustavo Henrique Lima Santos**  
-💼 Estudante de Ciência da Computação  
-📍 Alagoas, Brasil  
-🔗 [Meu GitHub](https://github.com/Gugahl)
+💼 Computer Science Student  
+📍 Alagoas, Brazil  
+🔗 [My GitHub](https://github.com/Gugahl)
 
 ---
 
-> Projeto pessoal de estudos — não afiliado ao Curso em Vídeo. Todos os créditos dos cursos e materiais são do professor Gustavo Guanabara.
+> Personal study project — not affiliated with Curso em Vídeo. All course credits belong to Gustavo Guanabara.
